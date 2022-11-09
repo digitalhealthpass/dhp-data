@@ -1,0 +1,102 @@
+{
+	"version": "1.0.0",
+	"id": "13396cc0-2476-4a91-ac77-19324828cfc4",
+	"name": "Display all DCC fields - vaccination",
+	"fields": [
+		{
+			"field": "nam.gn",
+			"displayValue": {
+				"en": "First Name",
+				"de": "Vorname"
+			}
+		},
+		{
+			"field": "nam.gnt",
+			"displayValue": {
+				"en": "First Name (transliterated)",
+				"de": "Vorname (transliteriert)"
+			}
+		},
+		{
+			"field": "nam.fn",
+			"displayValue": {
+				"en": "Surname",
+				"de": "Nachname"
+			}
+		},
+		{
+			"field": "nam.fnt",
+			"displayValue": {
+				"en": "Surname (transliterated)",
+				"de": "Nachname (transliteriert)"
+			}
+		},
+		{
+			"field": "dob",
+			"displayValue": {
+				"en": "Date of Birth",
+				"de": "Geburtsdatum"
+			}
+		},
+		{
+			"field": "v[0].tg",
+			"displayValue": {
+				"en": "Disease or agent targeted"
+			}
+		},
+		{
+			"field": "v[0].vp",
+			"displayValue": {
+				"en": "Vaccine or prophylaxis"
+			}
+		},
+		{
+			"field": "v[0].mp",
+			"displayValue": {
+				"en": "Vaccine medicinal product"
+			}
+		},
+		{
+			"field": "v[0].ma",
+			"displayValue": {
+				"en": "Marketing Authorization Holder"
+			}
+		},
+		{
+			"field": "v[0].dn",
+			"displayValue": {
+				"en": "Dose Number"
+			}
+		},
+		{
+			"field": "v[0].sd",
+			"displayValue": {
+				"en": "Total Series of Doses"
+			}
+		},
+		{
+			"field": "v[0].dt",
+			"displayValue": {
+				"en": "Date of Vaccination"
+			}
+		},
+		{
+			"field": "v[0].co",
+			"displayValue": {
+				"en": "Country of Vaccination"
+			}
+		},
+		{
+			"field": "v[0].is",
+			"displayValue": {
+				"en": "Certificate Issuer"
+			}
+		},
+		{
+			"field": "v[0].ci",
+			"displayValue": {
+				"en": "Certificate Issuer"
+			}
+		}
+	]
+}

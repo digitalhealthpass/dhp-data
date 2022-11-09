@@ -1,0 +1,243 @@
+[
+    {
+        "data": {
+            "payload": {
+                "t": [
+                    {
+                        "sc": "2022-01-30T08:00:00Z",
+                        "tt": "LP6464-4"
+                    }
+                ]
+            },
+            "external": {
+                "validationClock": "2022-02-01T10:00:00Z",
+                "approvedTestMethods-PCR": [
+                    "LP6464-4"
+                ],
+                "testValidityDurationHoursPCR": [
+                    "72"
+                ],
+                "approvedTestMethods-ANTIGEN": [
+                    "LP217198-3"
+                ],
+                "testValidityDurationHoursANTIGEN": [
+                    "48"
+                ]
+            }
+        },
+        "expectedResult": true
+    },
+    {
+        "data": {
+            "payload": {
+                "t": [
+                    {
+                        "sc": "2022-01-30T12:00:00Z",
+                        "tt": "LP217198-3"
+                    }
+                ]
+            },
+            "external": {
+                "validationClock": "2022-02-01T10:00:00Z",
+                "approvedTestMethods-PCR": [
+                    "LP6464-4"
+                ],
+                "testValidityDurationHoursPCR": [
+                    "72"
+                ],
+                "approvedTestMethods-ANTIGEN": [
+                    "LP217198-3"
+                ],
+                "testValidityDurationHoursANTIGEN": [
+                    "48"
+                ]
+            }
+        },
+        "expectedResult": true
+    },
+    {
+        "data": {
+            "payload": {
+                "t": [
+                    {
+                        "sc": "2022-01-29T08:00:00Z",
+                        "tt": "LP6464-4"
+                    }
+                ]
+            },
+            "external": {
+                "validationClock": "2022-02-01T10:00:00Z",
+                "approvedTestMethods-PCR": [
+                    "LP6464-4"
+                ],
+                "testValidityDurationHoursPCR": [
+                    "72"
+                ],
+                "approvedTestMethods-ANTIGEN": [
+                    "LP217198-3"
+                ],
+                "testValidityDurationHoursANTIGEN": [
+                    "48"
+                ]
+            }
+        },
+        "expectedResult": false
+    },
+    {
+        "data": {
+            "payload": {
+                "t": [
+                    {
+                        "sc": "2022-01-30T08:00:00Z",
+                        "tt": "LP217198-3"
+                    }
+                ]
+            },
+            "external": {
+                "validationClock": "2022-02-01T10:00:00Z",
+                "approvedTestMethods-PCR": [
+                    "LP6464-4"
+                ],
+                "testValidityDurationHoursPCR": [
+                    "72"
+                ],
+                "approvedTestMethods-ANTIGEN": [
+                    "LP217198-3"
+                ],
+                "testValidityDurationHoursANTIGEN": [
+                    "48"
+                ]
+            }
+        },
+        "expectedResult": false
+    },
+    {
+        "data": {
+            "payload": {
+                "t": [
+                    {
+                        "sc": "2022-01-30T08:00:00Z",
+                        "tt": "PCR-Unknown"
+                    }
+                ]
+            },
+            "external": {
+                "validationClock": "2022-02-01T10:00:00Z",
+                "approvedTestMethods-PCR": [
+                    "LP6464-4"
+                ],
+                "testValidityDurationHoursPCR": [
+                    "72"
+                ],
+                "approvedTestMethods-ANTIGEN": [
+                    "LP217198-3"
+                ],
+                "testValidityDurationHoursANTIGEN": [
+                    "48"
+                ]
+            }
+        },
+        "expectedResult": false
+    },
+    {
+        "data": {
+            "payload": {
+                "t": [
+                    {
+                        "sc": "2022-01-30T12:00:00Z",
+                        "tt": "ANTIGEN-Unknown"
+                    }
+                ]
+            },
+            "external": {
+                "validationClock": "2022-02-01T10:00:00Z",
+                "approvedTestMethods-PCR": [
+                    "LP6464-4"
+                ],
+                "testValidityDurationHoursPCR": [
+                    "72"
+                ],
+                "approvedTestMethods-ANTIGEN": [
+                    "LP217198-3"
+                ],
+                "testValidityDurationHoursANTIGEN": [
+                    "48"
+                ]
+            }
+        },
+        "expectedResult": false
+    },
+    {
+        "data": {
+            "payload": {
+                "t": [
+                    {}
+                ]
+            },
+            "external": {
+                "validationClock": "2022-02-01T10:00:00Z",
+                "approvedTestMethods-PCR": [
+                    "LP6464-4"
+                ],
+                "testValidityDurationHoursPCR": [
+                    "72"
+                ],
+                "approvedTestMethods-ANTIGEN": [
+                    "LP217198-3"
+                ],
+                "testValidityDurationHoursANTIGEN": [
+                    "48"
+                ]
+            }
+        },
+        "expectedResult": false
+    },
+    {
+        "data": {
+            "payload": {
+                "t": "NA"
+            },
+            "external": {
+                "validationClock": "2022-02-01T10:00:00Z",
+                "approvedTestMethods-PCR": [
+                    "LP6464-4"
+                ],
+                "testValidityDurationHoursPCR": [
+                    "72"
+                ],
+                "approvedTestMethods-ANTIGEN": [
+                    "LP217198-3"
+                ],
+                "testValidityDurationHoursANTIGEN": [
+                    "48"
+                ]
+            }
+        },
+        "expectedResult": false
+    },
+    {
+        "data": {
+            "payload": {},
+            "external": {
+                "validationClock": "2022-02-01T10:00:00Z",
+                "approvedTestMethods-PCR": [
+                    "LP6464-4"
+                ],
+                "testValidityDurationHoursPCR": [
+                    "72"
+                ],
+                "approvedTestMethods-ANTIGEN": [
+                    "LP217198-3"
+                ],
+                "testValidityDurationHoursANTIGEN": [
+                    "48"
+                ]
+            }
+        },
+        "expectedResult": false
+    },
+    {
+        "data": {},
+        "expectedResult": false
+    }
+]

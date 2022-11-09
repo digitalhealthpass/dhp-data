@@ -1,0 +1,6 @@
+{
+	"version": "1.0.0",
+	"id": "e6749362-0ae3-4f01-a0e3-e44799e37e4b",
+	"name": "Check for negative test result",
+	"predicate": "e6749362-0ae3-4f01-a0e3-e44799e37e4b.rule"
+}

@@ -1,0 +1,6 @@
+{
+	"version": "1.0.0",
+	"id": "07dd8678-eacf-4002-8ca7-92f157697088",
+	"name": "Check that duration since getting the vaccination is in a predefined interval",
+	"predicate": "07dd8678-eacf-4002-8ca7-92f157697088.rule"
+}

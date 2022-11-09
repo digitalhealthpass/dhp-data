@@ -1,0 +1,58 @@
+[
+	{
+		"data": {
+			"payload": {
+				"v": [
+					{
+						"mp": "EU/1/20/1507"
+					}
+				]
+			}
+		},
+		"expectedResult": false
+	},
+	{
+		"data": {
+			"payload": {
+				"r": [
+					{
+						"tg": "840539006"
+					}
+				]
+			}
+		},
+		"expectedResult": "DCC-RECOVERY"
+	},
+	{
+		"data": {
+			"payload": {
+				"t": [
+					{
+						"tt": "LP217198-3"
+					}
+				]
+			}
+		},
+		"expectedResult": false
+	},
+	{
+		"data": {
+			"payload": {
+				"r": {
+					"tg": "840539006"
+				}
+			}
+		},
+		"expectedResult": false
+	},
+	{
+		"data": {
+			"payload": {}
+		},
+		"expectedResult": false
+	},
+	{
+		"data": {},
+		"expectedResult": false
+	}
+]

@@ -1,0 +1,45 @@
+{
+	"if": [
+		{
+			"and": [
+				{
+					"var": "payload.type"
+				},
+				{
+					"in": [
+						"GoodHealthPass",
+						{
+							"var": "payload.type"
+						}
+					]
+				},
+				{
+					"!": [
+						{
+							"in": [
+								"TestCredential",
+								{
+									"var": "payload.type"
+								}
+							]
+						}
+					]
+				},
+				{
+					"!": [
+						{
+							"in": [
+								"VaccinationCredential",
+								{
+									"var": "payload.type"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		"GHP-GENERIC",
+		false
+	]
+}

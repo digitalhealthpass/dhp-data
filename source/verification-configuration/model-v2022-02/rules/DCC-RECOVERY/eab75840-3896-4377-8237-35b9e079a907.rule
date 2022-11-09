@@ -1,0 +1,39 @@
+{
+	"if": [
+		{
+			"var": "payload.r.0"
+		},
+		{
+			"not-after": [
+				{
+					"plusTime": [
+						{
+							"var": "payload.r.0.df"
+						},
+						0,
+						"day"
+					]
+				},
+				{
+					"plusTime": [
+						{
+							"var": "external.validationClock"
+						},
+						0,
+						"day"
+					]
+				},
+				{
+					"plusTime": [
+						{
+							"var": "payload.r.0.du"
+						},
+						0,
+						"day"
+					]
+				}
+			]
+		},
+		false
+	]
+}

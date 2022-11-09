@@ -1,0 +1,73 @@
+{
+	"version": "1.0.0",
+	"id": "9a91da72-5971-4f24-8e69-382cccaf38f3",
+	"name": "Display all fields - vaccination",
+	"fields": [
+		{
+			"field": "issuer",
+			"displayValue": {
+				"en": "issuer"
+			}
+		},
+		{
+			"field": "credentialSubject.recipient.givenName",
+			"displayValue": {
+				"en": "First Name"
+			}
+		},
+		{
+			"field": "credentialSubject.recipient.familyName",
+			"displayValue": {
+				"en": "Surname"
+			}
+		},
+		{
+			"field": "credentialSubject.recipient.birthDate",
+			"displayValue": {
+				"en": "Date of Birth"
+			}
+		},
+		{
+			"field": "credentialSubject.medicinalProductCode",
+			"displayValue": {
+				"en": "Vaccine Code"
+			}
+		},
+		{
+			"field": "credentialSubject.medicinalProductName",
+			"displayValue": {
+				"en": "Vaccine"
+			}
+		},
+		{
+			"field": "credentialSubject.marketingAuthorizationHolder",
+			"displayValue": {
+				"en": "Manufacturer"
+			}
+		},
+		{
+			"field": "credentialSubject.cvxCode",
+			"displayValue": {
+				"en": "Vaccine Code"
+			}
+		},
+		{
+			"field": "credentialSubject.dateOfVaccination",
+			"displayValue": {
+				"en": "Vaccination Date"
+			}
+		},
+		{
+			"field": "credentialSubject.stateOfVaccination",
+			"displayValue": {
+				"en": "Vaccination State"
+			}
+		},
+		{
+			"field": "credentialSubject.countryOfVaccination",
+			"displayValue": {
+				"en": "Vaccination Country"
+			}
+		}
+	]
+}

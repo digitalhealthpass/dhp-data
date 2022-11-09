@@ -1,0 +1,26 @@
+{
+	"data": {
+		"ver": "1.0.0",
+		"nam": {
+			"fn": "FicticiaHuesca",
+			"fnt": "FICTICIA<HUESCA",
+			"gn": "Usuaria",
+			"gnt": "USUARIA"
+		},
+		"dob": "1990-01-01",
+		"v": [
+			{
+				"tg": "840539006",
+				"vp": "1119305005",
+				"mp": "EU/1/20/1525",
+				"ma": "ORG-100001417",
+				"dn": 2,
+				"sd": 1,
+				"dt": "{{LAST_MONTH_DATE}}",
+				"co": "ES",
+				"is": "ServicioaragonesdeSALUD",
+				"ci": "01ES02V352C3FCB5A6AF633FA7FB#4"
+			}
+		]
+	}
+}

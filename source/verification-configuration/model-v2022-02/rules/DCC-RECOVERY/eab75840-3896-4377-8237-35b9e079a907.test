@@ -1,0 +1,57 @@
+[
+    {
+        "data": {
+            "payload": {
+                "r": [
+                    {
+                        "df": "2022-01-01",
+                        "du": "2022-03-01"
+                    }
+                ]
+            },
+            "external": {
+                "validationClock": "2022-02-01T00:00:00Z"
+            }
+        },
+        "expectedResult": true
+    },
+    {
+        "data": {
+            "payload": {
+                "r": [
+                    {
+                        "df": "2021-01-01",
+                        "du": "2021-03-01"
+                    }
+                ]
+            },
+            "external": {
+                "validationClock": "2022-02-01T00:00:00Z"
+            }
+        },
+        "expectedResult": false
+    },
+    {
+        "data": {
+            "payload": {
+                "r": [
+                    {}
+                ]
+            },
+            "external": {
+                "validationClock": "2022-02-01T00:00:00Z"
+            }
+        },
+        "expectedResult": false
+    },
+    {
+        "data": {
+            "payload": {}
+        },
+        "expectedResult": false
+    },
+    {
+        "data": {},
+        "expectedResult": false
+    }
+]

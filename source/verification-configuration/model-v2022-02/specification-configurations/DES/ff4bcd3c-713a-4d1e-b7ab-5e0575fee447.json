@@ -1,0 +1,26 @@
+{
+	"version": "1.0.0",
+	"id": "ff4bcd3c-713a-4d1e-b7ab-5e0575fee447",
+	"name": "COS_ACCESS",
+	"description": "COS_ACCESS - DES",
+	"credentialSpec": "COS_ACCESS",
+	"credentialCategory": "GENERIC",
+	"classifierRule": {
+		"id": "0416ecc3-3760-4cac-aa7a-37325c9dd6fc",
+		"version": "latest"
+	},
+	"metrics": [
+		{
+			"countBy": {
+				"extract": true,
+				"scan": true,
+				"scanResult": true
+			},
+			"extract": {},
+			"name": "Extract nothing"
+		}
+	],
+	"display": [],
+	"rules": [],
+	"trustLists": []
+}

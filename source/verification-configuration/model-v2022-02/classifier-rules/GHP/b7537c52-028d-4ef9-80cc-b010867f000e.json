@@ -1,0 +1,6 @@
+{
+	"version": "1.0.0",
+	"id": "b7537c52-028d-4ef9-80cc-b010867f000e",
+	"name": "Classifies a GHP generic certificate based on the schema and values in type field.",
+	"predicate": "b7537c52-028d-4ef9-80cc-b010867f000e.rule"
+}

@@ -1,0 +1,25 @@
+{
+    "schemaID": "{{GHP_TEST_SCHEMA_ID}}",
+    "type": ["VerifiableCredential", "GoodHealthPass", "TestCredential"],
+    "data": {
+	"type": "Test Results",
+	"display": "#32CD32",
+	"recipient": {
+		"givenName": "Jane", 
+		"middleName": "Sarah",
+		"familyName": "Smith",
+		"birthDate": "2000-10-10"
+	},
+	"disease": "COVID-19",
+	"testType": "95406-5",
+	"testCommercialName": "SARS-CoV-2 & Influenza A/B",
+	"testManufacturer": "Roche Molecular Systems",
+	"testResult": "Not detected",
+	"dateOfSample": "{{TWO_DAYS_AGO_DATE}}",
+	"dateOfResult": "{{TODAY_DATE}}",
+	"testingCentre": "Acme Test Site",
+	"stateOfTest": "California",
+	"countryOfTest": "United States"
+},
+    "expirationDate": "{{NEXT_WEEK_DATETIME}}"
+}

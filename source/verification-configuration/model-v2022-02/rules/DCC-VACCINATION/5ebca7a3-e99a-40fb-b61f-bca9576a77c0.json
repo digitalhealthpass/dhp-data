@@ -1,0 +1,6 @@
+{
+	"version": "1.0.0",
+	"id": "5ebca7a3-e99a-40fb-b61f-bca9576a77c0",
+	"name": "Check for completed vaccination cycle",
+	"predicate": "5ebca7a3-e99a-40fb-b61f-bca9576a77c0.rule"
+}

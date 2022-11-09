@@ -1,0 +1,6 @@
+{
+	"version": "1.0.0",
+	"id": "150a71ee-0464-4ba6-b806-ee075a1d20a2",
+	"name": "Classifies a DHP test certificate based on the value in type field.",
+	"predicate": "150a71ee-0464-4ba6-b806-ee075a1d20a2.rule"
+}

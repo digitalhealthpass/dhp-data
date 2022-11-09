@@ -1,0 +1,76 @@
+{
+	"if": [
+		{
+			"var": "payload.vc.credentialSubject.fhirBundle"
+		},
+		{
+			"or": [
+				{
+					"in": [
+						{
+							"var": "payload.vc.credentialSubject.fhirBundle.entry.1.resource.code.coding.0.code"
+						},
+						{
+							"var": "external.approvedTests-PCR"
+						}
+					]
+				},
+				{
+					"in": [
+						{
+							"var": "payload.vc.credentialSubject.fhirBundle.entry.1.resource.code.coding.0.code"
+						},
+						{
+							"var": "external.approvedTests-ANTIGEN"
+						}
+					]
+				},
+				{
+					"and": [
+						{
+							"in": [
+								{
+									"var": "payload.vc.credentialSubject.fhirBundle.entry.1.resource.code.coding.0.code"
+								},
+								{
+									"var": "external.approvedTestMethods-PCR"
+								}
+							]
+						},
+						{
+							"===": [
+								{
+									"var": "external.acceptTestMethodAsTestType.0"
+								},
+								"true"
+							]
+						}
+					]
+				},
+				{
+					"and": [
+						{
+							"in": [
+								{
+									"var": "payload.vc.credentialSubject.fhirBundle.entry.1.resource.code.coding.0.code"
+								},
+								{
+									"var": "external.approvedTestMethods-ANTIGEN"
+								}
+							]
+						},
+						{
+							"===": [
+								{
+									"var": "external.acceptTestMethodAsTestType.0"
+								},
+								"true"
+							]
+						}
+					]
+				}
+			]
+		},
+		false
+	]
+}

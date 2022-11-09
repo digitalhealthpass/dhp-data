@@ -1,0 +1,36 @@
+[
+	{
+		"data": {
+			"payload": {
+				"credentialSubject": {
+					"type": "id"
+				}
+			}
+		},
+		"expectedResult": "ID"
+	},
+	{
+		"data": {
+			"payload": {
+				"credentialSubject": {
+					"type": ""
+				}
+			}
+		},
+		"expectedResult": false
+	},
+	{
+		"data": {
+			"payload": {
+				"credentialSubject": {}
+			}
+		},
+		"expectedResult": false
+	},
+	{
+		"data": {
+			"payload": {}
+		},
+		"expectedResult": false
+	}
+]

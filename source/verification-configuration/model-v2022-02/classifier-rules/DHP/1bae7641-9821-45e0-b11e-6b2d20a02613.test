@@ -1,0 +1,67 @@
+[
+	{
+		"data": {
+			"payload": {
+				"type": [
+					"Temperature",
+					"DigitalHealthPass"
+				]
+			}
+		},
+		"expectedResult": "DHP-TEMPERATURE"
+	},
+	{
+		"data": {
+			"payload": {
+				"type": [
+					"Temperature"
+				]
+			}
+		},
+		"expectedResult": false
+	},
+	{
+		"data": {
+			"payload": {
+				"type": [
+					"DigitalHealthPass"
+				]
+			}
+		},
+		"expectedResult": false
+	},
+	{
+		"data": {
+			"payload": {
+				"type": "Temperature"
+			}
+		},
+		"expectedResult": false
+	},
+	{
+		"data": {
+			"payload": {
+				"type": [
+					"unknown"
+				]
+			}
+		},
+		"expectedResult": false
+	},
+	{
+		"data": {
+			"payload": {
+				"credentialType": [
+					"Temperature"
+				]
+			}
+		},
+		"expectedResult": false
+	},
+	{
+		"data": {
+			"payload": {}
+		},
+		"expectedResult": false
+	}
+]

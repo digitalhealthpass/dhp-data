@@ -1,0 +1,32 @@
+{
+	"if": [
+		{
+			"var": "payload.t.0"
+		},
+		{
+			"or": [
+				{
+					"in": [
+						{
+							"var": "payload.t.0.tt"
+						},
+						{
+							"var": "external.approvedTestMethods-PCR"
+						}
+					]
+				},
+				{
+					"in": [
+						{
+							"var": "payload.t.0.tt"
+						},
+						{
+							"var": "external.approvedTestMethods-ANTIGEN"
+						}
+					]
+				}
+			]
+		},
+		false
+	]
+}

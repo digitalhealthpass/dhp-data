@@ -1,0 +1,27 @@
+{
+	"if": [
+		{
+			"var": "payload.data.name"
+		},
+		{
+			"if": [
+				{
+					"===": [
+						"VaccinationHealthCert",
+						{
+							"substr": [
+								{
+									"var": "payload.data.name"
+								},
+								44
+							]
+						}
+					]
+				},
+				"OA-VACCINATION",
+				false
+			]
+		},
+		false
+	]
+}

@@ -1,0 +1,56 @@
+{
+	"version": "1.0.0",
+	"id": "d1086e26-72a8-4d89-be83-0796606944af",
+	"name": "GHP-VACCINATION",
+	"description": "A credential issued according to the Good Health Pass specification that indicates a person's COVID-19 vaccination status.",
+	"credentialSpec": "GHP",
+	"credentialCategory": "VACCINATION",
+	"classifierRule": {
+		"id": "6442a7db-63b3-4808-b410-b687b51a4667",
+		"version": "latest"
+	},
+	"metrics": [
+		{
+			"name": "Counts verifications by result, issuer, type",
+			"extract": {
+				"issuerDID": "issuer",
+				"credentialType": "type.2"
+			},
+			"countBy": {
+				"scan": true,
+				"scanResult": true,
+				"extract": true
+			}
+		}
+	],
+	"display": [
+		{
+			"id": "3ceb52ea-33c4-48f5-9f41-5f4ff007445d",
+			"version": "latest"
+		}
+	],
+	"rules": [
+		{
+			"id": "3b317598-eef1-4573-9638-6a2482d48d17",
+			"version": "latest"
+		},
+		{
+			"id": "57327cbe-f9f8-4e86-b565-4138c1949d6c",
+			"version": "latest"
+		},
+		{
+			"id": "a0295a42-fac0-489a-90bd-d07f9e70b481",
+			"version": "latest"
+		},
+		{
+			"id": "622ac36a-5099-4255-be03-c818853c5ce3",
+			"version": "latest"
+		}
+	],
+	"trustLists": [
+		{
+			"id": "9ed94234-13ba-4d6b-b98b-2860001956b7",
+			"version": "latest"
+		}
+	]
+}

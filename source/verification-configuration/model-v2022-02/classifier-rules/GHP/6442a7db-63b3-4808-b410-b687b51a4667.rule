@@ -1,0 +1,26 @@
+{
+	"if": [
+		{
+			"and": [
+				{
+					"in": [
+						"GoodHealthPass",
+						{
+							"var": "payload.type"
+						}
+					]
+				},
+				{
+					"in": [
+						"VaccinationCredential",
+						{
+							"var": "payload.type"
+						}
+					]
+				}
+			]
+		},
+		"GHP-VACCINATION",
+		false
+	]
+}

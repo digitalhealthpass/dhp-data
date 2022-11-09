@@ -1,0 +1,6 @@
+{
+	"version": "1.0.0",
+	"id": "5ca7034e-759b-406f-884b-b2143edced84",
+	"name": "Classifies a SHC test certificate based on the value in type field.",
+	"predicate": "5ca7034e-759b-406f-884b-b2143edced84.rule"
+}

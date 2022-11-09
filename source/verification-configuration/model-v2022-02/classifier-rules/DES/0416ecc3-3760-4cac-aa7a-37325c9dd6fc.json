@@ -1,0 +1,6 @@
+{
+	"version": "1.0.0",
+	"id": "0416ecc3-3760-4cac-aa7a-37325c9dd6fc",
+	"name": "Classifies a COS_ACCESS generic certificate based on the schema",
+	"predicate": "0416ecc3-3760-4cac-aa7a-37325c9dd6fc.rule"
+}

@@ -1,0 +1,126 @@
+[
+    {
+        "data": {
+            "payload": {
+                "t": [
+                    {
+                        "tt": "LP6464-4"
+                    }
+                ]
+            },
+            "external": {
+                "approvedTestMethods-PCR": [
+                    "LP6464-4"
+                ],
+                "approvedTestMethods-ANTIGEN": [
+                    "LP217198-3"
+                ]
+            }
+        },
+        "expectedResult": true
+    },
+    {
+        "data": {
+            "payload": {
+                "t": [
+                    {
+                        "tt": "LP217198-3"
+                    }
+                ]
+            },
+            "external": {
+                "approvedTestMethods-PCR": [
+                    "LP6464-4"
+                ],
+                "approvedTestMethods-ANTIGEN": [
+                    "LP217198-3"
+                ]
+            }
+        },
+        "expectedResult": true
+    },
+    {
+        "data": {
+            "payload": {
+                "t": [
+                    {
+                        "tt": "PCR"
+                    }
+                ]
+            },
+            "external": {
+                "approvedTestMethods-PCR": [
+                    "LP6464-4"
+                ],
+                "approvedTestMethods-ANTIGEN": [
+                    "LP217198-3"
+                ]
+            }
+        },
+        "expectedResult": false
+    },
+    {
+        "data": {
+            "payload": {
+                "t": [
+                    {
+                        "tt": "NA"
+                    }
+                ]
+            },
+            "external": {
+                "approvedTestMethods-PCR": [
+                    "LP6464-4"
+                ],
+                "approvedTestMethods-ANTIGEN": [
+                    "LP217198-3"
+                ]
+            }
+        },
+        "expectedResult": false
+    },
+    {
+        "data": {
+            "payload": {
+                "t": [
+                    {}
+                ]
+            },
+            "external": {
+                "approvedTestMethods-PCR": [
+                    "LP6464-4"
+                ],
+                "approvedTestMethods-ANTIGEN": [
+                    "LP217198-3"
+                ]
+            }
+        },
+        "expectedResult": false
+    },
+    {
+        "data": {
+            "payload": {
+                "t": "NA"
+            },
+            "external": {
+                "approvedTestMethods-PCR": [
+                    "LP6464-4"
+                ],
+                "approvedTestMethods-ANTIGEN": [
+                    "LP217198-3"
+                ]
+            }
+        },
+        "expectedResult": false
+    },
+    {
+        "data": {
+            "payload": {}
+        },
+        "expectedResult": false
+    },
+    {
+        "data": {},
+        "expectedResult": false
+    }
+]

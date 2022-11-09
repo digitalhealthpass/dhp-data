@@ -1,0 +1,13 @@
+{
+	"version": "1.0.0",
+	"id": "47bdcc2d-349e-4798-8c9a-a316397cd1ab",
+	"name": "vaccinationValidityDurationDaysBOOSTER",
+	"description": "The duration of the vaccination validity in days",
+	"maxItems": 1,
+	"items": [
+		{
+			"value": "999",
+			"description": ""
+		}
+	]
+}

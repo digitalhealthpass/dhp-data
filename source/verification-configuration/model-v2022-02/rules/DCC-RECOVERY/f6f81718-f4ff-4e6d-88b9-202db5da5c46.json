@@ -1,0 +1,6 @@
+{
+	"version": "1.0.0",
+	"id": "f6f81718-f4ff-4e6d-88b9-202db5da5c46",
+	"name": "Check that there is only single record in certificate",
+	"predicate": "f6f81718-f4ff-4e6d-88b9-202db5da5c46.rule"
+}

@@ -1,0 +1,55 @@
+{
+	"version": "1.0.0",
+	"id": "0c446646-adce-48c2-aa52-1d13c8bbe744",
+	"name": "Display all fields - pass, temperature",
+	"fields": [
+		{
+			"field": "issuer",
+			"displayValue": {
+				"en": "issuer"
+			}
+		},
+		{
+			"field": "credentialSubject.recipient.givenName",
+			"displayValue": {
+				"en": "First Name"
+			}
+		},
+		{
+			"field": "credentialSubject.recipient.familyName",
+			"displayValue": {
+				"en": "Surname"
+			}
+		},
+		{
+			"field": "credentialSubject.recipient.birthDate",
+			"displayValue": {
+				"en": "Date of Birth"
+			}
+		},
+		{
+			"field": "credentialSubject.date",
+			"displayValue": {
+				"en": "Date"
+			}
+		},
+		{
+			"field": "credentialSubject.status",
+			"displayValue": {
+				"en": "Status"
+			}
+		},
+		{
+			"field": "credentialSubject.temperature",
+			"displayValue": {
+				"en": "Temperature"
+			}
+		},
+		{
+			"field": "credentialSubject.units",
+			"displayValue": {
+				"en": "Units"
+			}
+		}
+	]
+}

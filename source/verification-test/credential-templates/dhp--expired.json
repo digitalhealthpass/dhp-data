@@ -1,0 +1,12 @@
+{
+    "schemaID": "{{RANDOM_SCHEMA_ID}}",
+    "type": ["VerifiableCredential", "DigitalHealthPass"],
+    "data": {
+	"display": "#32CD32",
+	"name": "Jane Smith",
+    "dateOfSample": "{{LAST_MONTH_DATE}}",
+    "testResult": "Not detected",
+	"countryOfTest": "United States"
+},
+    "expirationDate": "{{NOW_DATETIME}}"
+}

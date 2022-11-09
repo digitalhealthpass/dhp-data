@@ -1,0 +1,23 @@
+{
+		"data": {
+			"ver": "1.0.0",
+			"nam": {
+				"fn": "ApellidoApellido",
+				"fnt": "APELLIDO<APELLIDO",
+				"gn": "Nombre",
+				"gnt": "NOMBRE"
+			},
+			"dob": "2014-08-16",
+			"r": [
+				{
+					"tg": "840539006",
+					"fr": "{{TWO_MONTHS_AGO_DATE}}",
+					"co": "ES",
+					"is": "10",
+					"df": "{{SIX_WEEKS_AGO_DATE}}",
+					"du": "{{SIX_WEEKS_DATE}}",
+					"ci": "01ES10REC193B8823BA97F084DD0#2"
+				}
+			]
+		}
+	}

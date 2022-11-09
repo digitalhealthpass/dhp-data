@@ -1,0 +1,49 @@
+[
+	{
+		"data": {
+			"payload": {
+				"proof": {
+					"signatureValue": ""
+				},
+				"consentId": "7c6ddcdc-390a-4431-a160-b19d6a87239b"
+			}
+		},
+		"expectedResult": "CONSENT_RECEIPT"
+	},
+	{
+		"data": {
+			"payload": {
+				"proof": {},
+				"consentId": "7c6ddcdc-390a-4431-a160-b19d6a87239b"
+			}
+		},
+		"expectedResult": false,
+		"comment": "expected FALSE as there needs to be something under 'proof' key other then empty object or emptry string"
+	},
+	{
+		"data": {
+			"payload": {
+				"proof": {
+					"signatureValue": ""
+				},
+				"consentId": ""
+			}
+		},
+		"expectedResult": false,
+		"comment": "expected FALSE as there needs to be something under 'consentId' key other then empty object or emptry string"
+	},
+	{
+		"data": {
+			"payload": {
+				"proof": {}
+			}
+		},
+		"expectedResult": false
+	},
+	{
+		"data": {
+			"payload": {}
+		},
+		"expectedResult": false
+	}
+]

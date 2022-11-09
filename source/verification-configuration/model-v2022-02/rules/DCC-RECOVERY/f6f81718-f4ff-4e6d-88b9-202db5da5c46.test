@@ -1,0 +1,43 @@
+[
+    {
+        "data": {
+            "payload": {
+                "r": [
+                    {
+                        "tg": "840539006"
+                    }
+                ]
+            },
+            "external": {
+                "approvedDiseases": [
+                    "840539006"
+                ]
+            }
+        },
+        "expectedResult": true
+    },
+    {
+        "data": {
+            "payload": {
+                "r": [
+                    {
+                        "tg": "840539006"
+                    },
+                    {
+                        "tg": "840539006"
+                    }
+                ]
+            },
+            "external": {
+                "approvedDiseases": [
+                    "840539006"
+                ]
+            }
+        },
+        "expectedResult": false
+    },
+    {
+        "data": {},
+        "expectedResult": false
+    }
+]

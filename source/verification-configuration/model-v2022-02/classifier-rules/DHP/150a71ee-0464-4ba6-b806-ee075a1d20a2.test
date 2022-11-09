@@ -1,0 +1,67 @@
+[
+	{
+		"data": {
+			"payload": {
+				"type": [
+					"Test",
+					"DigitalHealthPass"
+				]
+			}
+		},
+		"expectedResult": "DHP-TEST"
+	},
+	{
+		"data": {
+			"payload": {
+				"type": [
+					"Test"
+				]
+			}
+		},
+		"expectedResult": false
+	},
+	{
+		"data": {
+			"payload": {
+				"type": [
+					"DigitalHealthPass"
+				]
+			}
+		},
+		"expectedResult": false
+	},
+	{
+		"data": {
+			"payload": {
+				"type": "Test"
+			}
+		},
+		"expectedResult": false
+	},
+	{
+		"data": {
+			"payload": {
+				"type": [
+					"unknown"
+				]
+			}
+		},
+		"expectedResult": false
+	},
+	{
+		"data": {
+			"payload": {
+				"credentialType": [
+					"Test"
+				]
+			}
+		},
+		"expectedResult": false
+	},
+	{
+		"data": {
+			"payload": {}
+		},
+		"expectedResult": false
+	}
+]

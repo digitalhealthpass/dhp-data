@@ -1,0 +1,26 @@
+{
+	"version": "1.0.0",
+	"id": "b7115b5b-aae4-4c3f-b838-4beb823e3033",
+	"name": "CONSENT_REVOKE",
+	"description": "CONSENT_REVOKE - DES",
+	"credentialSpec": "CONSENT_REVOKE",
+	"credentialCategory": "GENERIC",
+	"classifierRule": {
+		"id": "34b26f53-959f-4ba3-93ac-ccb600f0d46c",
+		"version": "latest"
+	},
+	"metrics": [
+		{
+			"countBy": {
+				"extract": true,
+				"scan": true,
+				"scanResult": true
+			},
+			"extract": {},
+			"name": "Extract nothing"
+		}
+	],
+	"display": [],
+	"rules": [],
+	"trustLists": []
+}

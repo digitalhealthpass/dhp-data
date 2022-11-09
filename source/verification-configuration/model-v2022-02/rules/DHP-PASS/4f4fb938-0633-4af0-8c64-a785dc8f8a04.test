@@ -1,0 +1,60 @@
+[
+    {
+        "data": {
+            "payload": {
+                "credentialSubject": {
+                    "date": "2022-02-18T19:22:19Z"
+                }
+            },
+            "external": {
+                "validationClock": "2022-02-19T12:22:19Z",
+                "passValidityDurationHours": [
+                    "24"
+                ]
+            }
+        },
+        "expectedResult": true
+    },
+    {
+        "data": {
+            "payload": {
+                "credentialSubject": {
+                    "date": "2022-02-18T19:22:19Z"
+                }
+            },
+            "external": {
+                "validationClock": "2022-02-19T22:22:19Z",
+                "passValidityDurationHours": [
+                    "24"
+                ]
+            }
+        },
+        "expectedResult": false
+    },
+    {
+        "data": {
+            "payload": {
+                "credentialSubject": {}
+            },
+            "external": {
+                "validationClock": "2022-02-19T22:22:19Z",
+                "passValidityDurationHours": [
+                    "24"
+                ]
+            }
+        },
+        "expectedResult": false
+    },
+    {
+        "data": {
+            "payload": {},
+            "external": {
+                "validationClock": "2022-02-19T22:22:19Z",
+                "passValidityDurationHours": [
+                    "24"
+                ]
+            }
+        },
+        "expectedResult": false
+    }
+]

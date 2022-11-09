@@ -1,0 +1,157 @@
+{
+	"id": "covid19-test-pcr",
+	"version": "1.0.0",
+	"name": "List of PCR COVID19 test codes",
+	"items": [
+		{
+			"id": "LP6464-4",
+			"name": "Nucleic acid amplification with probe detection",
+			"description": ""
+		},
+		{
+			"id": "50548-7",
+			"name": "",
+			"description": ""
+		},
+		{
+			"id": "68993-5",
+			"name": "",
+			"description": ""
+		},
+		{
+			"id": "82159-5",
+			"name": "",
+			"description": ""
+		},
+		{
+			"id": "94306-8",
+			"name": "",
+			"description": ""
+		},
+		{
+			"id": "94307-6",
+			"name": "",
+			"description": ""
+		},
+		{
+			"id": "94308-4",
+			"name": "",
+			"description": ""
+		},
+		{
+			"id": "94309-2",
+			"name": "",
+			"description": ""
+		},
+		{
+			"id": "94500-6",
+			"name": "",
+			"description": ""
+		},
+		{
+			"id": "94502-2",
+			"name": "",
+			"description": ""
+		},
+		{
+			"id": "94531-1",
+			"name": "",
+			"description": ""
+		},
+		{
+			"id": "94533-7",
+			"name": "",
+			"description": ""
+		},
+		{
+			"id": "94534-5",
+			"name": "",
+			"description": ""
+		},
+		{
+			"id": "94559-2",
+			"name": "",
+			"description": ""
+		},
+		{
+			"id": "94565-9",
+			"name": "",
+			"description": ""
+		},
+		{
+			"id": "94640-0",
+			"name": "",
+			"description": ""
+		},
+		{
+			"id": "94756-4",
+			"name": "",
+			"description": ""
+		},
+		{
+			"id": "94757-2",
+			"name": "",
+			"description": ""
+		},
+		{
+			"id": "94758-0",
+			"name": "",
+			"description": ""
+		},
+		{
+			"id": "94759-8",
+			"name": "",
+			"description": ""
+		},
+		{
+			"id": "94760-6",
+			"name": "",
+			"description": ""
+		},
+		{
+			"id": "94764-8",
+			"name": "",
+			"description": ""
+		},
+		{
+			"id": "94845-5",
+			"name": "",
+			"description": ""
+		},
+		{
+			"id": "95406-5",
+			"name": "",
+			"description": ""
+		},
+		{
+			"id": "95409-9",
+			"name": "",
+			"description": ""
+		},
+		{
+			"id": "95423-0",
+			"name": "",
+			"description": ""
+		},
+		{
+			"id": "95424-8",
+			"name": "",
+			"description": ""
+		},
+		{
+			"id": "95425-5",
+			"name": "",
+			"description": ""
+		},
+		{
+			"id": "95608-6",
+			"name": "",
+			"description": ""
+		},
+		{
+			"id": "95609-4",
+			"name": "",
+			"description": ""
+		}
+	]
+}

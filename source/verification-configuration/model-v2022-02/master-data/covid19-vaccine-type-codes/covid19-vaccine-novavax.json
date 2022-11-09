@@ -1,0 +1,42 @@
+{
+	"id": "covid19-vaccine-novavax",
+	"version": "1.0.0",
+	"name": "List of Nuvaxovid (Novavax) vaccine codes",
+	"items": [
+		{
+			"id": "EU/1/21/1618",
+			"name": "EU/1/21/1618 (Nuvaxovid EMA)",
+			"description": "EMA licence number for Novavax vaccine"
+		},
+		{
+			"id": "211",
+			"name": "211 (Nuvaxovid CVX)",
+			"description": "CVX code for Novavax vaccine"
+		},
+		{
+			"id": "991221000133108",
+			"name": "Covovax - OA",
+			"description": "Open Attestation code for Covovax vaccine"
+		},
+		{
+			"id": "991251000133100",
+			"name": "Covovax - OA",
+			"description": "Open Attestation code for Covovax vaccine"
+		},
+		{
+			"id": "991241000133102",
+			"name": "Covovax - OA",
+			"description": "Open Attestation code for Covovax vaccine"
+		},
+		{
+			"id": "1011691000133100",
+			"name": "Nuvaxovid - OA",
+			"description": "Open Attestation code for Nuvaxovid vaccine"
+		},
+		{
+			"id": "1021941000133107",
+			"name": "Nuvaxovid - OA",
+			"description": "Open Attestation code for Nuvaxovid vaccine"
+		}
+	]
+}

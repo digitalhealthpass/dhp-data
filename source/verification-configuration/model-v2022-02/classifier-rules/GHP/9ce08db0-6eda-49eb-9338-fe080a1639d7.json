@@ -1,0 +1,6 @@
+{
+	"version": "1.0.0",
+	"id": "9ce08db0-6eda-49eb-9338-fe080a1639d7",
+	"name": "Classifies a GHP test certificate based on the value in type field.",
+	"predicate": "9ce08db0-6eda-49eb-9338-fe080a1639d7.rule"
+}

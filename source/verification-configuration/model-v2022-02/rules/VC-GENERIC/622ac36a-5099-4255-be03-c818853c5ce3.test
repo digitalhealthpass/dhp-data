@@ -1,0 +1,44 @@
+[
+    {
+        "data": {
+            "payload": {
+                "expirationDate": "2022-02-28"
+            },
+            "external": {
+                "validationClock": "2022-02-19T12:22:19Z"
+            }
+        },
+        "expectedResult": true
+    },
+    {
+        "data": {
+            "payload": {
+                "expirationDate": "2022-01-28"
+            },
+            "external": {
+                "validationClock": "2022-02-19T12:22:19Z"
+            }
+        },
+        "expectedResult": false
+    },
+    {
+        "data": {
+            "payload": {},
+            "external": {
+                "validationClock": "2022-02-19T12:22:19Z",
+                "requireExpirationDateField": ["false"]
+            }
+        },
+        "expectedResult": true
+    },
+    {
+        "data": {
+            "payload": {},
+            "external": {
+                "validationClock": "2022-02-19T12:22:19Z",
+                "requireExpirationDateField": ["true"]
+            }
+        },
+        "expectedResult": false
+    }
+]

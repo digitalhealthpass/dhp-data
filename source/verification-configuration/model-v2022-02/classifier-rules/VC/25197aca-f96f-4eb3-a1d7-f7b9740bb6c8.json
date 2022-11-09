@@ -1,0 +1,6 @@
+{
+	"version": "1.0.0",
+	"id": "25197aca-f96f-4eb3-a1d7-f7b9740bb6c8",
+	"name": "Classifies a VC generic certificate based on the schema and values in type field.",
+	"predicate": "25197aca-f96f-4eb3-a1d7-f7b9740bb6c8.rule"
+}

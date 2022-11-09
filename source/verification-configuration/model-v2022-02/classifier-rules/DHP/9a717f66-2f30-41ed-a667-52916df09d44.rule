@@ -1,0 +1,69 @@
+{
+	"if": [
+		{
+			"and": [
+				{
+					"var": "payload.type"
+				},
+				{
+					"in": [
+						"DigitalHealthPass",
+						{
+							"var": "payload.type"
+						}
+					]
+				},
+				{
+					"!": [
+						{
+							"in": [
+								"Vaccination",
+								{
+									"var": "payload.type"
+								}
+							]
+						}
+					]
+				},
+				{
+					"!": [
+						{
+							"in": [
+								"Test",
+								{
+									"var": "payload.type"
+								}
+							]
+						}
+					]
+				},
+				{
+					"!": [
+						{
+							"in": [
+								"Temperature",
+								{
+									"var": "payload.type"
+								}
+							]
+						}
+					]
+				},
+				{
+					"!": [
+						{
+							"in": [
+								"Pass",
+								{
+									"var": "payload.type"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		"DHP-GENERIC",
+		false
+	]
+}

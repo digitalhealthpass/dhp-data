@@ -1,0 +1,6 @@
+{
+	"version": "1.0.0",
+	"id": "1bae7641-9821-45e0-b11e-6b2d20a02613",
+	"name": "Classifies a DHP temperature certificate based on the value in type field.",
+	"predicate": "1bae7641-9821-45e0-b11e-6b2d20a02613.rule"
+}

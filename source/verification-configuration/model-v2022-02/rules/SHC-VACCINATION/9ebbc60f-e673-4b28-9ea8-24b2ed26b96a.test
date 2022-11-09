@@ -1,0 +1,323 @@
+[
+	{
+		"data": {
+			"payload": {
+                "vc": {
+                    "credentialSubject": {
+						"fhirBundle": {
+							"entry": [
+								{},
+								{ "resource": { "vaccineCode": { "coding": [ { "code": "207" } ] } } }
+							]
+						}
+					}
+				}
+			},
+			"external": {
+				"approvedVaccinesUS": [
+					"207", "208", "210", "212", "217", "218", "219", "502", "510", "511"
+				]
+			}
+		},
+		"expectedResult": true
+	},
+	{
+		"data": {
+			"payload": {
+                "vc": {
+                    "credentialSubject": {
+						"fhirBundle": {
+							"entry": [
+								{},
+								{ "resource": { "vaccineCode": { "coding": [ { "code": "Pfizer" } ] } } }
+							]
+						}
+					}
+				}
+			},
+			"external": {
+				"approvedVaccinesUS": [
+					"207", "208", "210", "212", "217", "218", "219", "502", "510", "511"
+				]
+			}
+		},
+		"expectedResult": false
+	},
+	{
+		"data": {
+			"payload": {
+                "vc": {
+                    "credentialSubject": {
+						"fhirBundle": {
+							"entry": [
+								{},
+								{ "resource": { "vaccineCode": { "coding": [ { "code": "212" } ] } } },
+								{ "resource": { "vaccineCode": { "coding": [ { "code": "212" } ] } } },
+								{ "resource": { "vaccineCode": { "coding": [ { "code": "212" } ] } } },
+								{ "resource": { "vaccineCode": { "coding": [ { "code": "212" } ] } } },
+								{ "resource": { "vaccineCode": { "coding": [ { "code": "212" } ] } } },
+								{ "resource": { "vaccineCode": { "coding": [ { "code": "212" } ] } } }
+							]
+						}
+					}
+				}
+			},
+			"external": {
+				"approvedVaccinesUS": [
+					"207", "208", "210", "212", "217", "218", "219", "502", "510", "511"
+				]
+			}
+		},
+		"expectedResult": true
+	},
+	{
+		"data": {
+			"payload": {
+                "vc": {
+                    "credentialSubject": {
+						"fhirBundle": {
+							"entry": [
+								{},
+								{ "resource": { "vaccineCode": { "coding": [ { "code": "212" } ] } } },
+								{ "resource": { "vaccineCode": { "coding": [ { "code": "212" } ] } } },
+								{ "resource": { "vaccineCode": { "coding": [ { "code": "212" } ] } } },
+								{ "resource": { "vaccineCode": { "coding": [ { "code": "212" } ] } } },
+								{ "resource": { "vaccineCode": { "coding": [ { "code": "212" } ] } } },
+								{ "resource": { "vaccineCode": { "coding": [ { "code": "Pfizer" } ] } } }
+							]
+						}
+					}	
+				}
+			},
+			"external": {
+				"approvedVaccinesUS": [
+					"207", "208", "210", "212", "217", "218", "219", "502", "510", "511"
+				]
+			}
+		},
+		"expectedResult": false
+	},
+	{
+		"data": {
+			"payload": {
+                "vc": {
+                    "credentialSubject": {
+						"fhirBundle": {
+							"entry": [
+								{},
+								{ "resource": { "vaccineCode": { "coding": [ { "code": "212" } ] } } },
+								{ "resource": { "vaccineCode": { "coding": [ { "code": "212" } ] } } },
+								{ "resource": { "vaccineCode": { "coding": [ { "code": "Pfizer" } ] } } },
+								{ "resource": { "vaccineCode": { "coding": [ { "code": "212" } ] } } },
+								{ "resource": { "vaccineCode": { "coding": [ { "code": "212" } ] } } },
+								{ "resource": { "vaccineCode": { "coding": [ { "code": "212" } ] } } }
+							]
+						}
+					}
+				}
+			},
+			"external": {
+				"approvedVaccinesUS": [
+					"207", "208", "210", "212", "217", "218", "219", "502", "510", "511"
+				]
+			}
+		},
+		"expectedResult": false
+	},
+	{
+		"data": {
+			"payload": {
+                "vc": {
+                    "credentialSubject": {
+						"fhirBundle": {
+							"entry": [
+								{},
+								{ "resource": { "vaccineCode": { "coding": [ { "code": "212" } ] } } },
+								{ "resource": { "vaccineCode": { "coding": [ { "code": "212" } ] } } },
+								{ "resource": { "vaccineCode": { "coding": [ { "code": "212" } ] } } },
+								{ "resource": { "vaccineCode": { "coding": [ { "code": "212" } ] } } },
+								{ "resource": { "vaccineCode": { "coding": [ { "code": "212" } ] } } }
+							]
+						}
+					}
+				}
+			},
+			"external": {
+				"approvedVaccinesUS": [
+					"207", "208", "210", "212", "217", "218", "219", "502", "510", "511"
+				]
+			}
+		},
+		"expectedResult": true
+	},
+	{
+		"data": {
+			"payload": {
+                "vc": {
+                    "credentialSubject": {
+						"fhirBundle": {
+							"entry": [
+								{},
+								{ "resource": { "vaccineCode": { "coding": [ { "code": "212" } ] } } },
+								{ "resource": { "vaccineCode": { "coding": [ { "code": "212" } ] } } },
+								{ "resource": { "vaccineCode": { "coding": [ { "code": "212" } ] } } },
+								{ "resource": { "vaccineCode": { "coding": [ { "code": "212" } ] } } },
+								{ "resource": { "vaccineCode": { "coding": [ { "code": "NA" } ] } } }
+							]
+						}
+					}
+				}
+			},
+			"external": {
+				"approvedVaccinesUS": [
+					"207", "208", "210", "212", "217", "218", "219", "502", "510", "511"
+				]
+			}
+		},
+		"expectedResult": false
+	},
+	{
+		"data": {
+			"payload": {
+                "vc": {
+                    "credentialSubject": {
+						"fhirBundle": {
+							"entry": [
+								{},
+								{ "resource": { "vaccineCode": { "coding": [ { "code": "212" } ] } } },
+								{ "resource": { "vaccineCode": { "coding": [ { "code": "212" } ] } } },
+								{ "resource": { "vaccineCode": { "coding": [ { "code": "212" } ] } } },
+								{ "resource": { "vaccineCode": { "coding": [ { "code": "212" } ] } } }
+							]
+						}
+					}
+				}
+			},
+			"external": {
+				"approvedVaccinesUS": [
+					"207", "208", "210", "212", "217", "218", "219", "502", "510", "511"
+				]
+			}
+		},
+		"expectedResult": true
+	},
+	{
+		"data": {
+			"payload": {
+                "vc": {
+                    "credentialSubject": {
+						"fhirBundle": {
+							"entry": [
+								{},
+								{ "resource": { "vaccineCode": { "coding": [ { "code": "212" } ] } } },
+								{ "resource": { "vaccineCode": { "coding": [ { "code": "212" } ] } } },
+								{ "resource": { "vaccineCode": { "coding": [ { "code": "212" } ] } } },
+								{ "resource": { "vaccineCode": { "coding": [ { "code": "NA" } ] } } }
+							]
+						}
+					}
+				}
+			},
+			"external": {
+				"approvedVaccinesUS": [
+					"207", "208", "210", "212", "217", "218", "219", "502", "510", "511"
+				]
+			}
+		},
+		"expectedResult": false
+	},
+	{
+		"data": {
+			"payload": {
+                "vc": {
+                    "credentialSubject": {
+						"fhirBundle": {
+							"entry": [
+								{},
+								{ "resource": { "vaccineCode": { "coding": [ { "code": "212" } ] } } },
+								{ "resource": { "vaccineCode": { "coding": [ { "code": "212" } ] } } },
+								{ "resource": { "vaccineCode": { "coding": [ { "code": "212" } ] } } }
+							]
+						}
+					}
+				}
+			},
+			"external": {
+				"approvedVaccinesUS": [
+					"207", "208", "210", "212", "217", "218", "219", "502", "510", "511"
+				]
+			}
+		},
+		"expectedResult": true
+	},
+	{
+		"data": {
+			"payload": {
+                "vc": {
+                    "credentialSubject": {
+						"fhirBundle": {
+							"entry": [
+								{},
+								{ "resource": { "vaccineCode": { "coding": [ { "code": "212" } ] } } },
+								{ "resource": { "vaccineCode": { "coding": [ { "code": "212" } ] } } },
+								{ "resource": { "vaccineCode": { "coding": [ { "code": "NA" } ] } } }
+							]
+						}
+					}
+				}
+			},
+			"external": {
+				"approvedVaccinesUS": [
+					"207", "208", "210", "212", "217", "218", "219", "502", "510", "511"
+				]
+			}
+		},
+		"expectedResult": false
+	},
+	{
+		"data": {
+			"payload": {
+                "vc": {
+                    "credentialSubject": {
+						"fhirBundle": {
+							"entry": [
+								{},
+								{ "resource": { "vaccineCode": { "coding": [ { "code": "212" } ] } } },
+								{ "resource": { "vaccineCode": { "coding": [ { "code": "212" } ] } } }
+							]
+						}
+					}
+				}
+			},
+			"external": {
+				"approvedVaccinesUS": [
+					"207", "208", "210", "212", "217", "218", "219", "502", "510", "511"
+				]
+			}
+		},
+		"expectedResult": true
+	},
+	{
+		"data": {
+			"payload": {
+                "vc": {
+                    "credentialSubject": {
+						"fhirBundle": {
+							"entry": [
+								{},
+								{ "resource": { "vaccineCode": { "coding": [ { "code": "212" } ] } } },
+								{ "resource": { "vaccineCode": { "coding": [ { "code": "NA" } ] } } }
+							]
+						}
+					}
+				}
+			},
+			"external": {
+				"approvedVaccinesUS": [
+					"207", "208", "210", "212", "217", "218", "219", "502", "510", "511"
+				]
+			}
+		},
+		"expectedResult": false
+	}
+]

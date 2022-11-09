@@ -1,0 +1,20 @@
+{
+	"version": "1.0.0",
+	"id": "c5211393-646a-496d-a981-1127b1e4f02b",
+	"name": "approvedTestMethods-PCR",
+	"description": "List of PRC LOINC codes for approved PCR test methods used for test verification",
+	"source": {
+		"url": "",
+		"documentation": "https://covid-19-diagnostics.jrc.ec.europa.eu/devices?manufacturer&text_name&marking&rapid_diag&format&target_type&field-1=HSC%20common%20list%20%28RAT%29&value-1=1&search_method=AND#form_content",
+		"sourceType": "",
+		"queries": [],
+		"comments": ""
+	},
+	"maxItems": 0,
+	"items": [
+		{
+			"value": "LP6464-4",
+			"description": "Nucleic acid amplification with probe detection"
+		}
+	]
+}

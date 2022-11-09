@@ -1,0 +1,26 @@
+{
+	"if": [
+		{
+			"and": [
+				{
+					"in": [
+						"DigitalHealthPass",
+						{
+							"var": "payload.type"
+						}
+					]
+				},
+				{
+					"in": [
+						"Vaccination",
+						{
+							"var": "payload.type"
+						}
+					]
+				}
+			]
+		},
+		"DHP-VACCINATION",
+		false
+	]
+}

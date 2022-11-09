@@ -1,0 +1,6 @@
+{
+	"version": "1.0.0",
+	"id": "b5408bf7-f3c7-4454-8684-de4a02481eeb",
+	"name": "Classifies a DCC recovery certificate based on the schema.",
+	"predicate": "b5408bf7-f3c7-4454-8684-de4a02481eeb.rule"
+}

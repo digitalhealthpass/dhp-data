@@ -1,0 +1,34 @@
+[
+    {
+        "data": {
+            "payload": {
+                "credentialSubject": {
+                    "date": "2022-02-18T19:22:19Z"
+                }
+            },
+            "external": {
+                "validationClock": "2022-02-19T12:22:19Z",
+                "temperatureValidityDurationHours": [
+                    "12"
+                ]
+            }
+        },
+        "expectedResult": false
+    },
+    {
+        "data": {
+            "payload": {
+                "credentialSubject": {
+                    "date": "2022-02-18T19:22:19Z"
+                }
+            },
+            "external": {
+                "validationClock": "2022-02-19T06:22:19Z",
+                "temperatureValidityDurationHours": [
+                    "12"
+                ]
+            }
+        },
+        "expectedResult": true
+    }
+]

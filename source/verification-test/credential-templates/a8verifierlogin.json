@@ -1,0 +1,19 @@
+{
+    "schemaID": "{{VERIFIERLOGIN_SCHEMA_ID}}",
+    "type": [
+        "VerifiableCredential",
+        "DigitalHealthPass",
+        "VerifierCredential"
+    ],
+    "data": {
+        "configId": "a8c8a845-25b5-4bfd-9a70-91d1c4d9ec11:latest",
+        "configName": "Signature and Expiration check only",
+        "customer": "Cool Corp",
+        "organization": "Cool Corp, New York",
+        "customerId": "cust-test-id",
+        "organizationId": "org-test-id",
+        "name": "5th Avenue",
+        "type": "VerifierCredential"
+    },
+    "expirationDate": "{{NEXT_MONTH_DATETIME}}"
+}

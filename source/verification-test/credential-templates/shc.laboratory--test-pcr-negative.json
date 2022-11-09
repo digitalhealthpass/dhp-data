@@ -1,0 +1,74 @@
+{
+  "data": {
+    "fhirVersion": "4.0.1",
+    "fhirBundle": {
+      "resourceType": "Bundle",
+      "type": "collection",
+      "entry": [
+        {
+          "fullUrl": "resource:0",
+          "resource": {
+            "resourceType": "Patient",
+            "name": [
+              {
+                "family": "Anyperson",
+                "given": [
+                  "James",
+                  "T."
+                ]
+              }
+            ],
+            "birthDate": "1951-01-20"
+          }
+        },
+        {
+          "fullUrl": "resource:1",
+          "resource": {
+            "resourceType": "Observation",
+            "meta": {
+              "security": [
+                {
+                  "system": "https://smarthealth.cards/ial",
+                  "code": "IAL2"
+                }
+              ]
+            },
+            "status": "final",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "94565-9"
+                }
+              ]
+            },
+            "subject": {
+              "reference": "resource:0"
+            },
+            "effectiveDateTime": "{{TWO_DAYS_AGO_DATE}}",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "260415000"
+                }
+              ]
+            },
+            "performer": [
+              {
+                "display": "ABC General Hospital"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "type": [
+    "https://smarthealth.cards#health-card",
+    "https://smarthealth.cards#laboratory",
+    "https://smarthealth.cards#covid19"
+  ],
+  "issuerUrl": "{{ISS}}",
+  "expirationDate": "{{NEXT_YEAR_DATETIME}}"
+}

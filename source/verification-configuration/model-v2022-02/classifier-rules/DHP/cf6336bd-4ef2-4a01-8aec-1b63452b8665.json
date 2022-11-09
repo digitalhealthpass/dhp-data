@@ -1,0 +1,6 @@
+{
+	"version": "1.0.0",
+	"id": "cf6336bd-4ef2-4a01-8aec-1b63452b8665",
+	"name": "Classifies a DHP pass certificate based on the value in type field.",
+	"predicate": "cf6336bd-4ef2-4a01-8aec-1b63452b8665.rule"
+}

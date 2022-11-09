@@ -1,0 +1,196 @@
+[
+    {
+        "data": {
+            "payload": {
+                "v": [
+                    {
+                        "dn": 1,
+                        "sd": 1
+                    }
+                ]
+            },
+            "external": {
+                "requireBooster": [
+                    "false"
+                ]
+            }
+        },
+        "expectedResult": true
+    },
+    {
+        "data": {
+            "payload": {
+                "v": [
+                    {
+                        "dn": 2,
+                        "sd": 2
+                    }
+                ]
+            },
+            "external": {
+                "requireBooster": [
+                    "false"
+                ]
+            }
+        },
+        "expectedResult": true
+    },
+    {
+        "data": {
+            "payload": {
+                "v": [
+                    {
+                        "dn": 3,
+                        "sd": 3
+                    }
+                ]
+            }
+        },
+        "external": {
+            "requireBooster": [
+                "false"
+            ]
+        },
+        "expectedResult": true
+    },
+    {
+        "data": {
+            "payload": {
+                "v": [
+                    {
+                        "dn": 2,
+                        "sd": 1
+                    }
+                ]
+            },
+            "external": {
+                "requireBooster": [
+                    "false"
+                ]
+            }
+        },
+        "expectedResult": true
+    },
+    {
+        "data": {
+            "payload": {
+                "v": [
+                    {
+                        "dn": 1,
+                        "sd": 2
+                    }
+                ]
+            },
+            "external": {
+                "requireBooster": [
+                    "false"
+                ]
+            }
+        },
+        "expectedResult": false
+    },
+    {
+        "data": {
+            "payload": {
+                "v": [
+                    {
+                        "dn": 1,
+                        "sd": 1
+                    }
+                ]
+            },
+            "external": {
+                "requireBooster": [
+                    "true"
+                ]
+            }
+        },
+        "expectedResult": false
+    },
+    {
+        "data": {
+            "payload": {
+                "v": [
+                    {
+                        "dn": 2,
+                        "sd": 2
+                    }
+                ]
+            },
+            "external": {
+                "requireBooster": [
+                    "true"
+                ]
+            }
+        },
+        "expectedResult": false
+    },
+    {
+        "data": {
+            "payload": {
+                "v": [
+                    {
+                        "dn": 3,
+                        "sd": 3
+                    }
+                ]
+            }
+        },
+        "external": {
+            "requireBooster": [
+                "true"
+            ]
+        },
+        "expectedResult": true
+    },
+    {
+        "data": {
+            "payload": {
+                "v": [
+                    {
+                        "dn": 2,
+                        "sd": 1
+                    }
+                ]
+            },
+            "external": {
+                "requireBooster": [
+                    "true"
+                ]
+            }
+        },
+        "expectedResult": true
+    },
+    {
+        "data": {
+            "payload": {
+                "v": [
+                    {
+                        "dn": 1,
+                        "sd": 2
+                    }
+                ]
+            },
+            "external": {
+                "requireBooster": [
+                    "true"
+                ]
+            }
+        },
+        "expectedResult": false
+    },
+    {
+        "data": {
+            "payload": {
+                "v": [
+                    {}
+                ]
+            }
+        },
+        "expectedResult": false
+    },
+    {
+        "data": {},
+        "expectedResult": false
+    }
+]

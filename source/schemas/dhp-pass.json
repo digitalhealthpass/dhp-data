@@ -1,0 +1,130 @@
+{
+	"id": "dhp-pass",
+	"name": "Digital Health Pass - Pass",
+	"version": "1.0",
+	"schema": {
+		"$schema": "http://json-schema.org/draft-07/schema#",
+		"type": "object",
+		"properties": {
+			"type": {
+				"maxLength": 100,
+				"minLength": 1,
+				"type": "string",
+				"visible": false
+			},
+			"recipient": {
+				"properties": {
+					"identity": {
+						"type": "object",
+						"properties": {
+							"DL": {
+								"type": "string",
+								"visible": true,
+								"minLength": 1,
+								"maxLength": 50,
+								"displayValue": {
+									"en": "Driver's license number",
+									"de": ""
+								}
+							},
+							"MR": {
+								"type": "string",
+								"visible": true,
+								"minLength": 1,
+								"maxLength": 50,
+								"displayValue": {
+									"en": "Medical record number",
+									"de": ""
+								}
+							},
+							"PPN": {
+								"type": "string",
+								"visible": true,
+								"minLength": 1,
+								"maxLength": 50,
+								"displayValue": {
+									"en": "Passport number",
+									"de": ""
+								}
+							},
+							"OTH": {
+								"type": "string",
+								"visible": true,
+								"minLength": 1,
+								"maxLength": 50,
+								"displayValue": {
+									"en": "Other ID",
+									"de": ""
+								}
+							}
+						}
+					},
+					"givenName": {
+						"maxLength": 100,
+						"minLength": 1,
+						"type": "string",
+						"visible": true,
+						"displayValue": {
+							"en": "First Name",
+							"de": "Vorname"
+						}
+					},
+					"middleName": {
+						"maxLength": 100,
+						"minLength": 1,
+						"type": "string",
+						"visible": true
+					},
+					"familyName": {
+						"maxLength": 100,
+						"minLength": 1,
+						"type": "string",
+						"visible": true,
+						"displayValue": {
+							"en": "Surname",
+							"de": "Nachname"
+						}
+					},
+					"birthDate": {
+						"format": "date",
+						"type": "string",
+						"visible": true,
+						"displayValue": {
+							"en": "Date of Birth",
+							"de": "Geburtsdatum"
+						}
+					}
+				},
+				"required": [
+					"givenName",
+					"familyName",
+					"birthDate"
+				],
+				"type": "object"
+			},
+			"date": {
+				"type": "string",
+				"format": "date-time"
+			},
+			"status": {
+				"type": "string",
+				"enum": [
+					"pass",
+					"fail"
+				]
+			},
+			"display": {
+				"description": "Card background color.",
+				"type": "string",
+				"visible": false,
+				"pattern": "#\\w{6}"
+			}
+		},
+		"required": [
+			"type",
+			"date",
+			"status",
+			"recipient"
+		]
+	}
+}

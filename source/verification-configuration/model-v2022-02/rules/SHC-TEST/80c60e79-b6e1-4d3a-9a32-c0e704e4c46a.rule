@@ -1,0 +1,158 @@
+{
+	"if": [
+		{
+			"var": "payload.vc.credentialSubject.fhirBundle"
+		},
+		{
+			"or": [
+				{
+					"and": [
+						{
+							"or": [
+								{
+									"in": [
+										{
+											"var": "payload.vc.credentialSubject.fhirBundle.entry.1.resource.code.coding.0.code"
+										},
+										{
+											"var": "external.approvedTests-PCR"
+										}
+									]
+								},
+								{
+									"and": [
+										{
+											"in": [
+												{
+													"var": "payload.vc.credentialSubject.fhirBundle.entry.1.resource.code.coding.0.code"
+												},
+												{
+													"var": "external.approvedTestMethods-PCR"
+												}
+											]
+										},
+										{
+											"===": [
+												{
+													"var": "external.acceptTestMethodAsTestType.0"
+												},
+												"true"
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"not-after": [
+								{
+									"plusTime": [
+										{
+											"var": "payload.vc.credentialSubject.fhirBundle.entry.1.resource.effectiveDateTime"
+										},
+										0,
+										"hour"
+									]
+								},
+								{
+									"plusTime": [
+										{
+											"var": "external.validationClock"
+										},
+										0,
+										"hour"
+									]
+								},
+								{
+									"plusTime": [
+										{
+											"var": "payload.vc.credentialSubject.fhirBundle.entry.1.resource.effectiveDateTime"
+										},
+										{
+											"var": "external.testValidityDurationHoursPCR.0"
+										},
+										"hour"
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"and": [
+						{
+							"or": [
+								{
+									"in": [
+										{
+											"var": "payload.vc.credentialSubject.fhirBundle.entry.1.resource.code.coding.0.code"
+										},
+										{
+											"var": "external.approvedTests-ANTIGEN"
+										}
+									]
+								},
+								{
+									"and": [
+										{
+											"in": [
+												{
+													"var": "payload.vc.credentialSubject.fhirBundle.entry.1.resource.code.coding.0.code"
+												},
+												{
+													"var": "external.approvedTestMethods-ANTIGEN"
+												}
+											]
+										},
+										{
+											"===": [
+												{
+													"var": "external.acceptTestMethodAsTestType.0"
+												},
+												"true"
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"not-after": [
+								{
+									"plusTime": [
+										{
+											"var": "payload.vc.credentialSubject.fhirBundle.entry.1.resource.effectiveDateTime"
+										},
+										0,
+										"hour"
+									]
+								},
+								{
+									"plusTime": [
+										{
+											"var": "external.validationClock"
+										},
+										0,
+										"hour"
+									]
+								},
+								{
+									"plusTime": [
+										{
+											"var": "payload.vc.credentialSubject.fhirBundle.entry.1.resource.effectiveDateTime"
+										},
+										{
+											"var": "external.testValidityDurationHoursANTIGEN.0"
+										},
+										"hour"
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		false
+	]
+}

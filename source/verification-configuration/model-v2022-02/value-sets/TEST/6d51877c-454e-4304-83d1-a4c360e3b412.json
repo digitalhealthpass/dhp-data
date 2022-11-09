@@ -1,0 +1,17 @@
+{
+	"version": "1.0.0",
+	"id": "6d51877c-454e-4304-83d1-a4c360e3b412",
+	"name": "acceptedTestResults",
+	"description": "List of SNOMED codes for accepted test results indicating a negative COVID-19 test (virus not found)",
+	"maxItems": 0,
+	"items": [
+		{
+			"value": "Not detected",
+			"description": "Not detected"
+		},
+		{
+			"value": "260415000",
+			"description": "Not detected"
+		}
+	]
+}

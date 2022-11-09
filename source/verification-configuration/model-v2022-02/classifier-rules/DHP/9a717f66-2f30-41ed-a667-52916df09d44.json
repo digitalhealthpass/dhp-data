@@ -1,0 +1,6 @@
+{
+	"version": "1.0.0",
+	"id": "9a717f66-2f30-41ed-a667-52916df09d44",
+	"name": "Classifies a DHP generic certificate based on the schema and values in type field.",
+	"predicate": "9a717f66-2f30-41ed-a667-52916df09d44.rule"
+}

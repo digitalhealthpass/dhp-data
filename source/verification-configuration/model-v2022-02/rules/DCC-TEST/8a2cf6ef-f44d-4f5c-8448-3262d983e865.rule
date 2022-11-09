@@ -1,0 +1,18 @@
+{
+	"if": [
+		{
+			"var": "payload.t.0"
+		},
+		{
+			"in": [
+				{
+					"var": "payload.t.0.tr"
+				},
+				{
+					"var": "external.acceptedTestResults"
+				}
+			]
+		},
+		false
+	]
+}

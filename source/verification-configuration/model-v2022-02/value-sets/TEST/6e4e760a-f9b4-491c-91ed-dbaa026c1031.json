@@ -1,0 +1,13 @@
+{
+   "version": "1.0.0",
+   "id": "6e4e760a-f9b4-491c-91ed-dbaa026c1031",
+   "name": "acceptTestMethodAsTestType",
+   "description": "Indication whether a test method (PCR or ANTIGEN) is accepted as test type. Only individual test codes are accepted if set to 'false'.",
+	"maxItems": 1,
+   "items": [
+      {
+         "value": "true",
+         "description": ""
+      }
+   ]
+}

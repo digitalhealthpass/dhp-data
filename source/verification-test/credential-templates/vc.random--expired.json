@@ -1,0 +1,15 @@
+{
+    "schemaID": "{{RANDOM_SCHEMA_ID}}",
+    "type": [
+        "VerifiableCredential",
+        "Random"
+    ],
+    "data": {
+        "display": "#8F00FF",
+        "name": "Jane Smith",
+        "dateOfSample": "{{LAST_MONTH_DATE}}",
+        "testResult": "Not detected",
+        "countryOfTest": "United States"
+    },
+    "expirationDate": "{{NOW_DATETIME}}"
+}

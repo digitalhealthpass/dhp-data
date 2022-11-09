@@ -1,0 +1,141 @@
+[
+    {
+        "data": {
+            "payload": {
+                "t": [
+                    {
+                        "tr": "260415000"
+                    }
+                ]
+            },
+            "external": {
+                "acceptedTestResults": [
+                    "Not detected",
+                    "260415000"
+                ]
+            }
+        },
+        "expectedResult": true
+    },
+    {
+        "data": {
+            "payload": {
+                "t": [
+                    {
+                        "tr": "260415000"
+                    }
+                ]
+            },
+            "external": {
+                "acceptedTestResults": [
+                    "Not detected",
+                    "260415000"
+                ]
+            }
+        },
+        "expectedResult": true
+    },
+    {
+        "data": {
+            "payload": {
+                "t": [
+                    {
+                        "ttrr": "Not detected"
+                    }
+                ]
+            },
+            "external": {
+                "acceptedTestResults": [
+                    "Not detected",
+                    "260415000"
+                ]
+            }
+        },
+        "expectedResult": false
+    },
+    {
+        "data": {
+            "payload": {
+                "t": [
+                    {
+                        "tr": "Unknown"
+                    }
+                ]
+            },
+            "external": {
+                "acceptedTestResults": [
+                    "Not detected",
+                    "260415000"
+                ]
+            }
+        },
+        "expectedResult": false
+    },
+    {
+        "data": {
+            "payload": {
+                "t": [
+                    {
+                        "tr": ""
+                    },
+                    {
+                        "tr": "260415000"
+                    }
+                ]
+            },
+            "external": {
+                "acceptedTestResults": [
+                    "Not detected",
+                    "260415000"
+                ]
+            }
+        },
+        "expectedResult": false
+    },
+    {
+        "data": {
+            "payload": {
+                "t": [
+                    {}
+                ]
+            },
+            "external": {
+                "acceptedTestResults": [
+                    "Not detected",
+                    "260415000"
+                ]
+            }
+        },
+        "expectedResult": false
+    },
+    {
+        "data": {
+            "payload": {
+                "t": []
+            },
+            "external": {
+                "acceptedTestResults": [
+                    "Not detected",
+                    "260415000"
+                ]
+            }
+        },
+        "expectedResult": false
+    },
+    {
+        "data": {
+            "payload": {},
+            "external": {
+                "acceptedTestResults": [
+                    "Not detected",
+                    "260415000"
+                ]
+            }
+        },
+        "expectedResult": false
+    },
+    {
+        "data": {},
+        "expectedResult": false
+    }
+]

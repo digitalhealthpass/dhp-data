@@ -1,0 +1,13 @@
+{
+	"version": "1.0.0",
+	"id": "0ba0316f-17d4-4c5d-8b3f-0fb2bccc5a42",
+	"name": "testValidityDurationHoursANTIGEN",
+	"description": "Number of hours since the ANTIGEN test within which the test result is valid",
+	"maxItems": 1,
+	"items": [
+		{
+			"value": "48",
+			"description": ""
+		}
+	]
+}

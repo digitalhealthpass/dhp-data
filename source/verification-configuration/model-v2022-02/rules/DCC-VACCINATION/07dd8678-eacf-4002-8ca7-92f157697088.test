@@ -1,0 +1,381 @@
+[
+    {
+        "data": {
+            "payload": {
+                "v": [
+                    {
+                        "dt": "2022-01-31",
+                        "dn": 2,
+                        "sd": 1
+                    }
+                ]
+            },
+            "external": {
+                "validationClock": "2022-02-01T10:00:00Z",
+                "vaccinationValidAfterDaysBOOSTER": [
+                    "0"
+                ],
+                "vaccinationValidityDurationDaysBOOSTER": [
+                    "999"
+                ],
+                "vaccinationValidAfterDays": [
+                    "14"
+                ],
+                "vaccinationValidityDurationDays": [
+                    "180"
+                ]
+            }
+        },
+        "expectedResult": true
+    },
+    {
+        "data": {
+            "payload": {
+                "v": [
+                    {
+                        "dt": "2022-01-31",
+                        "dn": 2,
+                        "sd": 1
+                    }
+                ]
+            },
+            "external": {
+                "validationClock": "2022-02-01T10:00:00Z",
+                "vaccinationValidAfterDaysBOOSTER": [
+                    "14"
+                ],
+                "vaccinationValidityDurationDaysBOOSTER": [
+                    "999"
+                ],
+                "vaccinationValidAfterDays": [
+                    "14"
+                ],
+                "vaccinationValidityDurationDays": [
+                    "180"
+                ]
+            }
+        },
+        "expectedResult": false
+    },
+    {
+        "data": {
+            "payload": {
+                "v": [
+                    {
+                        "dt": "2021-01-31",
+                        "dn": 2,
+                        "sd": 1
+                    }
+                ]
+            },
+            "external": {
+                "validationClock": "2022-02-01T10:00:00Z",
+                "vaccinationValidAfterDaysBOOSTER": [
+                    "14"
+                ],
+                "vaccinationValidityDurationDaysBOOSTER": [
+                    "180"
+                ],
+                "vaccinationValidAfterDays": [
+                    "14"
+                ],
+                "vaccinationValidityDurationDays": [
+                    "180"
+                ]
+            }
+        },
+        "expectedResult": false
+    },
+    {
+        "data": {
+            "payload": {
+                "v": [
+                    {
+                        "dt": "2022-01-31",
+                        "dn": 3,
+                        "sd": 1
+                    }
+                ]
+            },
+            "external": {
+                "validationClock": "2022-02-01T10:00:00Z",
+                "vaccinationValidAfterDaysBOOSTER": [
+                    "0"
+                ],
+                "vaccinationValidityDurationDaysBOOSTER": [
+                    "999"
+                ],
+                "vaccinationValidAfterDays": [
+                    "14"
+                ],
+                "vaccinationValidityDurationDays": [
+                    "180"
+                ]
+            }
+        },
+        "expectedResult": true
+    },
+    {
+        "data": {
+            "payload": {
+                "v": [
+                    {
+                        "dt": "2022-01-01",
+                        "dn": 3,
+                        "sd": 3
+                    }
+                ]
+            },
+            "external": {
+                "validationClock": "2022-02-01T10:00:00Z",
+                "vaccinationValidAfterDaysBOOSTER": [
+                    "0"
+                ],
+                "vaccinationValidityDurationDaysBOOSTER": [
+                    "999"
+                ],
+                "vaccinationValidAfterDays": [
+                    "14"
+                ],
+                "vaccinationValidityDurationDays": [
+                    "180"
+                ]
+            }
+        },
+        "expectedResult": true
+    },
+    {
+        "data": {
+            "payload": {
+                "v": [
+                    {
+                        "dt": "2021-01-31",
+                        "dn": 2,
+                        "sd": 2
+                    }
+                ]
+            },
+            "external": {
+                "validationClock": "2022-02-01T10:00:00Z",
+                "vaccinationValidAfterDaysBOOSTER": [
+                    "0"
+                ],
+                "vaccinationValidityDurationDaysBOOSTER": [
+                    "999"
+                ],
+                "vaccinationValidAfterDays": [
+                    "14"
+                ],
+                "vaccinationValidityDurationDays": [
+                    "180"
+                ]
+            }
+        },
+        "expectedResult": false
+    },
+    {
+        "data": {
+            "payload": {
+                "v": [
+                    {
+                        "dt": "2021-01-31",
+                        "dn": 1,
+                        "sd": 2
+                    }
+                ]
+            },
+            "external": {
+                "validationClock": "2022-02-01T10:00:00Z",
+                "vaccinationValidAfterDaysBOOSTER": [
+                    "0"
+                ],
+                "vaccinationValidityDurationDaysBOOSTER": [
+                    "999"
+                ],
+                "vaccinationValidAfterDays": [
+                    "14"
+                ],
+                "vaccinationValidityDurationDays": [
+                    "180"
+                ]
+            }
+        },
+        "expectedResult": false
+    },
+    {
+        "data": {
+            "payload": {
+                "v": [
+                    {
+                        "dt": "2022-01-07",
+                        "dn": 1,
+                        "sd": 2
+                    }
+                ]
+            },
+            "external": {
+                "validationClock": "2022-02-01T10:00:00Z",
+                "vaccinationValidAfterDaysBOOSTER": [
+                    "0"
+                ],
+                "vaccinationValidityDurationDaysBOOSTER": [
+                    "999"
+                ],
+                "vaccinationValidAfterDays": [
+                    "14"
+                ],
+                "vaccinationValidityDurationDays": [
+                    "180"
+                ]
+            }
+        },
+        "expectedResult": true
+    },
+    {
+        "data": {
+            "payload": {
+                "v": [
+                    {
+                        "dt": "2021-06-01",
+                        "dn": 1,
+                        "sd": 2
+                    }
+                ]
+            },
+            "external": {
+                "validationClock": "2022-02-01T10:00:00Z",
+                "vaccinationValidAfterDaysBOOSTER": [
+                    "0"
+                ],
+                "vaccinationValidityDurationDaysBOOSTER": [
+                    "999"
+                ],
+                "vaccinationValidAfterDays": [
+                    "14"
+                ],
+                "vaccinationValidityDurationDays": [
+                    "180"
+                ]
+            }
+        },
+        "expectedResult": false
+    },
+    {
+        "data": {
+            "payload": {
+                "v": [
+                    {
+                        "dt": "2021-09-01",
+                        "dn": 1,
+                        "sd": 1
+                    }
+                ]
+            },
+            "external": {
+                "validationClock": "2022-02-01T10:00:00Z",
+                "vaccinationValidAfterDaysBOOSTER": [
+                    "0"
+                ],
+                "vaccinationValidityDurationDaysBOOSTER": [
+                    "999"
+                ],
+                "vaccinationValidAfterDays": [
+                    "14"
+                ],
+                "vaccinationValidityDurationDays": [
+                    "180"
+                ]
+            }
+        },
+        "expectedResult": true
+    },
+    {
+        "data": {
+            "payload": {
+                "v": [
+                    {
+                        "dt": "2022-01-31"
+                    }
+                ]
+            },
+            "external": {
+                "validationClock": "2022-02-01T10:00:00Z",
+                "vaccinationValidAfterDaysBOOSTER": [
+                    "0"
+                ],
+                "vaccinationValidityDurationDaysBOOSTER": [
+                    "999"
+                ],
+                "vaccinationValidAfterDays": [
+                    "14"
+                ],
+                "vaccinationValidityDurationDays": [
+                    "180"
+                ]
+            }
+        },
+        "expectedResult": false
+    },
+    {
+        "data": {
+            "payload": {
+                "v": [
+                    {
+                        "dt": "2022-01-01"
+                    }
+                ]
+            },
+            "external": {
+                "validationClock": "2022-02-01T10:00:00Z",
+                "vaccinationValidAfterDaysBOOSTER": [
+                    "0"
+                ],
+                "vaccinationValidityDurationDaysBOOSTER": [
+                    "999"
+                ],
+                "vaccinationValidAfterDays": [
+                    "14"
+                ],
+                "vaccinationValidityDurationDays": [
+                    "180"
+                ]
+            }
+        },
+        "expectedResult": true
+    },
+    {
+        "data": {
+            "payload": {
+                "v": [
+                    {}
+                ]
+            },
+            "external": {
+                "validationClock": "2022-02-01T10:00:00Z",
+                "vaccinationValidAfterDaysBOOSTER": [
+                    "0"
+                ],
+                "vaccinationValidityDurationDaysBOOSTER": [
+                    "999"
+                ],
+                "vaccinationValidAfterDays": [
+                    "14"
+                ],
+                "vaccinationValidityDurationDays": [
+                    "180"
+                ]
+            }
+        },
+        "expectedResult": false
+    },
+    {
+        "data": {
+            "payload": {}
+        },
+        "expectedResult": false
+    },
+    {
+        "data": {},
+        "expectedResult": false
+    }
+]

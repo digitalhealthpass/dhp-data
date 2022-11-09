@@ -1,0 +1,28 @@
+{
+	"version": "1.0.0",
+	"id": "8d6b82c8-3e0e-4d40-b944-2a07acee453e",
+	"name": "Display only minimum identity (name, date of birth)",
+	"fields": [
+		{
+			"field": "credentialSubject.recipient.givenName",
+			"displayValue": {
+				"en": "First Name",
+				"de": "Vorname"
+			}
+		},
+		{
+			"field": "credentialSubject.recipient.familyName",
+			"displayValue": {
+				"en": "Surname",
+				"de": "Nachname"
+			}
+		},
+		{
+			"field": "credentialSubject.recipient.birthDate",
+			"displayValue": {
+				"en": "Date of Birth",
+				"de": "Geburtsdatum"
+			}
+		}
+	]
+}

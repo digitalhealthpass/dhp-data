@@ -1,0 +1,27 @@
+{
+	"data": {
+		"ver": "1.0.4",
+		"nam": {
+			"fn": "Bloggs",
+			"fnt": "BLOGGS",
+			"gn": "Jane",
+			"gnt": "JANE"
+		},
+		"dob": "1988-06-07",
+		"v": [
+			{
+				"tg": "840539006",
+				"vp": "1119349007",
+				"mp": "EU/1/20/1528",
+				"ma": "ORG-100030215",
+				"dn": 2,
+				"sd": 2,
+				"dt": "{{LAST_MONTH_DATE}}",
+				"co": "IE",
+				"is": "HSE",
+				"ci": "URN:UVCI:01:IE:52d0dc929c884cf8998a7987f0b9d863#2"
+			}
+		]
+	},
+	"expirationDate": "{{NEXT_YEAR_DATETIME}}"
+}

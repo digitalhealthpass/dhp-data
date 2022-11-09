@@ -1,0 +1,13 @@
+{
+   "version": "1.0.0",
+   "id": "8cee293e-afce-4a76-a3d8-b92f86ee968c",
+   "name": "requireExpirationDateField",
+   "description": "Indication whether expirationDate field is required. If set to 'true' and the field is not in credential then rule that checks the filed value returns FALSE.",
+	"maxItems": 1,
+   "items": [
+      {
+         "value": "false",
+         "description": ""
+      }
+   ]
+}

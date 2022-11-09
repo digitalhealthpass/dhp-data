@@ -1,0 +1,13 @@
+{
+	"version": "1.0.0",
+	"id": "f3d46ce9-acfe-491e-8f1a-65cf50a87e32",
+	"name": "approvedDiseases",
+	"description": "List of SNOMED codes for approved diseases or agents indicating COVID-19 (for purpose of recovery certificate verification)",
+	"maxItems": 0,
+	"items": [
+		{
+			"value": "840539006",
+			"description": "Disease caused by 2019 novel coronavirus"
+		}
+	]
+}

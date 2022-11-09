@@ -1,0 +1,150 @@
+{
+	"if": [
+		{
+			"var": "payload.data.fhirBundle"
+		},
+		{
+			"and": [
+				{
+					"if": [
+						{
+							"var": "payload.data.fhirBundle.entry.1.vaccineCode.coding.0.code"
+						},
+						{
+							"in": [
+								{
+									"substr": [
+										{
+											"var": "payload.data.fhirBundle.entry.1.vaccineCode.coding.0.code"
+										},
+										44
+									]
+								},
+								{
+									"var": "external.approvedVaccinesOA"
+								}
+							]
+						},
+						true
+					]
+				},
+				{
+					"if": [
+						{
+							"var": "payload.data.fhirBundle.entry.2.vaccineCode.coding.0.code"
+						},
+						{
+							"in": [
+								{
+									"substr": [
+										{
+											"var": "payload.data.fhirBundle.entry.2.vaccineCode.coding.0.code"
+										},
+										44
+									]
+								},
+								{
+									"var": "external.approvedVaccinesOA"
+								}
+							]
+						},
+						true
+					]
+				},
+				{
+					"if": [
+						{
+							"var": "payload.data.fhirBundle.entry.3.vaccineCode.coding.0.code"
+						},
+						{
+							"in": [
+								{
+									"substr": [
+										{
+											"var": "payload.data.fhirBundle.entry.3.vaccineCode.coding.0.code"
+										},
+										44
+									]
+								},
+								{
+									"var": "external.approvedVaccinesOA"
+								}
+							]
+						},
+						true
+					]
+				},
+				{
+					"if": [
+						{
+							"var": "payload.data.fhirBundle.entry.4.vaccineCode.coding.0.code"
+						},
+						{
+							"in": [
+								{
+									"substr": [
+										{
+											"var": "payload.data.fhirBundle.entry.4.vaccineCode.coding.0.code"
+										},
+										44
+									]
+								},
+								{
+									"var": "external.approvedVaccinesOA"
+								}
+							]
+						},
+						true
+					]
+				},
+				{
+					"if": [
+						{
+							"var": "payload.data.fhirBundle.entry.5.vaccineCode.coding.0.code"
+						},
+						{
+							"in": [
+								{
+									"substr": [
+										{
+											"var": "payload.data.fhirBundle.entry.5.vaccineCode.coding.0.code"
+										},
+										44
+									]
+								},
+								{
+									"var": "external.approvedVaccinesOA"
+								}
+							]
+						},
+						true
+					]
+				},
+				{
+					"if": [
+						{
+							"var": "payload.data.fhirBundle.entry.6.vaccineCode.coding.0.code"
+						},
+						{
+							"in": [
+								{
+									"substr": [
+										{
+											"var": "payload.data.fhirBundle.entry.6.vaccineCode.coding.0.code"
+										},
+										44
+									]
+								},
+								{
+									"var": "external.approvedVaccinesOA"
+								}
+							]
+						},
+						true
+					]
+				}
+			]
+		},
+		false
+	]
+}

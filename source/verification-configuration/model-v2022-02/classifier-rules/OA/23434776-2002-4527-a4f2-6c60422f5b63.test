@@ -1,0 +1,54 @@
+[
+	{
+		"data": {
+			"payload": {
+				"data": {
+					"name": "39bc982c-2885-444d-999c-7bdf1f1b8d32:string:VaccinationHealthCert"
+				}
+			}
+		},
+		"expectedResult": "OA-VACCINATION"
+	},
+	{
+		"data": {
+			"payload": {
+				"data": {
+					"name": "39bc982c-2885-444d-999c-7bdf1f1b8d32:string:VaccinationHealthCertificate"
+				}
+			}
+		},
+		"expectedResult": false
+	},
+	{
+		"data": {
+			"payload": {
+				"data": {
+					"name": "VaccinationHealthCert"
+				}
+			}
+		},
+		"expectedResult": false
+	},
+	{
+		"data": {
+			"payload": {
+				"data": "VaccinationHealth"
+			}
+		},
+		"expectedResult": false
+	},
+	{
+		"data": {
+			"payload": {
+				"data": {}
+			}
+		},
+		"expectedResult": false
+	},
+	{
+		"data": {
+			"payload": {}
+		},
+		"expectedResult": false
+	}
+]

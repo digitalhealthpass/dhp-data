@@ -1,0 +1,13 @@
+{
+	"version": "1.0.0",
+	"id": "4a7af21e-b8c3-455b-b497-03f3f5bf20d9",
+	"name": "Trust all issuers known to Digital Health Pass",
+	"items": [
+		{
+			"purpose": "",
+			"publisher": "DHP",
+			"schemas": [],
+			"issuers": []
+		}
+	]
+}

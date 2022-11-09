@@ -1,0 +1,6 @@
+{
+	"version": "1.0.0",
+	"id": "e1d4ca09-47a8-420d-96a6-9e612ab6baf4",
+	"name": "Classifies a DHP vaccination certificate based on the value in type field.",
+	"predicate": "e1d4ca09-47a8-420d-96a6-9e612ab6baf4.rule"
+}

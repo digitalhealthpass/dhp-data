@@ -1,0 +1,9 @@
+{
+	"if": [
+		{
+			"var": "payload.r.0"
+		},
+		"DCC-RECOVERY",
+		false
+	]
+}

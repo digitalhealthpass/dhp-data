@@ -1,0 +1,16 @@
+{
+	"if": [
+		{
+			"and": [
+				{
+					"var": "payload.cosAccess"
+				},
+				{
+					"var": "payload.cosAccess.proof"
+				}
+			]
+		},
+		"COS_ACCESS",
+		false
+	]
+}

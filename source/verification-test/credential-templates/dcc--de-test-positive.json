@@ -1,0 +1,25 @@
+{
+    "data": {
+        "dob": "1964-08-12",
+        "nam": {
+            "fn": "Mustermann",
+            "fnt": "MUSTERMANN",
+            "gn": "Erika",
+            "gnt": "ERIKA"
+        },
+        "t": [
+            {
+                "ci": "URN:UVCI:01DE/IZ12345A/5CWLU12RNOB9RXSEOP6FG8#W",
+                "co": "DE",
+                "is": "Robert Koch-Institut",
+                "sc": "{{TWO_DAYS_AGO_DATETIME}}",
+                "tc": "Testzentrum K\u00f6ln Hbf",
+                "tg": "840539006",
+                "tr": "260373001",
+                "tt": "LP217198-3"
+            }
+        ],
+        "ver": "1.0.0"
+    },
+	"expirationDate": "{{TOMORROW_DATETIME}}"
+}

@@ -1,0 +1,145 @@
+{
+	"version": "1.0.0",
+	"id": "d079dfb8-bdb5-4613-88e9-e1d15b851340",
+	"name": "approvedTests-PCR",
+	"description": "List of LOINC codes for PCR approved tests used for test verification",
+	"source": {
+		"url": "https://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1114.9?_format=json",
+		"documentation": "https://vsac.nlm.nih.gov/valueset/2.16.840.1.113762.1.4.1114.9/expansion",
+		"sourceType": "json",
+		"queries": [
+			{
+				"queryTool": "jmespath",
+				"expression": "compose.include[0].concept[?contains(display, 'NAA') || contains(display, 'Nucleic acid amplification') || contains(display, 'Sequencing')].code"
+			},
+			{
+				"queryTool": "jq",
+				"expression": "[.compose.include[0].concept[] | select (.display | ascii_downcase | contains(\"naa\") or contains(\"nucleic acid amplification\") or contains(\"sequencing\")) | {\"value\": .code, \"description\": .display}]"
+			},
+			{
+				"queryTool": "jsonpath",
+				"expression": ""
+			}
+		],
+		"comments": "PCR test LOINC codes retrieved from source (filtered using description)"
+	},
+	"maxItems": 0,
+	"items": [
+		{
+			"value": "50548-7",
+			"description": "Respiratory virus DNA+RNA [Identifier] in Unspecified specimen by NAA with probe detection"
+		},
+		{
+			"value": "68993-5",
+			"description": "Human RNase P RNA [Presence] in Unspecified specimen by NAA with probe detection"
+		},
+		{
+			"value": "82159-5",
+			"description": "Respiratory pathogens DNA and RNA panel - Nasopharynx by NAA with non-probe detection"
+		},
+		{
+			"value": "94306-8",
+			"description": "SARS-CoV-2 (COVID-19) RNA panel - Unspecified specimen by NAA with probe detection"
+		},
+		{
+			"value": "94307-6",
+			"description": "SARS-CoV-2 (COVID-19) N gene [Presence] in Unspecified specimen by Nucleic acid amplification using CDC primer-probe set N1"
+		},
+		{
+			"value": "94308-4",
+			"description": "SARS-CoV-2 (COVID-19) N gene [Presence] in Unspecified specimen by Nucleic acid amplification using CDC primer-probe set N2"
+		},
+		{
+			"value": "94309-2",
+			"description": "SARS-CoV-2 (COVID-19) RNA [Presence] in Unspecified specimen by NAA with probe detection"
+		},
+		{
+			"value": "94500-6",
+			"description": "SARS-CoV-2 (COVID-19) RNA [Presence] in Respiratory specimen by NAA with probe detection"
+		},
+		{
+			"value": "94502-2",
+			"description": "SARS-related coronavirus RNA [Presence] in Respiratory specimen by NAA with probe detection"
+		},
+		{
+			"value": "94531-1",
+			"description": "SARS-CoV-2 (COVID-19) RNA panel - Respiratory specimen by NAA with probe detection"
+		},
+		{
+			"value": "94533-7",
+			"description": "SARS-CoV-2 (COVID-19) N gene [Presence] in Respiratory specimen by NAA with probe detection"
+		},
+		{
+			"value": "94534-5",
+			"description": "SARS-CoV-2 (COVID-19) RdRp gene [Presence] in Respiratory specimen by NAA with probe detection"
+		},
+		{
+			"value": "94559-2",
+			"description": "SARS-CoV-2 (COVID-19) ORF1ab region [Presence] in Respiratory specimen by NAA with probe detection"
+		},
+		{
+			"value": "94565-9",
+			"description": "SARS-CoV-2 (COVID-19) RNA [Presence] in Nasopharynx by NAA with non-probe detection"
+		},
+		{
+			"value": "94640-0",
+			"description": "SARS-CoV-2 (COVID-19) S gene [Presence] in Respiratory specimen by NAA with probe detection"
+		},
+		{
+			"value": "94756-4",
+			"description": "SARS-CoV-2 (COVID-19) N gene [Presence] in Respiratory specimen by Nucleic acid amplification using CDC primer-probe set N1"
+		},
+		{
+			"value": "94757-2",
+			"description": "SARS-CoV-2 (COVID-19) N gene [Presence] in Respiratory specimen by Nucleic acid amplification using CDC primer-probe set N2"
+		},
+		{
+			"value": "94758-0",
+			"description": "SARS-related coronavirus E gene [Presence] in Respiratory specimen by NAA with probe detection"
+		},
+		{
+			"value": "94759-8",
+			"description": "SARS-CoV-2 (COVID-19) RNA [Presence] in Nasopharynx by NAA with probe detection"
+		},
+		{
+			"value": "94760-6",
+			"description": "SARS-CoV-2 (COVID-19) N gene [Presence] in Nasopharynx by NAA with probe detection"
+		},
+		{
+			"value": "94764-8",
+			"description": "SARS-CoV-2 (COVID-19) whole genome [Nucleotide sequence] in Isolate by Sequencing"
+		},
+		{
+			"value": "94845-5",
+			"description": "SARS-CoV-2 (COVID-19) RNA [Presence] in Saliva (oral fluid) by NAA with probe detection"
+		},
+		{
+			"value": "95406-5",
+			"description": "SARS-CoV-2 (COVID-19) RNA [Presence] in Nose by NAA with probe detection"
+		},
+		{
+			"value": "95409-9",
+			"description": "SARS-CoV-2 (COVID-19) N gene [Presence] in Nose by NAA with probe detection"
+		},
+		{
+			"value": "95423-0",
+			"description": "Influenza virus A and B and SARS-CoV-2 (COVID-19) identified in Respiratory specimen by NAA with probe detection"
+		},
+		{
+			"value": "95424-8",
+			"description": "SARS-CoV-2 (COVID-19) RNA [Presence] in Respiratory specimen by Sequencing"
+		},
+		{
+			"value": "95425-5",
+			"description": "SARS-CoV-2 (COVID-19) N gene [Presence] in Saliva (oral fluid) by NAA with probe detection"
+		},
+		{
+			"value": "95608-6",
+			"description": "SARS-CoV-2 (COVID-19) RNA [Presence] in Respiratory specimen by NAA with non-probe detection"
+		},
+		{
+			"value": "95609-4",
+			"description": "SARS-CoV-2 (COVID-19) S gene [Presence] in Respiratory specimen by Sequencing"
+		}
+	]
+}

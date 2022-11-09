@@ -1,0 +1,117 @@
+[
+    {
+        "data": {
+            "payload": {
+                "vc": {
+                    "credentialSubject": {
+                        "fhirBundle": {
+                            "entry": [
+                                {},
+                                {
+                                    "resource": {
+                                        "valueCodeableConcept": {
+                                            "coding": [
+                                                {
+                                                    "code": "Not detected"
+                                                }
+                                            ]
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                }
+            },
+            "external": {
+                "acceptedTestResults": [
+                    "Not detected",
+                    "260415000"
+                ]
+            }
+        },
+        "expectedResult": true
+    },
+    {
+        "data": {
+            "payload": {
+                "vc": {
+                    "credentialSubject": {
+                        "fhirBundle": {
+                            "entry": [
+                                {},
+                                {
+                                    "resource": {
+                                        "valueCodeableConcept": {
+                                            "coding": [
+                                                {
+                                                    "code": "260415000"
+                                                }
+                                            ]
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                }
+            },
+            "external": {
+                "acceptedTestResults": [
+                    "Not detected",
+                    "260415000"
+                ]
+            }
+        },
+        "expectedResult": true
+    },
+    {
+        "data": {
+            "payload": {
+                "vc": {
+                    "credentialSubject": {
+                        "fhirBundle": {
+                            "entry": [
+                                {},
+                                {
+                                    "resource": {
+                                        "valueCodeableConcept": {
+                                            "coding": [
+                                                {
+                                                    "code": "NA"
+                                                }
+                                            ]
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                }
+            },
+            "external": {
+                "acceptedTestResults": [
+                    "Not detected",
+                    "260415000"
+                ]
+            }
+        },
+        "expectedResult": false
+    },
+    {
+        "data": {
+            "payload": {
+                "data": {
+                    
+                }
+            },
+            "external": {
+                "acceptedTestResults": [
+                    "Not detected",
+                    "260415000"
+                ]
+            }
+        },
+        "expectedResult": false
+    }
+]

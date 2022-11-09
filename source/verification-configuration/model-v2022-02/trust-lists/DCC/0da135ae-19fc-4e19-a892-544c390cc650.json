@@ -1,0 +1,13 @@
+{
+	"version": "1.0.0",
+	"id": "0da135ae-19fc-4e19-a892-544c390cc650",
+	"name": "Trust all issuers registered in the EU Gateway",
+	"items": [
+		{
+			"purpose": "",
+			"publisher": "DHP",
+			"schemas": [],
+			"issuers": []
+		}
+	]
+}

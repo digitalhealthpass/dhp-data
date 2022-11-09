@@ -1,0 +1,67 @@
+{
+	"version": "1.0.0",
+	"id": "3ceb52ea-33c4-48f5-9f41-5f4ff007445d",
+	"name": "RTO Display/Save Properties",
+	"fields": [
+		{
+			"field": "issuer",
+			"displayValue": {
+				"en": "issuer"
+			}
+		},
+		{
+			"field": "credentialSubject.recipient.givenName",
+			"displayValue": {
+				"en": "firstname"
+			}
+		},
+		{
+			"field": "credentialSubject.recipient.familyName",
+			"displayValue": {
+				"en": "lastname"
+			}
+		},
+		{
+			"field": "credentialSubject.medicinalProductCode",
+			"displayValue": {
+				"en": "vaccinecode"
+			}
+		},
+		{
+			"field": "credentialSubject.cvxCode",
+			"displayValue": {
+				"en": "vaccinecode"
+			}
+		},
+		{
+			"field": "credentialSubject.testType",
+			"displayValue": {
+				"en": "testcode"
+			}
+		},
+		{
+			"field": "credentialSubject.dateOfResult",
+			"displayValue": {
+				"en": "date2"
+			}
+		},
+		{
+			"field": "credentialSubject.dateOfVaccination",
+			"displayValue": {
+				"en": "date"
+			}
+		},
+		{
+			"field": "credentialSubject.stateOfVaccination",
+			"displayValue": {
+				"en": "state"
+			}
+		},
+		{
+			"field": "credentialSubject.countryOfVaccination",
+			"displayValue": {
+				"en": "country"
+			}
+		}
+	]
+}

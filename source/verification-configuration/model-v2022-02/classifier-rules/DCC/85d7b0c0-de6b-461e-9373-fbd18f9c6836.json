@@ -1,0 +1,6 @@
+{
+	"version": "1.0.0",
+	"id": "85d7b0c0-de6b-461e-9373-fbd18f9c6836",
+	"name": "Classifies a DCC vaccination certificate based on the schema.",
+	"predicate": "85d7b0c0-de6b-461e-9373-fbd18f9c6836.rule"
+}

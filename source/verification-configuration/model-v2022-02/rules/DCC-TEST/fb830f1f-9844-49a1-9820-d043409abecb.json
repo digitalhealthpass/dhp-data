@@ -1,0 +1,6 @@
+{
+	"version": "1.0.0",
+	"id": "fb830f1f-9844-49a1-9820-d043409abecb",
+	"name": "Check for approved test",
+	"predicate": "fb830f1f-9844-49a1-9820-d043409abecb.rule"
+}

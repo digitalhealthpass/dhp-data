@@ -1,0 +1,6 @@
+{
+	"version": "1.0.0",
+	"id": "f1347326-a020-4f67-b912-c71c7a888371",
+	"name": "Classifies a ID generic certificate based on value in credentialSubject.type field",
+	"predicate": "f1347326-a020-4f67-b912-c71c7a888371.rule"
+}

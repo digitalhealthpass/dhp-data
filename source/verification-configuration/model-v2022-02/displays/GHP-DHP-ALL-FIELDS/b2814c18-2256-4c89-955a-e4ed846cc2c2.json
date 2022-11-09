@@ -1,0 +1,73 @@
+{
+	"version": "1.0.0",
+	"id": "b2814c18-2256-4c89-955a-e4ed846cc2c2",
+	"name": "Display all fields - test",
+	"fields": [
+		{
+			"field": "issuer",
+			"displayValue": {
+				"en": "issuer"
+			}
+		},
+		{
+			"field": "credentialSubject.recipient.givenName",
+			"displayValue": {
+				"en": "First Name"
+			}
+		},
+		{
+			"field": "credentialSubject.recipient.familyName",
+			"displayValue": {
+				"en": "Surname"
+			}
+		},
+		{
+			"field": "credentialSubject.recipient.birthDate",
+			"displayValue": {
+				"en": "Date of Birth"
+			}
+		},
+		{
+			"field": "credentialSubject.testType",
+			"displayValue": {
+				"en": "Test"
+			}
+		},
+		{
+			"field": "credentialSubject.testManufacturer",
+			"displayValue": {
+				"en": "Manufacturer"
+			}
+		},
+		{
+			"field": "credentialSubject.testResult",
+			"displayValue": {
+				"en": "Result"
+			}
+		},
+		{
+			"field": "credentialSubject.dateOfSample",
+			"displayValue": {
+				"en": "Date of Test"
+			}
+		},
+		{
+			"field": "credentialSubject.dateOfResult",
+			"displayValue": {
+				"en": "Date of Test Result"
+			}
+		},
+		{
+			"field": "credentialSubject.stateOfVaccination",
+			"displayValue": {
+				"en": "State/province of test"
+			}
+		},
+		{
+			"field": "credentialSubject.countryOfVaccination",
+			"displayValue": {
+				"en": "Country of test"
+			}
+		}
+	]
+}

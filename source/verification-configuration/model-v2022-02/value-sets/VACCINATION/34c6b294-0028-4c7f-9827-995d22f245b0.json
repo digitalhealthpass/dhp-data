@@ -1,0 +1,29 @@
+{
+	"version": "1.0.0",
+	"id": "34c6b294-0028-4c7f-9827-995d22f245b0",
+	"name": "approvedVaccinesUSSingleDose",
+	"description": "List of CDC CVX codes for approved SINGLE DOSE vaccines used for vaccination verification",
+	"source": {
+		"url": "https://www2a.cdc.gov/vaccines/iis/iisstandards/XML2.asp?rpt=cvx",
+		"documentation": "https://www.cdc.gov/vaccines/programs/iis/COVID-19-related-codes.html",
+		"sourceType": "xml",
+		"queries": [
+			{
+				"queryTool": "xpath",
+				"expression": "/CVXCodes/CVXInfo[contains(ShortDescription/text(), 'COVID-19') and (Status='Active' or Status='Non-US') and not(contains(normalize-space(Notes/text()), 'not counted toward immunity in US')) and contains(Notes/text(), '1-dose vaccine') and normalize-space(CVXCode/text()) != '500']/CVXCode/text()"
+			},
+			{
+				"queryTool": "lxml",
+				"expression": ""
+			}
+		],
+		"comments": "Vaccine codes retrieved from source which have 'COVID-19' in ShortDescription field and with 'Active' or 'Non-Us' in Status field and does not have 'not counted toward immunity in US' in Notes field and contain '1-dose vaccine' in Notes field and code not equal to 500"
+	},
+	"maxItems": 0,
+	"items": [
+		{
+			"value": "212",
+			"description": "Janssen"
+		}
+	]
+}

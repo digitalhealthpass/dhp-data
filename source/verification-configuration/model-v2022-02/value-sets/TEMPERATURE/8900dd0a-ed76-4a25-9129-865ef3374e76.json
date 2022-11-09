@@ -1,0 +1,13 @@
+{
+	"version": "1.0.0",
+	"id": "8900dd0a-ed76-4a25-9129-865ef3374e76",
+	"name": "normalTemperatureTresholdFahrenheit",
+	"description": "Treshold of normal temperature (F)",
+	"maxItems": 1,
+	"items": [
+		{
+			"value": "100.4",
+			"description": ""
+		}
+	]
+}

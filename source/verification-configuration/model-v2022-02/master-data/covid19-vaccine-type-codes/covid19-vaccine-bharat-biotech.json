@@ -1,0 +1,37 @@
+{
+	"id": "covid19-vaccine-bharat-biotech",
+	"version": "1.0.0",
+	"name": "List of Covaxin (Bharat Biotech) vaccine codes",
+	"items": [
+		{
+			"id": "502",
+			"name": "502 (Covaxin CVX)",
+			"description": "CVX code for Bharat Biotech vaccine"
+		},
+		{
+			"id": "827371000133108",
+			"name": "Covaxin - OA",
+			"description": "Open Attestation code for Covaxin vaccine"
+		},
+		{
+			"id": "827381000133106",
+			"name": "Covaxin - OA",
+			"description": "Open Attestation code for Covaxin vaccine"
+		},
+		{
+			"id": "827441000133108",
+			"name": "Covaxin - OA",
+			"description": "Open Attestation code for Covaxin vaccine"
+		},
+		{
+			"id": "827451000133105",
+			"name": "Covaxin - OA",
+			"description": "Open Attestation code for Covaxin vaccine"
+		},
+		{
+			"id": "827461000133107",
+			"name": "Covaxin - OA",
+			"description": "Open Attestation code for Covaxin vaccine"
+		}
+	]
+}

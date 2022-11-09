@@ -1,0 +1,6 @@
+{
+	"version": "1.0.0",
+	"id": "4b880223-815f-4bdd-bf74-c3e8e97bf70f",
+	"name": "Check that the temperature is normal",
+	"predicate": "4b880223-815f-4bdd-bf74-c3e8e97bf70f.rule"
+}

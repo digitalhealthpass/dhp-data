@@ -1,0 +1,22 @@
+{
+	"id": "covid19-vaccine-janssen",
+	"version": "1.0.0",
+	"name": "List of Janssen vaccine codes",
+	"items": [
+		{
+			"id": "EU/1/20/1525",
+			"name": "EU/1/20/1525 (Janssen EMA)",
+			"description": "EMA licence number for Janssen vaccine"
+		},
+		{
+			"id": "212",
+			"name": "212 (Janssen CVX)",
+			"description": "CVX code for Janssen vaccine"
+		},
+		{
+			"id": "4544501000133106",
+			"name": "Janssen - OA",
+			"description": "Open Attestation code for Janssen vaccine"
+		}
+	]
+}

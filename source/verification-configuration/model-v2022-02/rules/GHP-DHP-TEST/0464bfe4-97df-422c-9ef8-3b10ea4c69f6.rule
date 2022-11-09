@@ -1,0 +1,76 @@
+{
+	"if": [
+		{
+			"var": "payload.credentialSubject"
+		},
+		{
+			"or": [
+				{
+					"in": [
+						{
+							"var": "payload.credentialSubject.testType"
+						},
+						{
+							"var": "external.approvedTests-PCR"
+						}
+					]
+				},
+				{
+					"in": [
+						{
+							"var": "payload.credentialSubject.testType"
+						},
+						{
+							"var": "external.approvedTests-ANTIGEN"
+						}
+					]
+				},
+				{
+					"and": [
+						{
+							"in": [
+								{
+									"var": "payload.credentialSubject.testType"
+								},
+								{
+									"var": "external.approvedTestMethods-PCR"
+								}
+							]
+						},
+						{
+							"===": [
+								{
+									"var": "external.acceptTestMethodAsTestType.0"
+								},
+								"true"
+							]
+						}
+					]
+				},
+				{
+					"and": [
+						{
+							"in": [
+								{
+									"var": "payload.credentialSubject.testType"
+								},
+								{
+									"var": "external.approvedTestMethods-ANTIGEN"
+								}
+							]
+						},
+						{
+							"===": [
+								{
+									"var": "external.acceptTestMethodAsTestType.0"
+								},
+								"true"
+							]
+						}
+					]
+				}
+			]
+		},
+		false
+	]
+}

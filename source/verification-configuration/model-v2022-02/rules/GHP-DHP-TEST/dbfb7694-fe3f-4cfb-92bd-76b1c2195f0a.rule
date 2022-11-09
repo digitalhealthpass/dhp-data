@@ -1,0 +1,158 @@
+{
+	"if": [
+		{
+			"var": "payload.credentialSubject"
+		},
+		{
+			"or": [
+				{
+					"and": [
+						{
+							"or": [
+								{
+									"in": [
+										{
+											"var": "payload.credentialSubject.testType"
+										},
+										{
+											"var": "external.approvedTests-PCR"
+										}
+									]
+								},
+								{
+									"and": [
+										{
+											"in": [
+												{
+													"var": "payload.credentialSubject.testType"
+												},
+												{
+													"var": "external.approvedTestMethods-PCR"
+												}
+											]
+										},
+										{
+											"===": [
+												{
+													"var": "external.acceptTestMethodAsTestType.0"
+												},
+												"true"
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"not-after": [
+								{
+									"plusTime": [
+										{
+											"var": "payload.credentialSubject.dateOfSample"
+										},
+										0,
+										"hour"
+									]
+								},
+								{
+									"plusTime": [
+										{
+											"var": "external.validationClock"
+										},
+										0,
+										"hour"
+									]
+								},
+								{
+									"plusTime": [
+										{
+											"var": "payload.credentialSubject.dateOfSample"
+										},
+										{
+											"var": "external.testValidityDurationHoursPCR.0"
+										},
+										"hour"
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"and": [
+						{
+							"or": [
+								{
+									"in": [
+										{
+											"var": "payload.credentialSubject.testType"
+										},
+										{
+											"var": "external.approvedTests-ANTIGEN"
+										}
+									]
+								},
+								{
+									"and": [
+										{
+											"in": [
+												{
+													"var": "payload.credentialSubject.testType"
+												},
+												{
+													"var": "external.approvedTestMethods-ANTIGEN"
+												}
+											]
+										},
+										{
+											"===": [
+												{
+													"var": "external.acceptTestMethodAsTestType.0"
+												},
+												"true"
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"not-after": [
+								{
+									"plusTime": [
+										{
+											"var": "payload.credentialSubject.dateOfSample"
+										},
+										0,
+										"hour"
+									]
+								},
+								{
+									"plusTime": [
+										{
+											"var": "external.validationClock"
+										},
+										0,
+										"hour"
+									]
+								},
+								{
+									"plusTime": [
+										{
+											"var": "payload.credentialSubject.dateOfSample"
+										},
+										{
+											"var": "external.testValidityDurationHoursANTIGEN.0"
+										},
+										"hour"
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		false
+	]
+}

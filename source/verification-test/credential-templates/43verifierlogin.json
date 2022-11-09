@@ -1,0 +1,19 @@
+{
+    "schemaID": "{{VERIFIERLOGIN_SCHEMA_ID}}",
+    "type": [
+        "VerifiableCredential",
+        "DigitalHealthPass",
+        "VerifierCredential"
+    ],
+    "data": {
+        "configId": "43405d0b-cdc3-4245-b122-2bf898eb1a79:latest",
+        "configName": "Return-to-Work Configuration (Data Exchange Service)",
+        "customer": "Cool Corp",
+        "organization": "Cool Corp, New York",
+        "customerId": "cust-test-id",
+        "organizationId": "org-test-id",
+        "name": "5th Avenue",
+        "type": "VerifierCredential"
+    },
+    "expirationDate": "{{NEXT_MONTH_DATETIME}}"
+}

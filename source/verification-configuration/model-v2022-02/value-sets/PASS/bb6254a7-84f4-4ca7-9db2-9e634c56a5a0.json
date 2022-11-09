@@ -1,0 +1,13 @@
+{
+	"version": "1.0.0",
+	"id": "bb6254a7-84f4-4ca7-9db2-9e634c56a5a0",
+	"name": "passValidityDurationHours",
+	"description": "Number of hours since the pass was issued within which the pass valid",
+	"maxItems": 1,
+	"items": [
+		{
+			"value": "24",
+			"description": ""
+		}
+	]
+}

@@ -1,0 +1,67 @@
+[
+	{
+		"data": {
+			"payload": {
+				"type": [
+					"Vaccination",
+					"DigitalHealthPass"
+				]
+			}
+		},
+		"expectedResult": "DHP-VACCINATION"
+	},
+	{
+		"data": {
+			"payload": {
+				"type": [
+					"Vaccination"
+				]
+			}
+		},
+		"expectedResult": false
+	},
+	{
+		"data": {
+			"payload": {
+				"type": [
+					"DigitalHealthPass"
+				]
+			}
+		},
+		"expectedResult": false
+	},
+	{
+		"data": {
+			"payload": {
+				"type": "Vaccination"
+			}
+		},
+		"expectedResult": false
+	},
+	{
+		"data": {
+			"payload": {
+				"type": [
+					"unknown"
+				]
+			}
+		},
+		"expectedResult": false
+	},
+	{
+		"data": {
+			"payload": {
+				"credentialType": [
+					"Vaccination"
+				]
+			}
+		},
+		"expectedResult": false
+	},
+	{
+		"data": {
+			"payload": {}
+		},
+		"expectedResult": false
+	}
+]

@@ -1,0 +1,89 @@
+{
+	"version": "1.0.0",
+	"id": "3f5c62ec-3b52-426f-815f-cc087c4e99e2",
+	"name": "approvedTests-ANTIGEN",
+	"description": "List of LOINC codes for ANTIGEN approved tests used for test verification",
+	"source": {
+		"url": "https://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1114.9?_format=json",
+		"documentation": "https://vsac.nlm.nih.gov/valueset/2.16.840.1.113762.1.4.1114.9/expansion",
+		"sourceType": "json",
+		"queries": [
+			{
+				"queryTool": "jmespath",
+				"expression": "compose.include[0].concept[?contains(display, 'Immunoassay') || contains(display, 'immunoassay') || contains(display, ' Ab ')].code"
+			},
+			{
+				"queryTool": "jq",
+				"expression": "[.compose.include[0].concept[] | select (.display | ascii_downcase | contains(\"immunoassay\") or contains(\" ab \")) | {\"value\": .code, \"description\": .display}]"
+			},
+			{
+				"queryTool": "jsonpath",
+				"expression": ""
+			}
+		],
+		"comments": "ANTIGEN test LOINC codes retrieved from source (filtered using description)"
+	},
+	"maxItems": 0,
+	"items": [
+		{
+			"value": "94503-0",
+			"description": "SARS-CoV-2 (COVID-19) Ab panel - Serum, Plasma or Blood by Rapid immunoassay"
+		},
+		{
+			"value": "94504-8",
+			"description": "SARS-CoV-2 (COVID-19) Ab panel - Serum or Plasma by Immunoassay"
+		},
+		{
+			"value": "94507-1",
+			"description": "SARS-CoV-2 (COVID-19) IgG Ab [Presence] in Serum, Plasma or Blood by Rapid immunoassay"
+		},
+		{
+			"value": "94508-9",
+			"description": "SARS-CoV-2 (COVID-19) IgM Ab [Presence] in Serum, Plasma or Blood by Rapid immunoassay"
+		},
+		{
+			"value": "94547-7",
+			"description": "SARS-CoV-2 (COVID-19) IgG+IgM Ab [Presence] in Serum or Plasma by Immunoassay"
+		},
+		{
+			"value": "94558-4",
+			"description": "SARS-CoV-2 (COVID-19) Ag [Presence] in Respiratory specimen by Rapid immunoassay"
+		},
+		{
+			"value": "94562-6",
+			"description": "SARS-CoV-2 (COVID-19) IgA Ab [Presence] in Serum or Plasma by Immunoassay"
+		},
+		{
+			"value": "94563-4",
+			"description": "SARS-CoV-2 (COVID-19) IgG Ab [Presence] in Serum or Plasma by Immunoassay"
+		},
+		{
+			"value": "94564-2",
+			"description": "SARS-CoV-2 (COVID-19) IgM Ab [Presence] in Serum or Plasma by Immunoassay"
+		},
+		{
+			"value": "94661-6",
+			"description": "SARS-CoV-2 (COVID-19) Ab [Interpretation] in Serum or Plasma"
+		},
+		{
+			"value": "94761-4",
+			"description": "SARS-CoV-2 (COVID-19) IgG Ab [Presence] in DBS by Immunoassay"
+		},
+		{
+			"value": "94762-2",
+			"description": "SARS-CoV-2 (COVID-19) Ab [Presence] in Serum or Plasma by Immunoassay"
+		},
+		{
+			"value": "95209-3",
+			"description": "SARS-CoV+SARS-CoV-2 (COVID-19) Ag [Presence] in Respiratory specimen by Rapid immunoassay"
+		},
+		{
+			"value": "95416-4",
+			"description": "SARS-CoV-2 (COVID-19) IgM Ab [Presence] in DBS by Immunoassay"
+		},
+		{
+			"value": "95542-7",
+			"description": "SARS-CoV-2 (COVID-19) IgG+IgM Ab [Presence] in Serum, Plasma or Blood by Rapid immunoassay"
+		}
+	]
+}

@@ -1,0 +1,13 @@
+{
+	"version": "1.0.0",
+	"id": "c08cd69d-2f79-47e0-8094-de74a1ffac27",
+	"name": "Trust all issuers registered in the VCI Directory",
+	"items": [
+		{
+			"purpose": "",
+			"publisher": "DHP",
+			"schemas": [],
+			"issuers": []
+		}
+	]
+}

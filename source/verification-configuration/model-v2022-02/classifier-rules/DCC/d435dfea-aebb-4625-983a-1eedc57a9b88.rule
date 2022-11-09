@@ -1,0 +1,9 @@
+{
+	"if": [
+		{
+			"var": "payload.t.0"
+		},
+		"DCC-TEST",
+		false
+	]
+}

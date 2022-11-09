@@ -1,0 +1,27 @@
+{
+	"id": "covid19-vaccine-moderna",
+	"version": "1.0.0",
+	"name": "List of Spikevax (Moderna) vaccine codes",
+	"items": [
+		{
+			"id": "EU/1/20/1507",
+			"name": "EU/1/20/1507 (Spikevax EMA)",
+			"description": "EMA licence number for Moderna vaccine"
+		},
+		{
+			"id": "207",
+			"name": "207 (Spikevax CVX)",
+			"description": "CVX code for Moderna vaccine"
+		},
+		{
+			"id": "3407851000133103",
+			"name": "Moderna - OA",
+			"description": "Open Attestation code for Moderna vaccine"
+		},
+		{
+			"id": "3418091000133101",
+			"name": "Moderna - OA",
+			"description": "Open Attestation code for Moderna vaccine"
+		}
+	]
+}

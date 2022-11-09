@@ -1,0 +1,43 @@
+{
+	"version": "1.0.0",
+	"id": "e19ced02-74ab-4d00-8aa0-ded86320d6bf",
+	"name": "RTO Display/Save Properties for Vaccinations",
+	"fields": [
+		{
+			"field": "v[0].is",
+			"displayValue": {
+				"en": "issuer"
+			}
+		},
+		{
+			"field": "nam.gnt",
+			"displayValue": {
+				"en": "firstname"
+			}
+		},
+		{
+			"field": "nam.fnt",
+			"displayValue": {
+				"en": "lastname"
+			}
+		},
+		{
+			"field": "v[0].mp",
+			"displayValue": {
+				"en": "vaccinecode"
+			}
+		},
+		{
+			"field": "v[0].dt",
+			"displayValue": {
+				"en": "date"
+			}
+		},
+		{
+			"field": "v[0].co",
+			"displayValue": {
+				"en": "country"
+			}
+		}
+	]
+}

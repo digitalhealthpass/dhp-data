@@ -1,0 +1,41 @@
+{
+	"if": [
+		{
+			"var": "payload.credentialSubject"
+		},
+		{
+			"not-after": [
+				{
+					"plusTime": [
+						{
+							"var": "payload.credentialSubject.date"
+						},
+						0,
+						"hour"
+					]
+				},
+				{
+					"plusTime": [
+						{
+							"var": "external.validationClock"
+						},
+						0,
+						"hour"
+					]
+				},
+				{
+					"plusTime": [
+						{
+							"var": "payload.credentialSubject.date"
+						},
+						{
+							"var": "external.passValidityDurationHours.0"
+						},
+						"hour"
+					]
+				}
+			]
+		},
+		false
+	]
+}

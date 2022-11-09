@@ -1,0 +1,13 @@
+{
+   "version": "1.0.0",
+   "id": "8fee1e9c-cb47-441a-97a0-d06f25748982",
+   "name": "requireBooster",
+   "description": "Indication whether a vaccination credential is checked for booster. Only booster vaccination is accepted if set to 'true'.",
+	"maxItems": 1,
+   "items": [
+      {
+         "value": "true",
+         "description": ""
+      }
+   ]
+}

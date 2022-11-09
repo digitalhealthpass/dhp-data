@@ -1,0 +1,26 @@
+{
+	"if": [
+		{
+			"and": [
+				{
+					"in": [
+						"GoodHealthPass",
+						{
+							"var": "payload.type"
+						}
+					]
+				},
+				{
+					"in": [
+						"TestCredential",
+						{
+							"var": "payload.type"
+						}
+					]
+				}
+			]
+		},
+		"GHP-TEST",
+		false
+	]
+}

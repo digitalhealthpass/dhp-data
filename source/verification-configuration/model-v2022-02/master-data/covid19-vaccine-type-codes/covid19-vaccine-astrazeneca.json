@@ -1,0 +1,27 @@
+{
+	"id": "covid19-vaccine-astrazeneca",
+	"version": "1.0.0",
+	"name": "List of Vaxzevria (AstraZeneca) vaccine codes",
+	"items": [
+		{
+			"id": "EU/1/21/1529",
+			"name": "EU/1/21/1529 (Vaxzevria EMA)",
+			"description": "EMA licence number for Astra-Zeneca vaccine"
+		},
+		{
+			"id": "210",
+			"name": "210 (Vaxzevria CVX)",
+			"description": "CVX code for Astra-Zeneca vaccine"
+		},
+		{
+			"id": "4544551000133105",
+			"name": "Covishield - OA",
+			"description": "Open Attestation code for Covishield vaccine"
+		},
+		{
+			"id": "4544521000133102",
+			"name": "AstraZeneca - OA",
+			"description": "Open Attestation code for AstraZeneca vaccine"
+		}
+	]
+}

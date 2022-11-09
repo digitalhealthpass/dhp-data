@@ -1,0 +1,13 @@
+{
+	"version": "1.0.0",
+	"id": "2f9a57d3-a549-4f4e-aca3-27d81741a2bc",
+	"name": "testValidityDurationHoursPCR",
+	"description": "Number of hours since the PCR test within which the test result is valid",
+	"maxItems": 1,
+	"items": [
+		{
+			"value": "72",
+			"description": ""
+		}
+	]
+}

@@ -1,0 +1,210 @@
+{
+	"id": "dhp-vaccination",
+	"name": "Digital Health Pass - Proof of Vaccination",
+	"version": "1.0",
+	"schema": {
+		"$schema": "http://json-schema.org/draft-07/schema#",
+		"type": "object",
+		"properties": {
+			"type": {
+				"maxLength": 100,
+				"minLength": 1,
+				"type": "string",
+				"visible": false
+			},
+			"recipient": {
+				"properties": {
+					"identity": {
+						"type": "object",
+						"properties": {
+							"DL": {
+								"type": "string",
+								"visible": true,
+								"minLength": 1,
+								"maxLength": 50,
+								"displayValue": {
+									"en": "Driver's license number",
+									"de": ""
+								}
+							},
+							"MR": {
+								"type": "string",
+								"visible": true,
+								"minLength": 1,
+								"maxLength": 50,
+								"displayValue": {
+									"en": "Medical record number",
+									"de": ""
+								}
+							},
+							"PPN": {
+								"type": "string",
+								"visible": true,
+								"minLength": 1,
+								"maxLength": 50,
+								"displayValue": {
+									"en": "Passport number",
+									"de": ""
+								}
+							},
+							"OTH": {
+								"type": "string",
+								"visible": true,
+								"minLength": 1,
+								"maxLength": 50,
+								"displayValue": {
+									"en": "Other ID",
+									"de": ""
+								}
+							}
+						}
+					},
+					"givenName": {
+						"maxLength": 100,
+						"minLength": 1,
+						"type": "string",
+						"displayValue": {
+							"de": "Vorname",
+							"en": "First Name"
+						},
+						"visible": true
+					},
+					"middleName": {
+						"maxLength": 100,
+						"minLength": 1,
+						"type": "string",
+						"visible": true
+					},
+					"familyName": {
+						"maxLength": 100,
+						"minLength": 1,
+						"type": "string",
+						"displayValue": {
+							"de": "Nachname",
+							"en": "Surname"
+						},
+						"visible": true
+					},
+					"birthDate": {
+						"format": "date",
+						"type": "string",
+						"displayValue": {
+							"de": "Geburtsdatum",
+							"en": "Date of Birth"
+						},
+						"visible": true,
+						"pattern": "([0-9]([0-9]([0-9][1-9]|[1-9]0)|[1-9]00)|[1-9]000)(-(0[1-9]|1[0-2])(-(0[1-9]|[1-2][0-9]|3[0-1]))?)?"
+					}
+				},
+				"required": [
+					"givenName",
+					"familyName",
+					"birthDate"
+				],
+				"type": "object"
+			},
+			"medicinalProductName": {
+				"type": "string",
+				"displayValue": {
+					"de": "Impfstoff",
+					"en": "Vaccine"
+				}
+			},
+			"medicinalProductCode": {
+				"type": "string",
+				"displayValue": {
+					"de": "Impfstoff-Code",
+					"en": "Vaccine Code"
+				}
+			},
+			"marketingAuthorizationHolder": {
+				"type": "string",
+				"displayValue": {
+					"de": "Hersteller",
+					"en": "Manufacturer"
+				}
+			},
+			"doseNumber": {
+				"maxLength": 2,
+				"minLength": 1,
+				"type": "integer"
+			},
+			"dosesPerCycle": {
+				"maxLength": 2,
+				"minLength": 1,
+				"type": "integer"
+			},
+			"dateOfVaccination": {
+				"format": "date",
+				"type": "string",
+				"displayValue": {
+					"de": "Impfdatum",
+					"en": "Vaccination Date"
+				}
+			},
+			"stateOfVaccination": {
+				"type": "string",
+				"system": "https://pe.usps.com/text/pub28/28apb.htm"
+			},
+			"countryOfVaccination": {
+				"type": "string",
+				"system": "https://www.iso.org/iso-3166-country-codes.html"
+			},
+			"disease": {
+				"type": "string",
+				"displayValue": {
+					"de": "Zielkrankheit",
+					"en": "Target Disease"
+				}
+			},
+			"display": {
+				"description": "Card background color.",
+				"type": "string",
+				"visible": false,
+				"pattern": "#\\w{6}"
+			},
+			"booster": {
+				"type": "boolean"
+			},
+			"vaccinationHistory": {
+				"type": "array",
+				"items": {
+					"type": "object",
+					"properties": {
+						"medicinalProductCode": {
+							"type": "string",
+							"displayValue": {
+								"de": "Impfstoff-Code",
+								"en": "Vaccine Code"
+							}
+						},
+						"dateOfVaccination": {
+							"format": "date",
+							"type": "string",
+							"displayValue": {
+								"de": "Impfdatum",
+								"en": "Vaccination Date"
+							}
+						}
+					},
+					"required": [
+						"medicinalProductCode",
+						"dateOfVaccination"
+					]
+				},
+				"minItems": 1
+			}
+		},
+		"required": [
+			"type",
+			"recipient",
+			"medicinalProductCode",
+			"marketingAuthorizationHolder",
+			"doseNumber",
+			"dosesPerCycle",
+			"dateOfVaccination",
+			"countryOfVaccination",
+			"disease"
+		]
+	}
+}

@@ -1,0 +1,6 @@
+{
+	"version": "1.0.0",
+	"id": "4f4fb938-0633-4af0-8c64-a785dc8f8a04",
+	"name": "Check that duration since getting the pass is less then predefined value",
+	"predicate": "4f4fb938-0633-4af0-8c64-a785dc8f8a04.rule"
+}

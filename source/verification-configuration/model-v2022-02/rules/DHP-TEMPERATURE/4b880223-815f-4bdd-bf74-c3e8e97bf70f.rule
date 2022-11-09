@@ -1,0 +1,56 @@
+{
+	"if": [
+		{
+			"var": "payload.credentialSubject"
+		},
+		{
+			"or": [
+				{
+					"and": [
+						{
+							"===": [
+								{
+									"var": "payload.credentialSubject.units"
+								},
+								"C"
+							]
+						},
+						{
+							"lessThan": [
+								{
+									"var": "payload.credentialSubject.temperature"
+								},
+								{
+									"var": "external.normalTemperatureTresholdCelsius.0"
+								}
+							]
+						}
+					]
+				},
+				{
+					"and": [
+						{
+							"===": [
+								{
+									"var": "payload.credentialSubject.units"
+								},
+								"F"
+							]
+						},
+						{
+							"lessThan": [
+								{
+									"var": "payload.credentialSubject.temperature"
+								},
+								{
+									"var": "external.normalTemperatureTresholdFahrenheit.0"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		false
+	]
+}

@@ -1,0 +1,13 @@
+{
+	"version": "1.0.0",
+	"id": "1804e710-4b1b-488d-93de-ebd750119f06",
+	"name": "normalTemperatureTresholdCelsius",
+	"description": "Treshold of normal temperature (C)",
+	"maxItems": 1,
+	"items": [
+		{
+			"value": "37.5",
+			"description": ""
+		}
+	]
+}

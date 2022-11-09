@@ -1,0 +1,18 @@
+{
+	"if": [
+		{
+			"var": "payload.credentialSubject"
+		},
+		{
+			"in": [
+				{
+					"var": "payload.credentialSubject.status"
+				},
+				{
+					"var": "external.acceptedPassStatus"
+				}
+			]
+		},
+		false
+	]
+}

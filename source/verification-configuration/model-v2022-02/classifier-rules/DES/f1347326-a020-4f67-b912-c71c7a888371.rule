@@ -1,0 +1,14 @@
+{
+	"if": [
+		{
+			"===": [
+				{
+					"var": "payload.credentialSubject.type"
+				},
+				"id"
+			]
+		},
+		"ID",
+		false
+	]
+}

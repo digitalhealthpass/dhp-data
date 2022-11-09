@@ -1,0 +1,83 @@
+{
+	"version": "1.0.0",
+	"id": "54ee3c7c-0f41-4728-b3df-217c408d637a",
+	"name": "Display all fields - test",
+	"fields": [
+		{
+			"field": "vc.credentialSubjec.fhirBundle.entry[0].name[0].text",
+			"displayValue": {
+				"en": "Full Name"
+			}
+		},
+		{
+			"field": "vc.credentialSubject.fhirBundle.entry[0].resource.name[0].given",
+			"displayValue": {
+				"en": "First Name",
+				"de": "Vorname"
+			}
+		},
+		{
+			"field": "vc.credentialSubject.fhirBundle.entry[0].resource.name[0].family",
+			"displayValue": {
+				"en": "Surname",
+				"de": "Nachname"
+			}
+		},
+		{
+			"field": "vc.credentialSubject.fhirBundle.entry[0].resource.birthDate",
+			"displayValue": {
+				"en": "Date of Birth",
+				"de": "Geburtsdatum"
+			}
+		},
+		{
+			"field": "vc.credentialSubject.fhirBundle.entry[1].resource.code.coding[0].display",
+			"displayValue": {
+				"en": "Test",
+				"de": "Test"
+			}
+		},
+		{
+			"field": "vc.credentialSubject.fhirBundle.entry[1].resource.code.coding[0].code",
+			"displayValue": {
+				"en": "Test Code",
+				"de": "Testcode"
+			}
+		},
+		{
+			"field": "vc.credentialSubject.fhirBundle.entry[1].resource.valueCodeableConcept.coding[0].code",
+			"displayValue": {
+				"en": "Result",
+				"de": "Ergebnis"
+			}
+		},
+		{
+			"field": "vc.credentialSubject.fhirBundle.entry[1].resource.effectiveDateTime",
+			"displayValue": {
+				"en": "Date of Test",
+				"de": "Datum des Test"
+			}
+		},
+		{
+			"field": "vc.credentialSubject.fhirBundle.entry[1].resource.performer[0].actor.display",
+			"displayValue": {
+				"en": "Test organization",
+				"de": "Testorganisation"
+			}
+		},
+		{
+			"field": "vc.credentialSubject.fhirBundle.entry[1].resource.location.address.state",
+			"displayValue": {
+				"en": "State/Province of Test",
+				"de": "Staat/Bundesland Test"
+			}
+		},
+		{
+			"field": "vc.credentialSubject.fhirBundle.entry[1].resource.location.address.country",
+			"displayValue": {
+				"en": "Country of Test",
+				"de": "Testland"
+			}
+		}
+	]
+}

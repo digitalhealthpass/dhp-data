@@ -1,0 +1,24 @@
+{
+	"data": {
+		"ver": "1.0.0",
+		"nam": {
+			"fn": "AndaluzaAndaluza",
+			"gn": "Carmen",
+			"fnt": "ANDALUZA<ANDALUZA",
+			"gnt": "CARMEN"
+		},
+		"dob": "1974-02-28",
+		"t": [
+			{
+				"tg": "840539006",
+				"tt": "LP6464-4",
+				"sc": "{{TWO_WEEKS_AGO_TZDATETIME}}",
+				"tr": "260415000",
+				"tc": "HospitalVirgendelRocío",
+				"co": "ES",
+				"is": "ServicioAndaluzdeSalud",
+				"ci": "01ES01T8D8F19849772480B86DE8#C"
+			}
+		]
+	}
+}

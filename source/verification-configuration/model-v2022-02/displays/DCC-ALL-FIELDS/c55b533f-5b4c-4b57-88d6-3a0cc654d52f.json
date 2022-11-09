@@ -1,0 +1,84 @@
+{
+	"version": "1.0.0",
+	"id": "c55b533f-5b4c-4b57-88d6-3a0cc654d52f",
+	"name": "Display all DCC fields - recovery",
+	"fields": [
+		{
+			"field": "nam.gn",
+			"displayValue": {
+				"en": "First Name",
+				"de": "Vorname"
+			}
+		},
+		{
+			"field": "nam.gnt",
+			"displayValue": {
+				"en": "First Name (transliterated)",
+				"de": "Vorname (transliteriert)"
+			}
+		},
+		{
+			"field": "nam.fn",
+			"displayValue": {
+				"en": "Surname",
+				"de": "Nachname"
+			}
+		},
+		{
+			"field": "nam.fnt",
+			"displayValue": {
+				"en": "Surname (transliterated)",
+				"de": "Nachname (transliteriert)"
+			}
+		},
+		{
+			"field": "dob",
+			"displayValue": {
+				"en": "Date of Birth",
+				"de": "Geburtsdatum"
+			}
+		},
+		{
+			"field": "r[0].tg",
+			"displayValue": {
+				"en": "Disease or agent targeted"
+			}
+		},
+		{
+			"field": "r[0].fr",
+			"displayValue": {
+				"en": "Date of first positive test result"
+			}
+		},
+		{
+			"field": "r[0].co",
+			"displayValue": {
+				"en": "Country of Test"
+			}
+		},
+		{
+			"field": "r[0].is",
+			"displayValue": {
+				"en": "Certificate Issuer"
+			}
+		},
+		{
+			"field": "r[0].df",
+			"displayValue": {
+				"en": "Certificate Valid From"
+			}
+		},
+		{
+			"field": "r[0].du",
+			"displayValue": {
+				"en": "Certificate Valid Until"
+			}
+		},
+		{
+			"field": "r[0].ci",
+			"displayValue": {
+				"en": "Unique Certificate Identifier"
+			}
+		}
+	]
+}

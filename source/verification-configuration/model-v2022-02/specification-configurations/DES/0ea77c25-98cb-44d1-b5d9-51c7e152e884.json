@@ -1,0 +1,26 @@
+{
+	"version": "1.0.0",
+	"id": "0ea77c25-98cb-44d1-b5d9-51c7e152e884",
+	"name": "CONSENT_RECEIPT",
+	"description": "CONSENT_RECEIPT - DES",
+	"credentialSpec": "CONSENT_RECEIPT",
+	"credentialCategory": "GENERIC",
+	"classifierRule": {
+		"id": "e737510e-5761-487b-a826-e6c6832d3b35",
+		"version": "latest"
+	},
+	"metrics": [
+		{
+			"countBy": {
+				"extract": true,
+				"scan": true,
+				"scanResult": true
+			},
+			"extract": {},
+			"name": "Extract nothing"
+		}
+	],
+	"display": [],
+	"rules": [],
+	"trustLists": []
+}

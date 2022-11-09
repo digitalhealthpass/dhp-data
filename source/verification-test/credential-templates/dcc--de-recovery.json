@@ -1,0 +1,24 @@
+{
+    "data": {
+        "dob": "1964-08-12",
+        "nam": {
+            "fn": "Mustermann",
+            "fnt": "MUSTERMANN",
+            "gn": "Erika",
+            "gnt": "ERIKA"
+        },
+        "r": [
+            {
+                "ci": "URN:UVCI:01DE/5CWLU12RNOB9RXSEOP6FG8#W",
+                "co": "DE",
+                "df": "{{SIX_WEEKS_AGO_DATE}}",
+                "du": "{{SIX_WEEKS_DATE}}",
+                "fr": "{{TWO_MONTHS_AGO_DATE}}",
+                "is": "Robert Koch-Institut",
+                "tg": "840539006"
+            }
+        ],
+        "ver": "1.0.0"
+    },
+	"expirationDate": "{{SIX_WEEKS_DATETIME}}"
+}

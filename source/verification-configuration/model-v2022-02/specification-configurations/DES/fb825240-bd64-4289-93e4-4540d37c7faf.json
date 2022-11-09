@@ -1,0 +1,26 @@
+{
+	"version": "1.0.0",
+	"id": "fb825240-bd64-4289-93e4-4540d37c7faf",
+	"name": "ID",
+	"description": "ID - DES",
+	"credentialSpec": "ID",
+	"credentialCategory": "GENERIC",
+	"classifierRule": {
+		"id": "f1347326-a020-4f67-b912-c71c7a888371",
+		"version": "latest"
+	},
+	"metrics": [
+		{
+			"countBy": {
+				"extract": true,
+				"scan": true,
+				"scanResult": true
+			},
+			"extract": {},
+			"name": "Extract nothing"
+		}
+	],
+	"display": [],
+	"rules": [],
+	"trustLists": []
+}

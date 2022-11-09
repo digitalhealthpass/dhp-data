@@ -1,0 +1,6 @@
+{
+	"version": "1.0.0",
+	"id": "d435dfea-aebb-4625-983a-1eedc57a9b88",
+	"name": "Classifies a DCC test certificate based on the schema.",
+	"predicate": "d435dfea-aebb-4625-983a-1eedc57a9b88.rule"
+}

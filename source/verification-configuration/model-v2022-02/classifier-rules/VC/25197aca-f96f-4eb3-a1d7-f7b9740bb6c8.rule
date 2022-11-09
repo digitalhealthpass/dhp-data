@@ -1,0 +1,37 @@
+{
+	"if": [
+		{
+			"and": [
+				{
+					"var": "payload.type"
+				},
+				{
+					"!": [
+						{
+							"in": [
+								"GoodHealthPass",
+								{
+									"var": "payload.type"
+								}
+							]
+						}
+					]
+				},
+				{
+					"!": [
+						{
+							"in": [
+								"DigitalHealthPass",
+								{
+									"var": "payload.type"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		"VC-GENERIC",
+		false
+	]
+}

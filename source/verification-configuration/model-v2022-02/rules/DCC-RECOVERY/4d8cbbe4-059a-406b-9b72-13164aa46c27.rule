@@ -1,0 +1,18 @@
+{
+	"if": [
+		{
+			"var": "payload.r.0"
+		},
+		{
+			"in": [
+				{
+					"var": "payload.r.0.tg"
+				},
+				{
+					"var": "external.approvedDiseases"
+				}
+			]
+		},
+		false
+	]
+}

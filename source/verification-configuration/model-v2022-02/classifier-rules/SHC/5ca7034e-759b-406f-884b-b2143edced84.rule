@@ -1,0 +1,14 @@
+{
+	"if": [
+		{
+			"in": [
+				"https://smarthealth.cards#laboratory",
+				{
+					"var": "payload.vc.type"
+				}
+			]
+		},
+		"SHC-TEST",
+		false
+	]
+}

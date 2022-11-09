@@ -1,0 +1,20 @@
+{
+	"version": "1.0.0",
+	"id": "90fc8d33-dbec-4588-9844-67a3fe9f3380",
+	"name": "approvedTestMethods-ANTIGEN",
+	"description": "List of LOINC codes for approved ANTIGEN test methods used for test verification",
+	"source": {
+		"url": "",
+		"documentation": "https://covid-19-diagnostics.jrc.ec.europa.eu/devices?manufacturer&text_name&marking&rapid_diag&format&target_type&field-1=HSC%20common%20list%20%28RAT%29&value-1=1&search_method=AND#form_content",
+		"sourceType": "",
+		"queries": [],
+		"comments": ""
+	},
+	"maxItems": 0,
+	"items": [
+		{
+			"value": "LP217198-3",
+			"description": "Rapid immunoassay"
+		}
+	]
+}

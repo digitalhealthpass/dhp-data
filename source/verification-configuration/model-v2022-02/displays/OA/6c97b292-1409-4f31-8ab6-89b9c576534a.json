@@ -1,0 +1,97 @@
+{
+	"version": "1.0.0",
+	"id": "6c97b292-1409-4f31-8ab6-89b9c576534a",
+	"name": "RTO Display/Save Properties for Vaccinations",
+	"fields": [
+		{
+			"field": "payload.data.name",
+			"displayValue": {
+				"en": "type"
+			}
+		},
+		{
+			"field": "data.issuers[0].id",
+			"displayValue": {
+				"en": "issuer"
+			}
+		},		
+		{
+			"field": "data.fhirBundle.entry[0].name[0].text",
+			"displayValue": {
+				"en": "fullname"
+			}
+		},
+		{
+			"field": "data.fhirBundle.entry[1].vaccineCode.coding[0].code",
+			"displayValue": {
+				"en": "vaccinecode"
+			}
+		},
+		{
+			"field": "data.fhirBundle.entry[1].occurrenceDateTime",
+			"displayValue": {
+				"en": "date"
+			}
+		},
+		{
+			"field": "data.fhirBundle.entry[2].vaccineCode.coding[0].code",
+			"displayValue": {
+				"en": "vaccinecode2"
+			}
+		},
+		{
+			"field": "data.fhirBundle.entry[2].occurrenceDateTime",
+			"displayValue": {
+				"en": "date2"
+			}
+		},
+		{
+			"field": "data.fhirBundle.entry[3].vaccineCode.coding[0].code",
+			"displayValue": {
+				"en": "vaccinecode3"
+			}
+		},
+		{
+			"field": "data.fhirBundle.entry[3].occurrenceDateTime",
+			"displayValue": {
+				"en": "date3"
+			}
+		},
+		{
+			"field": "data.fhirBundle.entry[4].vaccineCode.coding[0].code",
+			"displayValue": {
+				"en": "vaccinecode4"
+			}
+		},
+		{
+			"field": "data.fhirBundle.entry[4].occurrenceDateTime",
+			"displayValue": {
+				"en": "date4"
+			}
+		},
+		{
+			"field": "data.fhirBundle.entry[5].vaccineCode.coding[0].code",
+			"displayValue": {
+				"en": "vaccinecode5"
+			}
+		},
+		{
+			"field": "data.fhirBundle.entry[5].occurrenceDateTime",
+			"displayValue": {
+				"en": "date5"
+			}
+		},
+		{
+			"field": "data.fhirBundle.entry[6].vaccineCode.coding[0].code",
+			"displayValue": {
+				"en": "vaccinecode6"
+			}
+		},
+		{
+			"field": "data.fhirBundle.entry[6].occurrenceDateTime",
+			"displayValue": {
+				"en": "date6"
+			}
+		}		
+	]
+}

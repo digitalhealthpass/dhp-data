@@ -1,0 +1,42 @@
+{
+	"version": "1.0.0",
+	"id": "868e2d1f-9152-47b4-b1a4-ec29bdd2282c",
+	"name": "Display only minimum identity (name, date of birth)",
+	"fields": [
+		{
+			"field": "nam.gn",
+			"displayValue": {
+				"en": "First Name",
+				"de": "Vorname"
+			}
+		},
+		{
+			"field": "nam.gnt",
+			"displayValue": {
+				"en": "First Name (transliterated)",
+				"de": "Vorname (transliteriert)"
+			}
+		},
+		{
+			"field": "nam.fn",
+			"displayValue": {
+				"en": "Surname",
+				"de": "Nachname"
+			}
+		},
+		{
+			"field": "nam.fnt",
+			"displayValue": {
+				"en": "Surname (transliterated)",
+				"de": "Nachname (transliteriert)"
+			}
+		},
+		{
+			"field": "dob",
+			"displayValue": {
+				"en": "Date of Birth",
+				"de": "Geburtsdatum"
+			}
+		}
+	]
+}

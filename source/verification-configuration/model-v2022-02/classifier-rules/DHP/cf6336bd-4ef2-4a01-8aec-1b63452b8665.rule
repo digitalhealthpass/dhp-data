@@ -1,0 +1,26 @@
+{
+	"if": [
+		{
+			"and": [
+				{
+					"in": [
+						"DigitalHealthPass",
+						{
+							"var": "payload.type"
+						}
+					]
+				},
+				{
+					"in": [
+						"Pass",
+						{
+							"var": "payload.type"
+						}
+					]
+				}
+			]
+		},
+		"DHP-PASS",
+		false
+	]
+}

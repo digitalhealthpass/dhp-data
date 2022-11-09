@@ -1,0 +1,52 @@
+{
+	"if": [
+		{
+			"var": "payload.credentialSubject"
+		},
+		{
+			"or": [
+				{
+					"in": [
+						{
+							"var": "payload.credentialSubject.cvxCode"
+						},
+						{
+							"var": "external.approvedVaccinesUS"
+						}
+					]
+				},
+				{
+					"in": [
+						{
+							"var": "payload.credentialSubject.medicinalProductCode"
+						},
+						{
+							"var": "external.approvedVaccinesUS"
+						}
+					]
+				},
+				{
+					"in": [
+						{
+							"var": "payload.credentialSubject.cvxCode"
+						},
+						{
+							"var": "external.approvedVaccinesEU"
+						}
+					]
+				},
+				{
+					"in": [
+						{
+							"var": "payload.credentialSubject.medicinalProductCode"
+						},
+						{
+							"var": "external.approvedVaccinesEU"
+						}
+					]
+				}
+			]
+		},
+		false
+	]
+}

@@ -1,0 +1,48 @@
+{
+	"version": "1.0.0",
+	"id": "0c524951-be47-4328-b736-8274e3b73a77",
+	"name": "OA-VACCINATION",
+	"description": "Open Attestation Vaccination (Data Exchange Service)",
+	"credentialSpec": "OA",
+	"credentialCategory": "VACCINATION",
+	"classifierRule": {
+		"id": "23434776-2002-4527-a4f2-6c60422f5b63",
+		"version": "latest"
+	},
+	"metrics": [
+		{
+			"name": "Counts verifications by result, issuer, type",
+			"extract": {
+				"issuerDID": "data.issuers[0].id",
+				"credentialType": "data.name"
+			},
+			"countBy": {
+				"scan": true,
+				"scanResult": true,
+				"extract": true
+			}
+		}
+	],
+	"display": [
+		{
+			"id": "6c97b292-1409-4f31-8ab6-89b9c576534a",
+			"version": "latest"
+		}
+	],
+	"rules": [
+		{
+			"id": "d5f28b8b-87fa-4976-9392-cfc672738582",
+			"version": "latest"
+		},
+		{
+			"id": "622ac36a-5099-4255-be03-c818853c5ce3",
+			"version": "latest"
+		}
+	],
+	"trustLists": [
+		{
+			"id": "82046c71-1f34-453c-b764-d3fa9f440c3e",
+			"version": "latest"
+		}
+	]
+}

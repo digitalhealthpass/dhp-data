@@ -1,0 +1,67 @@
+[
+	{
+		"data": {
+			"payload": {
+				"type": [
+					"TestCredential",
+					"GoodHealthPass"
+				]
+			}
+		},
+		"expectedResult": "GHP-TEST"
+	},
+	{
+		"data": {
+			"payload": {
+				"type": [
+					"TestCredential"
+				]
+			}
+		},
+		"expectedResult": false
+	},
+	{
+		"data": {
+			"payload": {
+				"type": [
+					"GoodHealthPass"
+				]
+			}
+		},
+		"expectedResult": false
+	},
+	{
+		"data": {
+			"payload": {
+				"type": "TestCredential"
+			}
+		},
+		"expectedResult": false
+	},
+	{
+		"data": {
+			"payload": {
+				"type": [
+					"unknown"
+				]
+			}
+		},
+		"expectedResult": false
+	},
+	{
+		"data": {
+			"payload": {
+				"credentialType": [
+					"TestCredential"
+				]
+			}
+		},
+		"expectedResult": false
+	},
+	{
+		"data": {
+			"payload": {}
+		},
+		"expectedResult": false
+	}
+]

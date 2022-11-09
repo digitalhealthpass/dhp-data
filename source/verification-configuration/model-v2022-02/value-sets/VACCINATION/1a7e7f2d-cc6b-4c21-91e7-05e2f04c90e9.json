@@ -1,0 +1,65 @@
+{
+	"version": "1.0.0",
+	"id": "1a7e7f2d-cc6b-4c21-91e7-05e2f04c90e9",
+	"name": "approvedVaccinesUS",
+	"description": "List of CDC CVX codes for approved vaccines used for vaccination verification",
+	"source": {
+		"url": "https://www2a.cdc.gov/vaccines/iis/iisstandards/XML2.asp?rpt=cvx",
+		"documentation": "https://www.cdc.gov/vaccines/programs/iis/COVID-19-related-codes.html",
+		"sourceType": "xml",
+		"queries": [
+			{
+				"queryTool": "xpath",
+				"expression": "/CVXCodes/CVXInfo[contains(ShortDescription/text(), 'COVID-19') and (Status='Active' or Status='Non-US') and not(contains(normalize-space(Notes/text()), 'not counted toward immunity in US')) and normalize-space(CVXCode/text()) != '500']/CVXCode/text()"
+			},
+			{
+				"queryTool": "lxml",
+				"expression": ""
+			}
+		],
+		"comments": "Vaccine codes retrieved from source which have 'COVID-19' in ShortDescription field and with 'Active' or 'Non-Us' in Status field and does not have 'not counted toward  immunity in US' in Notes field and code not equal to 500"
+	},
+	"maxItems": 0,
+	"items": [
+		{
+			"value": "207",
+			"description": "Spikevax (Moderna)"
+		},
+		{
+			"value": "208",
+			"description": "Comirnaty (Pfizer-BioNTech)"
+		},
+		{
+			"value": "210",
+			"description": "Vaxzevria (AstraZeneca)"
+		},
+		{
+			"value": "212",
+			"description": "Janssen"
+		},
+		{
+			"value": "217",
+			"description": "Comirnaty (Pfizer-BioNTech) 12 to 18 years"
+		},
+		{
+			"value": "218",
+			"description": "Comirnaty (Pfizer-BioNTech) 5 to 12 years"
+		},
+		{
+			"value": "219",
+			"description": "Comirnaty (Pfizer-BioNTech) 6 months to 5 years"
+		},
+		{
+			"value": "502",
+			"description": "Covaxin (Bharat Biotech)"
+		},
+		{
+			"value": "510",
+			"description": "Covilo/BIBP (Sinopharm)"
+		},
+		{
+			"value": "511",
+			"description": "CoronaVac (Sinovac)"
+		}
+	]
+}

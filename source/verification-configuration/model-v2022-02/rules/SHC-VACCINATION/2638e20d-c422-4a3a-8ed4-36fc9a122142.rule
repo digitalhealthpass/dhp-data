@@ -1,0 +1,451 @@
+{
+	"if": [
+		{
+			"in": [
+				{
+					"var": "payload.vc.credentialSubject.fhirBundle.entry.1.resource.vaccineCode.coding.0.code"
+				},
+				{
+					"var": "external.approvedVaccinesUSSingleDose"
+				}
+			]
+		},
+		{
+			"if": [
+				{
+					"!": [
+						{
+							"var": "payload.vc.credentialSubject.fhirBundle.entry.2.resource.vaccineCode.coding.0.code"
+						}
+					]
+				},
+				{
+					"not-after": [
+						{
+							"plusTime": [
+								{
+									"var": "payload.vc.credentialSubject.fhirBundle.entry.1.resource.occurrenceDateTime"
+								},
+								{
+									"var": "external.vaccinationValidAfterDays.0"
+								},
+								"day"
+							]
+						},
+						{
+							"plusTime": [
+								{
+									"var": "external.validationClock"
+								},
+								0,
+								"day"
+							]
+						},
+						{
+							"plusTime": [
+								{
+									"var": "payload.vc.credentialSubject.fhirBundle.entry.1.resource.occurrenceDateTime"
+								},
+								{
+									"var": "external.vaccinationValidityDurationDays.0"
+								},
+								"day"
+							]
+						}
+					]
+				},
+				{
+					"if": [
+						{
+							"var": "payload.vc.credentialSubject.fhirBundle.entry.5.resource.vaccineCode.coding.0.code"
+						},
+						{
+							"not-after": [
+								{
+									"plusTime": [
+										{
+											"var": "payload.vc.credentialSubject.fhirBundle.entry.5.resource.occurrenceDateTime"
+										},
+										{
+											"var": "external.vaccinationValidAfterDaysBOOSTER.0"
+										},
+										"day"
+									]
+								},
+								{
+									"plusTime": [
+										{
+											"var": "external.validationClock"
+										},
+										0,
+										"day"
+									]
+								},
+								{
+									"plusTime": [
+										{
+											"var": "payload.vc.credentialSubject.fhirBundle.entry.5.resource.occurrenceDateTime"
+										},
+										{
+											"var": "external.vaccinationValidityDurationDaysBOOSTER.0"
+										},
+										"day"
+									]
+								}
+							]
+						},
+						{
+							"if": [
+								{
+									"var": "payload.vc.credentialSubject.fhirBundle.entry.4.resource.vaccineCode.coding.0.code"
+								},
+								{
+									"not-after": [
+										{
+											"plusTime": [
+												{
+													"var": "payload.vc.credentialSubject.fhirBundle.entry.4.resource.occurrenceDateTime"
+												},
+												{
+													"var": "external.vaccinationValidAfterDaysBOOSTER.0"
+												},
+												"day"
+											]
+										},
+										{
+											"plusTime": [
+												{
+													"var": "external.validationClock"
+												},
+												0,
+												"day"
+											]
+										},
+										{
+											"plusTime": [
+												{
+													"var": "payload.vc.credentialSubject.fhirBundle.entry.4.resource.occurrenceDateTime"
+												},
+												{
+													"var": "external.vaccinationValidityDurationDaysBOOSTER.0"
+												},
+												"day"
+											]
+										}
+									]
+								},
+								{
+									"if": [
+										{
+											"var": "payload.vc.credentialSubject.fhirBundle.entry.3.resource.vaccineCode.coding.0.code"
+										},
+										{
+											"not-after": [
+												{
+													"plusTime": [
+														{
+															"var": "payload.vc.credentialSubject.fhirBundle.entry.3.resource.occurrenceDateTime"
+														},
+														{
+															"var": "external.vaccinationValidAfterDaysBOOSTER.0"
+														},
+														"day"
+													]
+												},
+												{
+													"plusTime": [
+														{
+															"var": "external.validationClock"
+														},
+														0,
+														"day"
+													]
+												},
+												{
+													"plusTime": [
+														{
+															"var": "payload.vc.credentialSubject.fhirBundle.entry.3.resource.occurrenceDateTime"
+														},
+														{
+															"var": "external.vaccinationValidityDurationDaysBOOSTER.0"
+														},
+														"day"
+													]
+												}
+											]
+										},
+										{
+											"not-after": [
+												{
+													"plusTime": [
+														{
+															"var": "payload.vc.credentialSubject.fhirBundle.entry.2.resource.occurrenceDateTime"
+														},
+														{
+															"var": "external.vaccinationValidAfterDaysBOOSTER.0"
+														},
+														"day"
+													]
+												},
+												{
+													"plusTime": [
+														{
+															"var": "external.validationClock"
+														},
+														0,
+														"day"
+													]
+												},
+												{
+													"plusTime": [
+														{
+															"var": "payload.vc.credentialSubject.fhirBundle.entry.2.resource.occurrenceDateTime"
+														},
+														{
+															"var": "external.vaccinationValidityDurationDaysBOOSTER.0"
+														},
+														"day"
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"if": [
+				{
+					"in": [
+						{
+							"var": "payload.vc.credentialSubject.fhirBundle.entry.1.resource.vaccineCode.coding.0.code"
+						},
+						{
+							"var": "external.approvedVaccinesUSDoubleDose"
+						}
+					]
+				},
+				{
+					"if": [
+						{
+							"!": [
+								{
+									"var": "payload.vc.credentialSubject.fhirBundle.entry.3.resource.vaccineCode.coding.0.code"
+								}
+							]
+						},
+						{
+							"if": [
+								{
+									"var": "payload.vc.credentialSubject.fhirBundle.entry.2.resource.vaccineCode.coding.0.code"
+								},
+								{
+									"not-after": [
+										{
+											"plusTime": [
+												{
+													"var": "payload.vc.credentialSubject.fhirBundle.entry.2.resource.occurrenceDateTime"
+												},
+												{
+													"var": "external.vaccinationValidAfterDays.0"
+												},
+												"day"
+											]
+										},
+										{
+											"plusTime": [
+												{
+													"var": "external.validationClock"
+												},
+												0,
+												"day"
+											]
+										},
+										{
+											"plusTime": [
+												{
+													"var": "payload.vc.credentialSubject.fhirBundle.entry.2.resource.occurrenceDateTime"
+												},
+												{
+													"var": "external.vaccinationValidityDurationDays.0"
+												},
+												"day"
+											]
+										}
+									]
+								},
+								false
+							]
+						},
+						{
+							"if": [
+								{
+									"var": "payload.vc.credentialSubject.fhirBundle.entry.6.resource.vaccineCode.coding.0.code"
+								},
+								{
+									"not-after": [
+										{
+											"plusTime": [
+												{
+													"var": "payload.vc.credentialSubject.fhirBundle.entry.6.resource.occurrenceDateTime"
+												},
+												{
+													"var": "external.vaccinationValidAfterDaysBOOSTER.0"
+												},
+												"day"
+											]
+										},
+										{
+											"plusTime": [
+												{
+													"var": "external.validationClock"
+												},
+												0,
+												"day"
+											]
+										},
+										{
+											"plusTime": [
+												{
+													"var": "payload.vc.credentialSubject.fhirBundle.entry.6.resource.occurrenceDateTime"
+												},
+												{
+													"var": "external.vaccinationValidityDurationDaysBOOSTER.0"
+												},
+												"day"
+											]
+										}
+									]
+								},
+								{
+									"if": [
+										{
+											"var": "payload.vc.credentialSubject.fhirBundle.entry.5.resource.vaccineCode.coding.0.code"
+										},
+										{
+											"not-after": [
+												{
+													"plusTime": [
+														{
+															"var": "payload.vc.credentialSubject.fhirBundle.entry.5.resource.occurrenceDateTime"
+														},
+														{
+															"var": "external.vaccinationValidAfterDaysBOOSTER.0"
+														},
+														"day"
+													]
+												},
+												{
+													"plusTime": [
+														{
+															"var": "external.validationClock"
+														},
+														0,
+														"day"
+													]
+												},
+												{
+													"plusTime": [
+														{
+															"var": "payload.vc.credentialSubject.fhirBundle.entry.5.resource.occurrenceDateTime"
+														},
+														{
+															"var": "external.vaccinationValidityDurationDaysBOOSTER.0"
+														},
+														"day"
+													]
+												}
+											]
+										},
+										{
+											"if": [
+												{
+													"var": "payload.vc.credentialSubject.fhirBundle.entry.4.resource.vaccineCode.coding.0.code"
+												},
+												{
+													"not-after": [
+														{
+															"plusTime": [
+																{
+																	"var": "payload.vc.credentialSubject.fhirBundle.entry.4.resource.occurrenceDateTime"
+																},
+																{
+																	"var": "external.vaccinationValidAfterDaysBOOSTER.0"
+																},
+																"day"
+															]
+														},
+														{
+															"plusTime": [
+																{
+																	"var": "external.validationClock"
+																},
+																0,
+																"day"
+															]
+														},
+														{
+															"plusTime": [
+																{
+																	"var": "payload.vc.credentialSubject.fhirBundle.entry.4.resource.occurrenceDateTime"
+																},
+																{
+																	"var": "external.vaccinationValidityDurationDaysBOOSTER.0"
+																},
+																"day"
+															]
+														}
+													]
+												},
+												{
+													"not-after": [
+														{
+															"plusTime": [
+																{
+																	"var": "payload.vc.credentialSubject.fhirBundle.entry.3.resource.occurrenceDateTime"
+																},
+																{
+																	"var": "external.vaccinationValidAfterDaysBOOSTER.0"
+																},
+																"day"
+															]
+														},
+														{
+															"plusTime": [
+																{
+																	"var": "external.validationClock"
+																},
+																0,
+																"day"
+															]
+														},
+														{
+															"plusTime": [
+																{
+																	"var": "payload.vc.credentialSubject.fhirBundle.entry.3.resource.occurrenceDateTime"
+																},
+																{
+																	"var": "external.vaccinationValidityDurationDaysBOOSTER.0"
+																},
+																"day"
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				false
+			]
+		}
+	]
+}

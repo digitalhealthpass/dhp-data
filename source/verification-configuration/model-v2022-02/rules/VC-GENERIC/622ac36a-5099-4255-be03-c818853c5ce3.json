@@ -1,0 +1,6 @@
+{
+	"version": "1.0.0",
+	"id": "622ac36a-5099-4255-be03-c818853c5ce3",
+	"name": "Check the credential is not expired",
+	"predicate": "622ac36a-5099-4255-be03-c818853c5ce3.rule"
+}

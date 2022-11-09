@@ -1,0 +1,67 @@
+{
+	"version": "1.0.0",
+	"id": "d37af023-0a73-4b75-a9d7-ac3c21f8149a",
+	"name": "RTO Display/Save Properties for Test",
+	"fields": [
+		{
+			"field": "iss",
+			"displayValue": {
+				"en": "issuer"
+			}
+		},
+		{
+			"field": "vc.credentialSubjec.fhirBundle.entry[0].name[0].text",
+			"displayValue": {
+				"en": "fullname"
+			}
+		},
+		{
+			"field": "vc.credentialSubject.fhirBundle.entry[0].resource.name[0].given",
+			"displayValue": {
+				"en": "firstname"
+			}
+		},
+		{
+			"field": "vc.credentialSubject.fhirBundle.entry[0].resource.name[0].family",
+			"displayValue": {
+				"en": "lastname"
+			}
+		},
+		{
+			"field": "vc.credentialSubject.fhirBundle.entry[0].resource.birthDate",
+			"displayValue": {
+				"en": "dob"
+			}
+		},
+		{
+			"field": "vc.credentialSubject.fhirBundle.entry[1].resource.code.coding[0].code",
+			"displayValue": {
+				"en": "testcode"
+			}
+		},
+		{
+			"field": "vc.credentialSubject.fhirBundle.entry[1].resource.valueCodeableConcept.coding[0].code",
+			"displayValue": {
+				"en": "testresult"
+			}
+		},
+		{
+			"field": "vc.credentialSubject.fhirBundle.entry[1].resource.effectiveDateTime",
+			"displayValue": {
+				"en": "date"
+			}
+		},
+		{
+			"field": "vc.credentialSubject.fhirBundle.entry[1].resource.location.address.state",
+			"displayValue": {
+				"en": "state"
+			}
+		},
+		{
+			"field": "vc.credentialSubject.fhirBundle.entry[1].resource.location.address.country",
+			"displayValue": {
+				"en": "country"
+			}
+		}
+	]
+}

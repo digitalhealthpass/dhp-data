@@ -1,0 +1,106 @@
+{
+	"if": [
+		{
+			"var": "payload.t.0"
+		},
+		{
+			"or": [
+				{
+					"and": [
+						{
+							"in": [
+								{
+									"var": "payload.t.0.tt"
+								},
+								{
+									"var": "external.approvedTestMethods-PCR"
+								}
+							]
+						},
+						{
+							"not-after": [
+								{
+									"plusTime": [
+										{
+											"var": "payload.t.0.sc"
+										},
+										0,
+										"hour"
+									]
+								},
+								{
+									"plusTime": [
+										{
+											"var": "external.validationClock"
+										},
+										0,
+										"hour"
+									]
+								},
+								{
+									"plusTime": [
+										{
+											"var": "payload.t.0.sc"
+										},
+										{
+											"var": "external.testValidityDurationHoursPCR.0"
+										},
+										"hour"
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"and": [
+						{
+							"in": [
+								{
+									"var": "payload.t.0.tt"
+								},
+								{
+									"var": "external.approvedTestMethods-ANTIGEN"
+								}
+							]
+						},
+						{
+							"not-after": [
+								{
+									"plusTime": [
+										{
+											"var": "payload.t.0.sc"
+										},
+										0,
+										"hour"
+									]
+								},
+								{
+									"plusTime": [
+										{
+											"var": "external.validationClock"
+										},
+										0,
+										"hour"
+									]
+								},
+								{
+									"plusTime": [
+										{
+											"var": "payload.t.0.sc"
+										},
+										{
+											"var": "external.testValidityDurationHoursANTIGEN.0"
+										},
+										"hour"
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		false
+	]
+}

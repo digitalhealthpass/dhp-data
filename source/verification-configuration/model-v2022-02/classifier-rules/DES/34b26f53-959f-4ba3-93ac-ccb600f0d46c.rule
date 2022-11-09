@@ -1,0 +1,16 @@
+{
+	"if": [
+		{
+			"and": [
+				{
+					"var": "payload.consentRevokeId"
+				},
+				{
+					"var": "payload.proof"
+				}
+			]
+		},
+		"CONSENT_REVOKE",
+		false
+	]
+}

@@ -1,0 +1,13 @@
+{
+	"version": "1.0.0",
+	"id": "377b06f4-16d7-4791-b42b-ef9d0655bcf1",
+	"name": "temperatureValidityDurationHours",
+	"description": "Number of hours since the temperature credential was issued within which is is valid",
+	"maxItems": 1,
+	"items": [
+		{
+			"value": "12",
+			"description": ""
+		}
+	]
+}

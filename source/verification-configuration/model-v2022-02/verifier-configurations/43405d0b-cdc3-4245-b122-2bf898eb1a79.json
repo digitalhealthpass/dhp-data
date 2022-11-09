@@ -1,0 +1,239 @@
+{
+	"version": "1.0.0",
+	"id": "43405d0b-cdc3-4245-b122-2bf898eb1a79",
+	"name": "Return-to-Work Configuration (Data Exchange Service)",
+	"offline": true,
+	"refresh": 86400,
+	"masterCatalog": true,
+	"specificationConfigurations": [
+		{
+			"id": "9cc3cca3-bddc-4c80-9903-5ee1532b5e1f",
+			"version": "latest"
+		},
+		{
+			"id": "1984e8bf-13f9-4887-b06f-b8661e505c4c",
+			"version": "latest"
+		},
+		{
+			"id": "6413f5d9-652c-4563-9909-e9661ed71d6e",
+			"version": "latest"
+		},
+		{
+			"id": "b90d2290-c771-42dd-883d-82c7ad57ccef",
+			"version": "latest"
+		},
+		{
+			"id": "bd7dc694-975e-4606-a4dd-0bb49bb537c5",
+			"version": "latest"
+		},
+		{
+			"id": "ce524989-058a-483f-8e7f-5d264d0bdd55",
+			"version": "latest"
+		},
+		{
+			"id": "d1086e26-72a8-4d89-be83-0796606944af",
+			"version": "latest"
+		},
+		{
+			"id": "c405abf0-5ef7-4726-9b42-0fbadeb084a7",
+			"version": "latest"
+		},
+		{
+			"id": "1a61f818-34b9-4a08-ae95-ae1552342f58",
+			"version": "latest"
+		},
+		{
+			"id": "3905fd36-bb49-4853-8add-6be2c8498dce",
+			"version": "latest"
+		},
+		{
+			"id": "23181c7f-c8d7-4c6d-b32a-dc81f3ad8eb4",
+			"version": "latest"
+		},
+		{
+			"id": "f96c7093-a7ae-4016-8430-3d0a7d06a5e1",
+			"version": "latest"
+		},
+		{
+			"id": "0ea77c25-98cb-44d1-b5d9-51c7e152e884",
+			"version": "latest"
+		},
+		{
+			"id": "b7115b5b-aae4-4c3f-b838-4beb823e3033",
+			"version": "latest"
+		},
+		{
+			"id": "fb825240-bd64-4289-93e4-4540d37c7faf",
+			"version": "latest"
+		},
+		{
+			"id": "ff4bcd3c-713a-4d1e-b7ab-5e0575fee447",
+			"version": "latest"
+		},
+		{
+			"id": "862ba262-1c5e-4624-ae87-7ba1bb9585c2",
+			"version": "latest"
+		},
+		{
+			"id": "93c3719b-3fac-4855-bb20-ad1c1f495abe",
+			"version": "latest"
+		},
+		{
+			"id": "0c524951-be47-4328-b736-8274e3b73a77",
+			"version": "latest"
+		}
+	],
+	"valueSets": [
+		{
+			"id": "377b06f4-16d7-4791-b42b-ef9d0655bcf1",
+			"version": "latest"
+		},
+		{
+			"id": "1804e710-4b1b-488d-93de-ebd750119f06",
+			"version": "latest"
+		},
+		{
+			"id": "8900dd0a-ed76-4a25-9129-865ef3374e76",
+			"version": "latest"
+		},
+		{
+			"id": "7fc29a62-1f96-4825-90f8-29ec9addee32",
+			"version": "latest"
+		},
+		{
+			"id": "bb6254a7-84f4-4ca7-9db2-9e634c56a5a0",
+			"version": "latest"
+		},
+		{
+			"id": "3f5c62ec-3b52-426f-815f-cc087c4e99e2",
+			"version": "latest"
+		},
+		{
+			"id": "1a7e7f2d-cc6b-4c21-91e7-05e2f04c90e9",
+			"version": "latest"
+		},
+		{
+			"id": "34c6b294-0028-4c7f-9827-995d22f245b0",
+			"version": "latest"
+		},
+		{
+			"id": "d079dfb8-bdb5-4613-88e9-e1d15b851340",
+			"version": "latest"
+		},
+		{
+			"id": "f9014c95-2352-4a9f-ad31-6dab36bd030a",
+			"version": "latest"
+		},
+		{
+			"id": "8fee1e9c-cb47-441a-97a0-d06f25748982",
+			"version": "latest"
+		},
+		{
+			"id": "1d573eb1-2e7a-4ebd-9656-145ee40f3df2",
+			"version": "latest"
+		},
+		{
+			"id": "2f9a57d3-a549-4f4e-aca3-27d81741a2bc",
+			"version": "latest"
+		},
+		{
+			"id": "1539d577-29b9-4dc1-817d-280df00872b8",
+			"version": "latest"
+		},
+		{
+			"id": "6d51877c-454e-4304-83d1-a4c360e3b412",
+			"version": "latest"
+		},
+		{
+			"id": "47bdcc2d-349e-4798-8c9a-a316397cd1ab",
+			"version": "latest"
+		},
+		{
+			"id": "f9658430-b373-402a-be4a-d1259eea69cf",
+			"version": "latest"
+		},
+		{
+			"id": "0ba0316f-17d4-4c5d-8b3f-0fb2bccc5a42",
+			"version": "latest"
+		},
+		{
+			"id": "c5211393-646a-496d-a981-1127b1e4f02b",
+			"version": "latest"
+		},
+		{
+			"id": "f3d46ce9-acfe-491e-8f1a-65cf50a87e32",
+			"version": "latest"
+		},
+		{
+			"id": "90fc8d33-dbec-4588-9844-67a3fe9f3380",
+			"version": "latest"
+		},
+		{
+			"id": "e3307d04-152f-4cd8-b4c9-6d4a5d5d1c53",
+			"version": "latest"
+		},
+		{
+			"id": "8cee293e-afce-4a76-a3d8-b92f86ee968c",
+			"version": "latest"
+		},
+		{
+			"id": "7c46a06f-334e-4fa4-86c6-1f17dc08edf2",
+			"version": "latest"
+		},
+		{
+			"id": "6e4e760a-f9b4-491c-91ed-dbaa026c1031",
+			"version": "latest"
+		}
+	],
+	"disabledSpecifications": [
+		{
+			"id": "0c524951-be47-4328-b736-8274e3b73a77"
+		}
+	],
+	"disabledRules": [
+		{
+			"id": "622ac36a-5099-4255-be03-c818853c5ce3",
+			"specID": "9cc3cca3-bddc-4c80-9903-5ee1532b5e1f"
+		},
+		{
+			"id": "622ac36a-5099-4255-be03-c818853c5ce3",
+			"specID": "1984e8bf-13f9-4887-b06f-b8661e505c4c"
+		},
+		{
+			"id": "622ac36a-5099-4255-be03-c818853c5ce3",
+			"specID": "6413f5d9-652c-4563-9909-e9661ed71d6e"
+		},
+		{
+			"id": "622ac36a-5099-4255-be03-c818853c5ce3",
+			"specID": "d1086e26-72a8-4d89-be83-0796606944af"
+		},
+		{
+			"id": "622ac36a-5099-4255-be03-c818853c5ce3",
+			"specID": "c405abf0-5ef7-4726-9b42-0fbadeb084a7"
+		},
+		{
+			"id": "622ac36a-5099-4255-be03-c818853c5ce3",
+			"specID": "1a61f818-34b9-4a08-ae95-ae1552342f58"
+		},
+		{
+			"id": "622ac36a-5099-4255-be03-c818853c5ce3",
+			"specID": "3905fd36-bb49-4853-8add-6be2c8498dce"
+		},
+		{
+			"id": "622ac36a-5099-4255-be03-c818853c5ce3",
+			"specID": "23181c7f-c8d7-4c6d-b32a-dc81f3ad8eb4"
+		},
+		{
+			"id": "622ac36a-5099-4255-be03-c818853c5ce3",
+			"specID": "f96c7093-a7ae-4016-8430-3d0a7d06a5e1"
+		},
+		{
+			"id": "622ac36a-5099-4255-be03-c818853c5ce3",
+			"specID": "b90d2290-c771-42dd-883d-82c7ad57ccef"
+		},
+		{
+			"id": "622ac36a-5099-4255-be03-c818853c5ce3",
+			"specID": "bd7dc694-975e-4606-a4dd-0bb49bb537c5"
+		}
+	]
+}

@@ -1,0 +1,42 @@
+{
+	"id": "covid19-vaccine-pfizer",
+	"version": "1.0.0",
+	"name": "List of Comirnaty (Pfizer-BioNTech) vaccine codes",
+	"items": [
+		{
+			"id": "EU/1/20/1528",
+			"name": "EU/1/20/1528 (Comirnaty EMA)",
+			"description": "EMA licence number for Pfizer vaccines for all age groups"
+		},
+		{
+			"id": "208",
+			"name": "208 (Comirnaty CVX)",
+			"description": "CVX code for Pfizer vaccine for over 18 years"
+		},
+		{
+			"id": "217",
+			"name": "217 (Comirnaty CVX) 12 to 18 years",
+			"description": "CVX code for Pfizer vaccine for 12 to 18 years"
+		},
+		{
+			"id": "218",
+			"name": "218 (Comirnaty CVX) 5 to 12 years",
+			"description": "CVX code for Pfizer vaccine for 5 to 12 years"
+		},
+		{
+			"id": "219",
+			"name": "219 (Comirnaty CVX 6 months to 5 years)",
+			"description": "CVX code for Pfizer vaccine for 6 months to 5 years"
+		},
+		{
+			"id": "3339641000133109",
+			"name": "Pfizer - OA",
+			"description": "Open Attestation code for Pfizer vaccine"
+		},
+		{
+			"id": "878571000133104",
+			"name": "Pfizer - OA - 5 to 12 years",
+			"description": "Open Attestation code for Pfizer vaccine for 5 to 12 years"
+		}
+	]
+}

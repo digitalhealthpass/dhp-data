@@ -1,0 +1,13 @@
+{
+	"version": "1.0.0",
+	"id": "1d573eb1-2e7a-4ebd-9656-145ee40f3df2",
+	"name": "vaccinationValidAfterDaysBOOSTER",
+	"description": "Number of days since the vaccination after which the vaccination is valid",
+	"maxItems": 1,
+	"items": [
+		{
+			"value": "0",
+			"description": ""
+		}
+	]
+}

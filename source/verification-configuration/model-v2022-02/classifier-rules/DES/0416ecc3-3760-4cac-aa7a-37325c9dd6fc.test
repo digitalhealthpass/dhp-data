@@ -1,0 +1,39 @@
+[
+	{
+		"data": {
+			"payload": {
+				"cosAccess": {
+					"proof": {
+						"creator": ""
+					}
+				}
+			}
+		},
+		"expectedResult": "COS_ACCESS"
+	},
+	{
+		"data": {
+			"payload": {
+				"cosAccess": {
+					"proof": {}
+				}
+			}
+		},
+		"expectedResult": false,
+		"comment": "expected FALSE as there needs to be something under 'proof' key other then empty object or emptry string"
+	},
+	{
+		"data": {
+			"payload": {
+				"cosAccess": {}
+			}
+		},
+		"expectedResult": false
+	},
+	{
+		"data": {
+			"payload": {}
+		},
+		"expectedResult": false
+	}
+]

@@ -1,0 +1,208 @@
+[
+    {
+        "data": {
+            "payload": {
+                "credentialSubject": {
+                    "doseNumber": 1,
+                    "dosesPerCycle": 1
+                }
+            },
+            "external": {
+                "requireBooster": [
+                    "false"
+                ]
+            }
+        },
+        "expectedResult": true
+    },
+    {
+        "data": {
+            "payload": {
+                "credentialSubject": {
+                    "doseNumber": 2,
+                    "dosesPerCycle": 2
+                }
+            },
+            "external": {
+                "requireBooster": [
+                    "false"
+                ]
+            }
+        },
+        "expectedResult": true
+    },
+    {
+        "data": {
+            "payload": {
+                "credentialSubject": {
+                    "doseNumber": 3,
+                    "dosesPerCycle": 3
+                }
+            }
+        },
+        "external": {
+            "requireBooster": [
+                "false"
+            ]
+        },
+        "expectedResult": true
+    },
+    {
+        "data": {
+            "payload": {
+                "credentialSubject": {
+                    "doseNumber": 2,
+                    "dosesPerCycle": 1
+                }
+            },
+            "external": {
+                "requireBooster": [
+                    "false"
+                ]
+            }
+        },
+        "expectedResult": true
+    },
+    {
+        "data": {
+            "payload": {
+                "credentialSubject": {
+                    "doseNumber": 1,
+                    "dosesPerCycle": 2
+                }
+            },
+            "external": {
+                "requireBooster": [
+                    "false"
+                ]
+            }
+        },
+        "expectedResult": false
+    },
+    {
+        "data": {
+            "payload": {
+                "credentialSubject": {
+                    "doseNumber": 1,
+                    "dosesPerCycle": 1
+                }
+            },
+            "external": {
+                "requireBooster": [
+                    "true"
+                ]
+            }
+        },
+        "expectedResult": false
+    },
+    {
+        "data": {
+            "payload": {
+                "credentialSubject": {
+                    "doseNumber": 2,
+                    "dosesPerCycle": 2
+                }
+            },
+            "external": {
+                "requireBooster": [
+                    "true"
+                ]
+            }
+        },
+        "expectedResult": false
+    },
+    {
+        "data": {
+            "payload": {
+                "credentialSubject": {
+                    "doseNumber": 3,
+                    "dosesPerCycle": 3
+                }
+            }
+        },
+        "external": {
+            "requireBooster": [
+                "true"
+            ]
+        },
+        "expectedResult": true
+    },
+    {
+        "data": {
+            "payload": {
+                "credentialSubject": {
+                    "doseNumber": 2,
+                    "dosesPerCycle": 1
+                }
+            },
+            "external": {
+                "requireBooster": [
+                    "true"
+                ]
+            }
+        },
+        "expectedResult": true
+    },
+    {
+        "data": {
+            "payload": {
+                "credentialSubject": {
+                    "doseNumber": 1,
+                    "dosesPerCycle": 2
+                }
+            },
+            "external": {
+                "requireBooster": [
+                    "true"
+                ]
+            }
+        },
+        "expectedResult": false
+    },
+    {
+        "data": {
+            "payload": {
+                "credentialSubject": {
+                    "booster": true,
+                    "doseNumber": 2,
+                    "dosesPerCycle": 2
+                }
+            },
+            "external": {
+                "requireBooster": [
+                    "true"
+                ]
+            }
+        },
+        "expectedResult": true
+    },
+    {
+        "data": {
+            "payload": {
+                "credentialSubject": {
+                    "booster": false,
+                    "doseNumber": 1,
+                    "dosesPerCycle": 2
+                }
+            },
+            "external": {
+                "requireBooster": [
+                    "false"
+                ]
+            }
+        },
+        "expectedResult": false
+    },
+    {
+        "data": {
+            "payload": {
+                "credentialSubject": {}
+            }
+        },
+        "expectedResult": false
+    },
+    {
+        "data": {},
+        "expectedResult": false
+    }
+]

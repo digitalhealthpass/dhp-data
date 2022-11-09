@@ -1,0 +1,56 @@
+[
+    {
+        "data": {
+            "payload": {
+                "credentialSubject": {
+                    "status": "pass"
+                }
+            },
+            "external": {
+                "acceptedPassStatus": [
+                    "pass"
+                ]
+            }
+        },
+        "expectedResult": true
+    },
+    {
+        "data": {
+            "payload": {
+                "credentialSubject": {
+                    "status": "failed"
+                }
+            },
+            "external": {
+                "acceptedPassStatus": [
+                    "pass"
+                ]
+            }
+        },
+        "expectedResult": false
+    },
+    {
+        "data": {
+            "payload": {
+                "credentialSubject": {}
+            },
+            "external": {
+                "acceptedPassStatus": [
+                    "pass"
+                ]
+            }
+        },
+        "expectedResult": false
+    },
+    {
+        "data": {
+            "payload": {},
+            "external": {
+                "acceptedPassStatus": [
+                    "pass"
+                ]
+            }
+        },
+        "expectedResult": false
+    }
+]

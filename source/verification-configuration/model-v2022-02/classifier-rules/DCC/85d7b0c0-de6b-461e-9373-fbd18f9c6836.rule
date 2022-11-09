@@ -1,0 +1,9 @@
+{
+	"if": [
+		{
+			"var": "payload.v.0"
+		},
+		"DCC-VACCINATION",
+		false
+	]
+}

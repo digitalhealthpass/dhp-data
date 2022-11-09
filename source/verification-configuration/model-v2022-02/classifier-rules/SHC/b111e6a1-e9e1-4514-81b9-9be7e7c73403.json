@@ -1,0 +1,6 @@
+{
+	"version": "1.0.0",
+	"id": "b111e6a1-e9e1-4514-81b9-9be7e7c73403",
+	"name": "Classifies a SHC vaccination certificate based on the value in type field.",
+	"predicate": "b111e6a1-e9e1-4514-81b9-9be7e7c73403.rule"
+}

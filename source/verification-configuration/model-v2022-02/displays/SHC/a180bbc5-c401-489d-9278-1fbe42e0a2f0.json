@@ -1,0 +1,28 @@
+{
+	"version": "1.0.0",
+	"id": "a180bbc5-c401-489d-9278-1fbe42e0a2f0",
+	"name": "Display only minimum identity (name, date of birth)",
+	"fields": [
+		{
+			"field": "vc.credentialSubject.fhirBundle.entry[0].resource.name[0].given",
+			"displayValue": {
+				"en": "First Name",
+				"de": "Vorname"
+			}
+		},
+		{
+			"field": "vc.credentialSubject.fhirBundle.entry[0].resource.name[0].family",
+			"displayValue": {
+				"en": "Surname",
+				"de": "Nachname"
+			}
+		},
+		{
+			"field": "vc.credentialSubject.fhirBundle.entry[0].resource.birthDate",
+			"displayValue": {
+				"en": "Date of Birth",
+				"de": "Geburtsdatum"
+			}
+		}
+	]
+}

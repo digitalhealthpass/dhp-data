@@ -1,0 +1,209 @@
+{
+	"version": "1.0.0",
+	"id": "1fa105d2-6a35-46c1-a42a-8fb08f76ee24",
+	"name": "Display all fields - vaccination",
+	"fields": [
+		{
+			"field": "vc.credentialSubjec.fhirBundle.entry[0].name[0].text",
+			"displayValue": {
+				"en": "Full Name"
+			}
+		},
+		{
+			"field": "vc.credentialSubject.fhirBundle.entry[0].resource.name[0].given",
+			"displayValue": {
+				"en": "First Name",
+				"de": "Vorname"
+			}
+		},
+		{
+			"field": "vc.credentialSubject.fhirBundle.entry[0].resource.name[0].family",
+			"displayValue": {
+				"en": "Surname",
+				"de": "Nachname"
+			}
+		},
+		{
+			"field": "vc.credentialSubject.fhirBundle.entry[0].resource.birthDate",
+			"displayValue": {
+				"en": "Date of Birth",
+				"de": "Geburtsdatum"
+			}
+		},
+		{
+			"field": "vc.credentialSubject.fhirBundle.entry[1].resource.targetDisease[0].coding[0].display",
+			"displayValue": {
+				"en": "Target Disease",
+				"de": "Zielkrankheit"
+			}
+		},
+		{
+			"field": "vc.credentialSubject.fhirBundle.entry[1].resource.vaccineCode.coding[0].display",
+			"displayValue": {
+				"en": "Vaccine",
+				"de": "Impfstoff"
+			}
+		},
+		{
+			"field": "vc.credentialSubject.fhirBundle.entry[1].resource.vaccineCode.coding[0].code",
+			"displayValue": {
+				"en": "Vaccine Code",
+				"de": "Impfcode"
+			}
+		},
+		{
+			"field": "vc.credentialSubject.fhirBundle.entry[1].resource.manufacturer.name",
+			"displayValue": {
+				"en": "Manufacturer",
+				"de": "Hersteller"
+			}
+		},
+		{
+			"field": "vc.credentialSubject.fhirBundle.entry[1].resource.occurrenceDateTime",
+			"displayValue": {
+				"en": "Vaccination Date",
+				"de": "Impfdatum"
+			}
+		},
+		{
+			"field": "vc.credentialSubject.fhirBundle.entry[1].resource.performer[0].actor.display",
+			"displayValue": {
+				"en": "Vaccinator",
+				"de": "Impfen"
+			}
+		},
+		{
+			"field": "vc.credentialSubject.fhirBundle.entry[1].resource.lotNumber",
+			"displayValue": {
+				"en": "Lot Number",
+				"de": "Lot-Nr."
+			}
+		},
+		{
+			"field": "vc.credentialSubject.fhirBundle.entry[1].resource.location.address.state",
+			"displayValue": {
+				"en": "State/Province of Vaccination",
+				"de": "Staat/Bundesland der Impfung"
+			}
+		},
+		{
+			"field": "vc.credentialSubject.fhirBundle.entry[1].resource.location.address.country",
+			"displayValue": {
+				"en": "Country of Vaccination",
+				"de": "Impfland"
+			}
+		},
+		{
+			"field": "vc.credentialSubject.fhirBundle.entry[2].resource.targetDisease[0].coding[0].display",
+			"displayValue": {
+				"en": "Target Disease",
+				"de": "Zielkrankheit"
+			}
+		},
+		{
+			"field": "vc.credentialSubject.fhirBundle.entry[2].resource.vaccineCode.coding[0].display",
+			"displayValue": {
+				"en": "Vaccine",
+				"de": "Impfstoff"
+			}
+		},
+		{
+			"field": "vc.credentialSubject.fhirBundle.entry[2].resource.vaccineCode.coding[0].code",
+			"displayValue": {
+				"en": "Vaccine Code",
+				"de": "Impfcode"
+			}
+		},
+		{
+			"field": "vc.credentialSubject.fhirBundle.entry[2].resource.manufacturer.name",
+			"displayValue": {
+				"en": "Manufacturer",
+				"de": "Hersteller"
+			}
+		},
+		{
+			"field": "vc.credentialSubject.fhirBundle.entry[2].resource.occurrenceDateTime",
+			"displayValue": {
+				"en": "Vaccination Date",
+				"de": "Impfdatum"
+			}
+		},
+		{
+			"field": "vc.credentialSubject.fhirBundle.entry[2].resource.performer[0].actor.display",
+			"displayValue": {
+				"en": "Vaccinator",
+				"de": "Impfen"
+			}
+		},
+		{
+			"field": "vc.credentialSubject.fhirBundle.entry[2].resource.location.address.state",
+			"displayValue": {
+				"en": "State/Province of Vaccination",
+				"de": "Staat/Bundesland der Impfung"
+			}
+		},
+		{
+			"field": "vc.credentialSubject.fhirBundle.entry[2].resource.location.address.country",
+			"displayValue": {
+				"en": "Country of Vaccination",
+				"de": "Impfland"
+			}
+		},
+		{
+			"field": "vc.credentialSubject.fhirBundle.entry[3].resource.targetDisease[0].coding[0].display",
+			"displayValue": {
+				"en": "Target Disease",
+				"de": "Zielkrankheit"
+			}
+		},
+		{
+			"field": "vc.credentialSubject.fhirBundle.entry[3].resource.vaccineCode.coding[0].display",
+			"displayValue": {
+				"en": "Vaccine",
+				"de": "Impfstoff"
+			}
+		},
+		{
+			"field": "vc.credentialSubject.fhirBundle.entry[3].resource.vaccineCode.coding[0].code",
+			"displayValue": {
+				"en": "Vaccine Code",
+				"de": "Impfcode"
+			}
+		},
+		{
+			"field": "vc.credentialSubject.fhirBundle.entry[3].resource.manufacturer.name",
+			"displayValue": {
+				"en": "Manufacturer",
+				"de": "Hersteller"
+			}
+		},
+		{
+			"field": "vc.credentialSubject.fhirBundle.entry[3].resource.occurrenceDateTime",
+			"displayValue": {
+				"en": "Vaccination Date",
+				"de": "Impfdatum"
+			}
+		},
+		{
+			"field": "vc.credentialSubject.fhirBundle.entry[3].resource.performer[0].actor.display",
+			"displayValue": {
+				"en": "Vaccinator",
+				"de": "Impfen"
+			}
+		},
+		{
+			"field": "vc.credentialSubject.fhirBundle.entry[3].resource.location.address.state",
+			"displayValue": {
+				"en": "State/Province of Vaccination",
+				"de": "Staat/Bundesland der Impfung"
+			}
+		},
+		{
+			"field": "vc.credentialSubject.fhirBundle.entry[3].resource.location.address.country",
+			"displayValue": {
+				"en": "Country of Vaccination",
+				"de": "Impfland"
+			}
+		}
+	]
+}

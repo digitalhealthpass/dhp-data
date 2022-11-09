@@ -1,0 +1,13 @@
+{
+	"version": "1.0.0",
+	"id": "1539d577-29b9-4dc1-817d-280df00872b8",
+	"name": "vaccinationValidityDurationDays",
+	"description": "The duration of the vaccination validity in days",
+	"maxItems": 1,
+	"items": [
+		{
+			"value": "270",
+			"description": ""
+		}
+	]
+}

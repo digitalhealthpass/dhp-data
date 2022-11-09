@@ -1,0 +1,67 @@
+[
+	{
+		"data": {
+			"payload": {
+				"type": [
+					"VaccinationCredential",
+					"GoodHealthPass"
+				]
+			}
+		},
+		"expectedResult": "GHP-VACCINATION"
+	},
+	{
+		"data": {
+			"payload": {
+				"type": "VaccinationCredential"
+			}
+		},
+		"expectedResult": false
+	},
+	{
+		"data": {
+			"payload": {
+				"type": [
+					"VaccinationCredential"
+				]
+			}
+		},
+		"expectedResult": false
+	},
+	{
+		"data": {
+			"payload": {
+				"type": [
+					"GoodHealthPass"
+				]
+			}
+		},
+		"expectedResult": false
+	},
+	{
+		"data": {
+			"payload": {
+				"type": [
+					"unknown"
+				]
+			}
+		},
+		"expectedResult": false
+	},
+	{
+		"data": {
+			"payload": {
+				"credentialType": [
+					"VaccinationCredential"
+				]
+			}
+		},
+		"expectedResult": false
+	},
+	{
+		"data": {
+			"payload": {}
+		},
+		"expectedResult": false
+	}
+]

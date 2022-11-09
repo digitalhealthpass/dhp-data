@@ -1,0 +1,138 @@
+[
+    {
+        "data": {
+            "payload": {
+                "credentialSubject": 
+                    {
+                        "testResult": "260415000"
+                    }
+                
+            },
+            "external": {
+                "acceptedTestResults": [
+                    "Not detected",
+                    "260415000"
+                ]
+            }
+        },
+        "expectedResult": true
+    },
+    {
+        "data": {
+            "payload": {
+                "credentialSubject": 
+                    {
+                        "testResult": "260415000"
+                    }
+                
+            },
+            "external": {
+                "acceptedTestResults": [
+                    "Not detected",
+                    "260415000"
+                ]
+            }
+        },
+        "expectedResult": true
+    },
+    {
+        "data": {
+            "payload": {
+                "credentialSubject": 
+                    {
+                        "resultOfTest": "Not detected"
+                    }
+                
+            },
+            "external": {
+                "acceptedTestResults": [
+                    "Not detected",
+                    "260415000"
+                ]
+            }
+        },
+        "expectedResult": false
+    },
+    {
+        "data": {
+            "payload": {
+                "credentialSubject": 
+                    {
+                        "testResult": "Unknown"
+                    }
+                
+            },
+            "external": {
+                "acceptedTestResults": [
+                    "Not detected",
+                    "260415000"
+                ]
+            }
+        },
+        "expectedResult": false
+    },
+    {
+        "data": {
+            "payload": {
+                "credentialSubject": 
+                    {
+                        "testResult": ""
+                    }
+                
+            },
+            "external": {
+                "acceptedTestResults": [
+                    "Not detected",
+                    "260415000"
+                ]
+            }
+        },
+        "expectedResult": false
+    },
+    {
+        "data": {
+            "payload": {
+                "credentialSubject": 
+                    {}
+                
+            },
+            "external": {
+                "acceptedTestResults": [
+                    "Not detected",
+                    "260415000"
+                ]
+            }
+        },
+        "expectedResult": false
+    },
+    {
+        "data": {
+            "payload": {
+                "credentialSubject": []
+            },
+            "external": {
+                "acceptedTestResults": [
+                    "Not detected",
+                    "260415000"
+                ]
+            }
+        },
+        "expectedResult": false
+    },
+    {
+        "data": {
+            "payload": {},
+            "external": {
+                "acceptedTestResults": [
+                    "Not detected",
+                    "260415000"
+                ]
+            }
+        },
+        "expectedResult": false
+    },
+    {
+        "data": {},
+        "expectedResult": false
+    }
+]

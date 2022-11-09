@@ -1,0 +1,59 @@
+{
+	"version": "1.0.0",
+	"id": "528a4c41-ef92-4ac4-be72-3f3fc3260f3c",
+	"name": "DCC-TEST",
+	"description": "A credential issued according to the EU Digital COVID Certificate specification that indicates whether a person has completed a COVID-19 test.",
+	"credentialSpec": "DCC",
+	"credentialCategory": "TEST",
+	"classifierRule": {
+		"id": "d435dfea-aebb-4625-983a-1eedc57a9b88",
+		"version": "latest"
+	},
+	"metrics": [
+		{
+			"name": "Counts verifications by result, issuer",
+			"extract": {
+				"issuerDID": "*[0].is"
+			},
+			"countBy": {
+				"scan": true,
+				"scanResult": true,
+				"extract": true
+			}
+		}
+	],
+	"display": [
+		{
+			"id": "bd1c5492-4b6e-4919-93bf-457dc6df793f",
+			"version": "latest"
+		}
+	],
+	"rules": [
+		{
+			"id": "61a3bbfb-422d-40d0-a5a6-56f6cba003cb",
+			"version": "latest"
+		},
+		{
+			"id": "fb830f1f-9844-49a1-9820-d043409abecb",
+			"version": "latest"
+		},
+		{
+			"id": "8a2cf6ef-f44d-4f5c-8448-3262d983e865",
+			"version": "latest"
+		},
+		{
+			"id": "90ec030b-aa1e-48b0-9919-0a593e22e1ed",
+			"version": "latest"
+		},
+		{
+			"id": "622ac36a-5099-4255-be03-c818853c5ce3",
+			"version": "latest"
+		}
+	],
+	"trustLists": [
+		{
+			"id": "0da135ae-19fc-4e19-a892-544c390cc650",
+			"version": "latest"
+		}
+	]
+}

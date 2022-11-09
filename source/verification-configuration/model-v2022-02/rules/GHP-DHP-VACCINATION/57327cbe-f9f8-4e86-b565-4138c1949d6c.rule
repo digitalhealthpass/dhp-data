@@ -1,0 +1,137 @@
+{
+	"if": [
+		{
+			"if": [
+				{
+					"var": "payload.credentialSubject.booster"
+				},
+				{
+					"===": [
+						{
+							"var": "payload.credentialSubject.booster"
+						},
+						true
+					]
+				},
+				{
+					"or": [
+						{
+							"and": [
+								{
+									"===": [
+										{
+											"var": "payload.credentialSubject.dosesPerCycle"
+										},
+										1
+									]
+								},
+								{
+									">": [
+										{
+											"var": "payload.credentialSubject.doseNumber"
+										},
+										{
+											"var": "payload.credentialSubject.dosesPerCycle"
+										}
+									]
+								}
+							]
+						},
+						{
+							"and": [
+								{
+									">": [
+										{
+											"var": "payload.credentialSubject.dosesPerCycle"
+										},
+										2
+									]
+								},
+								{
+									">=": [
+										{
+											"var": "payload.credentialSubject.doseNumber"
+										},
+										{
+											"var": "payload.credentialSubject.dosesPerCycle"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"not-after": [
+				{
+					"plusTime": [
+						{
+							"var": "payload.credentialSubject.dateOfVaccination"
+						},
+						{
+							"var": "external.vaccinationValidAfterDaysBOOSTER.0"
+						},
+						"day"
+					]
+				},
+				{
+					"plusTime": [
+						{
+							"var": "external.validationClock"
+						},
+						0,
+						"day"
+					]
+				},
+				{
+					"plusTime": [
+						{
+							"var": "payload.credentialSubject.dateOfVaccination"
+						},
+						{
+							"var": "external.vaccinationValidityDurationDaysBOOSTER.0"
+						},
+						"day"
+					]
+				}
+			]
+		},
+		{
+			"not-after": [
+				{
+					"plusTime": [
+						{
+							"var": "payload.credentialSubject.dateOfVaccination"
+						},
+						{
+							"var": "external.vaccinationValidAfterDays.0"
+						},
+						"day"
+					]
+				},
+				{
+					"plusTime": [
+						{
+							"var": "external.validationClock"
+						},
+						0,
+						"day"
+					]
+				},
+				{
+					"plusTime": [
+						{
+							"var": "payload.credentialSubject.dateOfVaccination"
+						},
+						{
+							"var": "external.vaccinationValidityDurationDays.0"
+						},
+						"day"
+					]
+				}
+			]
+		}
+	]
+}

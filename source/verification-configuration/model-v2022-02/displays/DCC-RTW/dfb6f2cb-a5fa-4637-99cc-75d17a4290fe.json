@@ -1,0 +1,43 @@
+{
+	"version": "1.0.0",
+	"id": "dfb6f2cb-a5fa-4637-99cc-75d17a4290fe",
+	"name": "RTO Display/Save Properties for Test",
+	"fields": [
+		{
+			"field": "t[0].is",
+			"displayValue": {
+				"en": "issuer"
+			}
+		},
+		{
+			"field": "nam.gnt",
+			"displayValue": {
+				"en": "firstname"
+			}
+		},
+		{
+			"field": "nam.fnt",
+			"displayValue": {
+				"en": "lastname"
+			}
+		},
+		{
+			"field": "t[0].tt",
+			"displayValue": {
+				"en": "testcode"
+			}
+		},
+		{
+			"field": "t[0].sc",
+			"displayValue": {
+				"en": "date"
+			}
+		},
+		{
+			"field": "t[0].co",
+			"displayValue": {
+				"en": "country"
+			}
+		}
+	]
+}

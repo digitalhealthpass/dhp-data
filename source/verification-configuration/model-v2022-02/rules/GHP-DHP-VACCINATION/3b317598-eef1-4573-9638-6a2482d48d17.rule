@@ -1,0 +1,95 @@
+{
+	"if": [
+		{
+			"var": "payload.credentialSubject"
+		},
+		{
+			"if": [
+				{
+					"===": [
+						{
+							"var": "external.requireBooster.0"
+						},
+						"true"
+					]
+				},
+				{
+					"if": [
+						{
+							"var": "payload.credentialSubject.booster"
+						},
+						{
+							">=": [
+								{
+									"var": "payload.credentialSubject.doseNumber"
+								},
+								{
+									"var": "payload.credentialSubject.dosesPerCycle"
+								}
+							]
+						},
+						{
+							"or": [
+								{
+									"and": [
+										{
+											"===": [
+												{
+													"var": "payload.credentialSubject.dosesPerCycle"
+												},
+												1
+											]
+										},
+										{
+											">": [
+												{
+													"var": "payload.credentialSubject.doseNumber"
+												},
+												{
+													"var": "payload.credentialSubject.dosesPerCycle"
+												}
+											]
+										}
+									]
+								},
+								{
+									"and": [
+										{
+											">": [
+												{
+													"var": "payload.credentialSubject.dosesPerCycle"
+												},
+												2
+											]
+										},
+										{
+											">=": [
+												{
+													"var": "payload.credentialSubject.doseNumber"
+												},
+												{
+													"var": "payload.credentialSubject.dosesPerCycle"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					">=": [
+						{
+							"var": "payload.credentialSubject.doseNumber"
+						},
+						{
+							"var": "payload.credentialSubject.dosesPerCycle"
+						}
+					]
+				}
+			]
+		},
+		false
+	]
+}

@@ -1,0 +1,6 @@
+{
+	"version": "1.0.0",
+	"id": "4d8cbbe4-059a-406b-9b72-13164aa46c27",
+	"name": "Check if recovery is from predefined disease",
+	"predicate": "4d8cbbe4-059a-406b-9b72-13164aa46c27.rule"
+}

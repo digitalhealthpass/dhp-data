@@ -1,0 +1,44 @@
+[
+	{
+		"data": {
+			"payload": {
+				"vc": {
+					"type": "https://smarthealth.cards#immunization"
+				}
+			}
+		},
+		"expectedResult": "SHC-VACCINATION"
+	},
+	{
+		"data": {
+			"payload": {
+				"vc": {
+					"type": "unknown"
+				}
+			}
+		},
+		"expectedResult": false
+	},
+	{
+		"data": {
+			"payload": {
+				"vc": {}
+			}
+		},
+		"expectedResult": false
+	},
+	{
+		"data": {
+			"payload": {
+				"type": "https://smarthealth.cards#immunization"
+			}
+		},
+		"expectedResult": false
+	},
+	{
+		"data": {
+			"payload": {}
+		},
+		"expectedResult": false
+	}
+]

@@ -1,0 +1,37 @@
+{
+	"version": "1.0.0",
+	"id": "9449670f-7483-4c8b-b3f7-22509f682f49",
+	"name": "RTO Display/Save Properties for Recovery",
+	"fields": [
+		{
+			"field": "r[0].is",
+			"displayValue": {
+				"en": "issuer"
+			}
+		},
+		{
+			"field": "nam.gnt",
+			"displayValue": {
+				"en": "firstname"
+			}
+		},
+		{
+			"field": "nam.fnt",
+			"displayValue": {
+				"en": "lastname"
+			}
+		},
+		{
+			"field": "r[0].df",
+			"displayValue": {
+				"en": "date"
+			}
+		},
+		{
+			"field": "r[0].co",
+			"displayValue": {
+				"en": "country"
+			}
+		}
+	]
+}

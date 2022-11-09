@@ -1,0 +1,24 @@
+{
+	"data": {
+		"ver": "1.0.0",
+		"nam": {
+			"fn": "RODRIGUEZACERO",
+			"fnt": "RODRIGUEZ<ACERO",
+			"gn": "ESTEFANIA",
+			"gnt": "ESTEFANIA"
+		},
+		"dob": "1992-03-21",
+		"t": [
+			{
+				"tg": "94558-4",
+				"tt": "LP217198-3",
+				"sc": "{{TWO_DAYS_AGO_TZDATETIME}}",
+				"tr": "260415000",
+				"tc": "SERVICIOEXTREMEÑODESALUD",
+				"co": "ES",
+				"is": "ServicioExtremeñodeSalud",
+				"ci": "01ES11T45918524638E9B21A8451#1"
+			}
+		]
+	}
+}

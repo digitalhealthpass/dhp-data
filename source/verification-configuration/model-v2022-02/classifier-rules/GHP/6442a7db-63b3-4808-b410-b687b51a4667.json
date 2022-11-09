@@ -1,0 +1,6 @@
+{
+	"version": "1.0.0",
+	"id": "6442a7db-63b3-4808-b410-b687b51a4667",
+	"name": "Classifies a GHP vaccination certificate based on the value in type field.",
+	"predicate": "6442a7db-63b3-4808-b410-b687b51a4667.rule"
+}

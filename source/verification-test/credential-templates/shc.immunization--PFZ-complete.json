@@ -1,0 +1,88 @@
+{
+    "data": {
+        "fhirVersion": "4.0.1",
+        "fhirBundle": {
+            "resourceType": "Bundle",
+            "type": "collection",
+            "entry": [
+                {
+                    "fullUrl": "resource:0",
+                    "resource": {
+                        "resourceType": "Patient",
+                        "name": [
+                            {
+                                "family": "Anyperson",
+                                "given": [
+                                    "John",
+                                    "B."
+                                ]
+                            }
+                        ],
+                        "birthDate": "1965-12-21"
+                    }
+                },
+                {
+                    "fullUrl": "resource:1",
+                    "resource": {
+                        "resourceType": "Immunization",
+                        "status": "completed",
+                        "vaccineCode": {
+                            "coding": [
+                                {
+                                    "system": "http://hl7.org/fhir/sid/cvx",
+                                    "code": "208"
+                                }
+                            ]
+                        },
+                        "patient": {
+                            "reference": "resource:0"
+                        },
+                        "occurrenceDateTime": "{{TWO_MONTHS_AGO_DATE}}",
+                        "performer": [
+                            {
+                                "actor": {
+                                    "display": "ABC General Hospital"
+                                }
+                            }
+                        ],
+                        "lotNumber": "0000001"
+                    }
+                },
+                {
+                    "fullUrl": "resource:2",
+                    "resource": {
+                        "resourceType": "Immunization",
+                        "status": "completed",
+                        "vaccineCode": {
+                            "coding": [
+                                {
+                                    "system": "http://hl7.org/fhir/sid/cvx",
+                                    "code": "208"
+                                }
+                            ]
+                        },
+                        "patient": {
+                            "reference": "resource:0"
+                        },
+                        "occurrenceDateTime": "{{LAST_MONTH_DATE}}",
+                        "performer": [
+                            {
+                                "actor": {
+                                    "display": "ABC General Hospital"
+                                }
+                            }
+                        ],
+                        "lotNumber": "0000007"
+                    }
+                }
+            ]
+        }
+    },
+    "type": [
+        "https://smarthealth.cards#health-card",
+        "https://smarthealth.cards#immunization",
+        "https://smarthealth.cards#covid19"
+    ],
+    "issuerUrl": "{{ISS}}",
+    "expirationDate": "{{NEXT_YEAR_DATETIME}}"
+}

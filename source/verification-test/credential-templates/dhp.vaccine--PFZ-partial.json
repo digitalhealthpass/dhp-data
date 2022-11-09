@@ -1,0 +1,24 @@
+{
+    "schemaID": "{{DHP_VACCINE_SCHEMA_ID}}",
+    "type": ["VerifiableCredential", "DigitalHealthPass", "Vaccination"],
+    "data": {
+        "type": "Vaccination Card",
+        "display": "#32CD32",
+        "recipient": {
+            "givenName": "Jane",
+            "middleName": "Sarah",
+            "familyName": "Smith",
+            "birthDate": "2000-10-10"
+        },
+        "disease": "COVID-19",
+        "medicinalProductCode": "208",
+        "marketingAuthorizationHolder": "Pfizer Inc",
+        "dateOfVaccination": "{{LAST_MONTH_DATE}}",
+        "doseNumber": 1,
+        "dosesPerCycle": 2,
+        "batchNumber": "12345",
+        "stateOfVaccination": "ca",
+        "countryOfVaccination": "us"
+    },
+    "expirationDate": "{{NEXT_YEAR_DATETIME}}"
+}

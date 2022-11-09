@@ -1,0 +1,6 @@
+{
+	"version": "1.0.0",
+	"id": "34b26f53-959f-4ba3-93ac-ccb600f0d46c",
+	"name": "Classifies a CONSENT_REVOKE generic certificate based on the schema",
+	"predicate": "34b26f53-959f-4ba3-93ac-ccb600f0d46c.rule"
+}

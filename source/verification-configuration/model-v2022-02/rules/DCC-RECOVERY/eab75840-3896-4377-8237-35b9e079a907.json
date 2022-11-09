@@ -1,0 +1,6 @@
+{
+	"version": "1.0.0",
+	"id": "eab75840-3896-4377-8237-35b9e079a907",
+	"name": "Check current date is within the covered dates for recovery",
+	"predicate": "eab75840-3896-4377-8237-35b9e079a907.rule"
+}

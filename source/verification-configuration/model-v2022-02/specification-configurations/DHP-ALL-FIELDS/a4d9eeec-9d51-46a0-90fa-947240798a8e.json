@@ -1,0 +1,52 @@
+{
+	"version": "1.0.0",
+	"id": "a4d9eeec-9d51-46a0-90fa-947240798a8e",
+	"name": "DHP-PASS",
+	"description": "A credential issued according to the Digital Health Pass specification that indicates whether a person has been issued a pass.",
+	"credentialSpec": "DHP",
+	"credentialCategory": "PASS",
+	"classifierRule": {
+		"id": "cf6336bd-4ef2-4a01-8aec-1b63452b8665",
+		"version": "latest"
+	},
+	"metrics": [
+		{
+			"name": "Counts verifications by result, issuer, type",
+			"extract": {
+				"issuerDID": "issuer",
+				"credentialType": "type.2"
+			},
+			"countBy": {
+				"scan": true,
+				"scanResult": true,
+				"extract": true
+			}
+		}
+	],
+	"display": [
+		{
+			"id": "0c446646-adce-48c2-aa52-1d13c8bbe744",
+			"version": "latest"
+		}
+	],
+	"rules": [
+		{
+			"id": "4f4fb938-0633-4af0-8c64-a785dc8f8a04",
+			"version": "latest"
+		},
+		{
+			"id": "75916ba4-16ec-48cc-b8c1-d808e269823e",
+			"version": "latest"
+		},
+		{
+			"id": "622ac36a-5099-4255-be03-c818853c5ce3",
+			"version": "latest"
+		}
+	],
+	"trustLists": [
+		{
+			"id": "4a7af21e-b8c3-455b-b497-03f3f5bf20d9",
+			"version": "latest"
+		}
+	]
+}

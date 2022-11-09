@@ -1,0 +1,13 @@
+{
+	"version": "1.0.0",
+	"id": "7fc29a62-1f96-4825-90f8-29ec9addee32",
+	"name": "acceptedPassStatus",
+	"description": "Accepted statuses of the issued pass credential",
+	"maxItems": 0,
+	"items": [
+		{
+			"value": "pass",
+			"description": ""
+		}
+	]
+}

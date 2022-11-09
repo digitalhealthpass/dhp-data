@@ -1,0 +1,55 @@
+{
+	"version": "1.0.0",
+	"id": "76154d1a-c769-4c4f-9b2c-a383007190b4",
+	"name": "DCC-RECOVERY",
+	"description": "A credential issued according to the EU Digital COVID Certificate specification that indicates a person's recovery from COVID-19.",
+	"credentialSpec": "DCC",
+	"credentialCategory": "RECOVERY",
+	"classifierRule": {
+		"id": "b5408bf7-f3c7-4454-8684-de4a02481eeb",
+		"version": "latest"
+	},
+	"metrics": [
+		{
+			"name": "Counts verifications by result, issuer",
+			"extract": {
+				"issuerDID": "*[0].is"
+			},
+			"countBy": {
+				"scan": true,
+				"scanResult": true,
+				"extract": true
+			}
+		}
+	],
+	"display": [
+		{
+			"id": "c55b533f-5b4c-4b57-88d6-3a0cc654d52f",
+			"version": "latest"
+		}
+	],
+	"rules": [
+		{
+			"id": "4d8cbbe4-059a-406b-9b72-13164aa46c27",
+			"version": "latest"
+		},
+		{
+			"id": "eab75840-3896-4377-8237-35b9e079a907",
+			"version": "latest"
+		},
+		{
+			"id": "f6f81718-f4ff-4e6d-88b9-202db5da5c46",
+			"version": "latest"
+		},
+		{
+			"id": "622ac36a-5099-4255-be03-c818853c5ce3",
+			"version": "latest"
+		}
+	],
+	"trustLists": [
+		{
+			"id": "0da135ae-19fc-4e19-a892-544c390cc650",
+			"version": "latest"
+		}
+	]
+}

@@ -1,0 +1,199 @@
+{
+	"id": "dhp-test",
+	"name": "Digital Health Pass - Test Result",
+	"version": "1.0",
+	"schema": {
+		"$schema": "http://json-schema.org/draft-07/schema#",
+		"type": "object",
+		"properties": {
+			"type": {
+				"maxLength": 100,
+				"minLength": 1,
+				"type": "string",
+				"visible": false
+			},
+			"recipient": {
+				"properties": {
+					"identity": {
+						"type": "object",
+						"properties": {
+							"DL": {
+								"type": "string",
+								"visible": true,
+								"minLength": 1,
+								"maxLength": 50,
+								"displayValue": {
+									"en": "Driver's license number",
+									"de": ""
+								}
+							},
+							"MR": {
+								"type": "string",
+								"visible": true,
+								"minLength": 1,
+								"maxLength": 50,
+								"displayValue": {
+									"en": "Medical record number",
+									"de": ""
+								}
+							},
+							"PPN": {
+								"type": "string",
+								"visible": true,
+								"minLength": 1,
+								"maxLength": 50,
+								"displayValue": {
+									"en": "Passport number",
+									"de": ""
+								}
+							},
+							"OTH": {
+								"type": "string",
+								"visible": true,
+								"minLength": 1,
+								"maxLength": 50,
+								"displayValue": {
+									"en": "Other ID",
+									"de": ""
+								}
+							}
+						}
+					},
+					"givenName": {
+						"maxLength": 100,
+						"minLength": 1,
+						"type": "string",
+						"visible": true,
+						"displayValue": {
+							"de": "Vorname",
+							"en": "First Name"
+						}
+					},
+					"middleName": {
+						"maxLength": 100,
+						"minLength": 1,
+						"type": "string",
+						"visible": true
+					},
+					"familyName": {
+						"maxLength": 100,
+						"minLength": 1,
+						"type": "string",
+						"visible": true,
+						"displayValue": {
+							"de": "Nachname",
+							"en": "Surname"
+						}
+					},
+					"birthDate": {
+						"format": "date",
+						"maxLength": 100,
+						"minLength": 1,
+						"type": "string",
+						"displayValue": {
+							"de": "Geburtsdatum",
+							"en": "Date of Birth"
+						},
+						"visible": true
+					}
+				},
+				"required": [
+					"givenName",
+					"familyName",
+					"birthDate"
+				],
+				"type": "object"
+			},
+			"disease": {
+				"type": "string"
+			},
+			"testType": {
+				"type": "string",
+				"displayValue": {
+					"de": "Test",
+					"en": "Test"
+				},
+				"visible": true
+			},
+			"testCommercialName": {
+				"maxLength": 100,
+				"minLength": 1,
+				"type": "string"
+			},
+			"testManufacturer": {
+				"maxLength": 100,
+				"minLength": 1,
+				"type": "string",
+				"displayValue": {
+					"de": "Hersteller",
+					"en": "Manufacturer"
+				}
+			},
+			"testResult": {
+				"type": "string",
+				"system": "http://snomed.info/sct",
+				"displayValue": {
+					"de": "Ergebnis",
+					"en": "Result"
+				},
+				"enum": [
+					"Not detected",
+					"Detected",
+					"Inconclusive"
+				]
+			},
+			"dateOfSample": {
+				"format": "date",
+				"type": "string",
+				"displayValue": {
+					"de": "Datum des Test",
+					"en": "Date of Test"
+				}
+			},
+			"dateOfResult": {
+				"format": "date",
+				"type": "string",
+				"displayValue": {
+					"de": "Datum des Testergebnisses",
+					"en": "Date of Test Result"
+				}
+			},
+			"testCenter": {
+				"maxLength": 100,
+				"minLength": 1,
+				"type": "string"
+			},
+			"stateOfTest": {
+				"type": "string",
+				"system": "https://pe.usps.com/text/pub28/28apb.htm",
+				"displayValue": {
+					"de": "Provinz Test",
+					"en": "State/province of test"
+				}
+			},
+			"countryOfTest": {
+				"type": "string",
+				"system": "https://www.iso.org/iso-3166-country-codes.html",
+				"displayValue": {
+					"de": "Testland",
+					"en": "Country of test"
+				}
+			},
+			"display": {
+				"description": "Card background color.",
+				"type": "string",
+				"visible": false,
+				"pattern": "#\\w{6}"
+			}
+		},
+		"required": [
+			"type",
+			"recipient",
+			"disease",
+			"testType",
+			"testResult",
+			"dateOfSample",
+			"countryOfTest"
+		]
+	}
+}

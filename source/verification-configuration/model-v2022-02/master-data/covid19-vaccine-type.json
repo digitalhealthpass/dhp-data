@@ -1,0 +1,47 @@
+{
+	"id": "covid19-vaccine-type",
+	"version": "1.0.0",
+	"name": "List of COVID19 vaccine types",
+	"items": [
+		{
+			"id": "covid19-vaccine-moderna",
+			"name": "Spikevax (Moderna)",
+			"description": "Spikevax is indicated for active immunisation to prevent COVID-19 caused by SARS-CoV-2 virus"
+		},
+		{
+			"id": "covid19-vaccine-pfizer",
+			"name": "Comirnaty (Pfizer-BioNTech)",
+			"description": "Comirnaty is indicated for active immunisation to prevent COVID-19 caused by SARS-CoV-2 virus"
+		},
+		{
+			"id": "covid19-vaccine-janssen",
+			"name": "Janssen",
+			"description": "COVID-19 Vaccine Janssen is indicated for active immunisation to prevent COVID-19 caused by SARS-CoV-2 virus"
+		},
+		{
+			"id": "covid19-vaccine-astrazeneca",
+			"name": "Vaxzevria (AstraZeneca)",
+			"description": "Vaxzevria is indicated for active immunisation to prevent COVID-19 caused by SARS-CoV-2 virus"
+		},
+		{
+			"id": "covid19-vaccine-novavax",
+			"name": "Nuvaxovid/Covovax (Novavax)",
+			"description": "Nuvaxovid is indicated for active immunisation to prevent COVID-19 caused by SARS-CoV-2 virus"
+		},
+		{
+			"id": "covid19-vaccine-sinovac",
+			"name": "CoronaVac (Sinovac)",
+			"description": "CoronaVac is indicated for active immunisation to prevent COVID-19 caused by SARS-CoV-2 virus"
+		},
+		{
+			"id": "covid19-vaccine-sinopharm",
+			"name": "Covilo/BIBP (Sinopharm)",
+			"description": "Covilo/BIBP is indicated for active immunisation to prevent COVID-19 caused by SARS-CoV-2 virus"
+		},
+		{
+			"id": "covid19-vaccine-bharat-biotech",
+			"name": "Covaxin (Bharat Biotech)",
+			"description": "Covaxin is indicated for active immunisation to prevent COVID-19 caused by SARS-CoV-2 virus"
+		}
+	]
+}

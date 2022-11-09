@@ -1,0 +1,17 @@
+{
+	"id": "covid19-vaccine-sinovac",
+	"version": "1.0.0",
+	"name": "List of CoronaVac (Sinovac) vaccine codes",
+	"items": [
+		{
+			"id": "511",
+			"name": "511 (CoronaVac CVX)",
+			"description": "CVX code for Sinovac vaccine"
+		},
+		{
+			"id": "3440141000133104",
+			"name": "Sinovac - OA",
+			"description": "Open Attestation code for Sinovac vaccine"
+		}
+	]
+}

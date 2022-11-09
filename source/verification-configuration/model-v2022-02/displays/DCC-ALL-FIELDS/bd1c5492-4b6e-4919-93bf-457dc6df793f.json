@@ -1,0 +1,102 @@
+{
+	"version": "1.0.0",
+	"id": "bd1c5492-4b6e-4919-93bf-457dc6df793f",
+	"name": "Display all DCC fields - test",
+	"fields": [
+		{
+			"field": "nam.gn",
+			"displayValue": {
+				"en": "First Name",
+				"de": "Vorname"
+			}
+		},
+		{
+			"field": "nam.gnt",
+			"displayValue": {
+				"en": "First Name (transliterated)",
+				"de": "Vorname (transliteriert)"
+			}
+		},
+		{
+			"field": "nam.fn",
+			"displayValue": {
+				"en": "Surname",
+				"de": "Nachname"
+			}
+		},
+		{
+			"field": "nam.fnt",
+			"displayValue": {
+				"en": "Surname (transliterated)",
+				"de": "Nachname (transliteriert)"
+			}
+		},
+		{
+			"field": "dob",
+			"displayValue": {
+				"en": "Date of Birth",
+				"de": "Geburtsdatum"
+			}
+		},
+		{
+			"field": "t[0].tg",
+			"displayValue": {
+				"en": "Disease or agent targeted"
+			}
+		},
+		{
+			"field": "t[0].tt",
+			"displayValue": {
+				"en": "Type of Test"
+			}
+		},
+		{
+			"field": "t[0].nm",
+			"displayValue": {
+				"en": "Test Name"
+			}
+		},
+		{
+			"field": "t[0].ma",
+			"displayValue": {
+				"en": "Test manufacturer"
+			}
+		},
+		{
+			"field": "t[0].sc",
+			"displayValue": {
+				"en": "Date/Time of Sample Collection"
+			}
+		},
+		{
+			"field": "t[0].tr",
+			"displayValue": {
+				"en": "Test Result"
+			}
+		},
+		{
+			"field": "t[0].tc",
+			"displayValue": {
+				"en": "Testing Centre"
+			}
+		},
+		{
+			"field": "t[0].co",
+			"displayValue": {
+				"en": "Country of Test"
+			}
+		},
+		{
+			"field": "t[0].is",
+			"displayValue": {
+				"en": "Certificate Issuer"
+			}
+		},
+		{
+			"field": "t[0].ci",
+			"displayValue": {
+				"en": "Unique Certificate Identifier"
+			}
+		}
+	]
+}

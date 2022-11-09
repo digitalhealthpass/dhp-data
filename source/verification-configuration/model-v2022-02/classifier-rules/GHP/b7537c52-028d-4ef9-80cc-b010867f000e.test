@@ -1,0 +1,82 @@
+[
+	{
+		"data": {
+			"payload": {
+				"type": [
+					"GoodHealthPass"
+				]
+			}
+		},
+		"expectedResult": "GHP-GENERIC"
+	},
+	{
+		"data": {
+			"payload": {
+				"type": [
+					"GoodHealthPass",
+					"DrivingLicence"
+				]
+			}
+		},
+		"expectedResult": "GHP-GENERIC"
+	},
+	{
+		"data": {
+			"payload": {
+				"type": [
+					"DrivingLicence"
+				]
+			}
+		},
+		"expectedResult": false
+	},
+	{
+		"data": {
+			"payload": {
+				"type": [
+					"TestCredential",
+					"GoodHealthPass"
+				]
+			}
+		},
+		"expectedResult": false
+	},
+	{
+		"data": {
+			"payload": {
+				"type": [
+					"VaccinationCredential",
+					"GoodHealthPass"
+				]
+			}
+		},
+		"expectedResult": false
+	},
+	{
+		"data": {
+			"payload": {
+				"type": [
+					"DigitalHealthPass",
+					"Temperature"
+				]
+			}
+		},
+		"expectedResult": false
+	},
+	{
+		"data": {
+			"payload": {
+				"type": [
+					"DigitalHealthPass"
+				]
+			}
+		},
+		"expectedResult": false
+	},
+	{
+		"data": {
+			"payload": {}
+		},
+		"expectedResult": false
+	}
+]

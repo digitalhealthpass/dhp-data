@@ -1,0 +1,87 @@
+{
+	"id": "covid19-test-antigen",
+	"version": "1.0.0",
+	"name": "List of ANTIGEN COVID19 test codes",
+	"items": [
+		{
+			"id": "LP217198-3",
+			"name": "Rapid immunoassay",
+			"description": ""
+		},
+		{
+			"id": "94503-0",
+			"name": "",
+			"description": ""
+		},
+		{
+			"id": "94504-8",
+			"name": "",
+			"description": ""
+		},
+		{
+			"id": "94507-1",
+			"name": "",
+			"description": ""
+		},
+		{
+			"id": "94508-9",
+			"name": "",
+			"description": ""
+		},
+		{
+			"id": "94547-7",
+			"name": "",
+			"description": ""
+		},
+		{
+			"id": "94558-4",
+			"name": "",
+			"description": ""
+		},
+		{
+			"id": "94562-6",
+			"name": "",
+			"description": ""
+		},
+		{
+			"id": "94563-4",
+			"name": "",
+			"description": ""
+		},
+		{
+			"id": "94564-2",
+			"name": "",
+			"description": ""
+		},
+		{
+			"id": "94661-6",
+			"name": "",
+			"description": ""
+		},
+		{
+			"id": "94761-4",
+			"name": "",
+			"description": ""
+		},
+		{
+			"id": "94762-2",
+			"name": "",
+			"description": ""
+		},
+		{
+			"id": "95209-3",
+			"name": "",
+			"description": ""
+		},
+		{
+			"id": "95416-4",
+			"name": "",
+			"description": ""
+		},
+		{
+			"id": "95542-7",
+			"name": "",
+			"description": ""
+		}
+	]
+}

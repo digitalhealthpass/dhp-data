@@ -1,0 +1,39 @@
+{
+	"version": "1.0.0",
+	"id": "ce524989-058a-483f-8e7f-5d264d0bdd55",
+	"name": "VC-GENERIC",
+	"description": "Verifiable Credential - A generic type of credential",
+	"credentialSpec": "VC",
+	"credentialCategory": "GENERIC",
+	"classifierRule": {
+		"id": "25197aca-f96f-4eb3-a1d7-f7b9740bb6c8",
+		"version": "latest"
+	},
+	"metrics": [
+		{
+			"name": "Counts verifications by result, issuer, type",
+			"extract": {
+				"issuerDID": "issuer",
+				"credentialType": "type.0"
+			},
+			"countBy": {
+				"scan": true,
+				"scanResult": true,
+				"extract": true
+			}
+		}
+	],
+	"display": [],
+	"rules": [
+		{
+			"id": "622ac36a-5099-4255-be03-c818853c5ce3",
+			"version": "latest"
+		}
+	],
+	"trustLists": [
+		{
+			"id": "0a0493ae-98c9-44a3-b872-4653a3f8bc90",
+			"version": "latest"
+		}
+	]
+}

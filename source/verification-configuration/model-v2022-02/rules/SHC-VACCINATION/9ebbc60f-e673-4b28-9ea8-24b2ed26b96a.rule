@@ -1,0 +1,112 @@
+{
+	"if": [
+		{
+			"var": "payload.vc.credentialSubject.fhirBundle"
+		},
+		{
+			"and": [
+				{
+					"in": [
+						{
+							"var": "payload.vc.credentialSubject.fhirBundle.entry.1.resource.vaccineCode.coding.0.code"
+						},
+						{
+							"var": "external.approvedVaccinesUS"
+						}
+					]
+				},
+				{
+					"if": [
+						{
+							"var": "payload.vc.credentialSubject.fhirBundle.entry.2.resource.vaccineCode.coding.0.code"
+						},
+						{
+							"in": [
+								{
+									"var": "payload.vc.credentialSubject.fhirBundle.entry.2.resource.vaccineCode.coding.0.code"
+								},
+								{
+									"var": "external.approvedVaccinesUS"
+								}
+							]
+						},
+						true
+					]
+				},
+				{
+					"if": [
+						{
+							"var": "payload.vc.credentialSubject.fhirBundle.entry.3.resource.vaccineCode.coding.0.code"
+						},
+						{
+							"in": [
+								{
+									"var": "payload.vc.credentialSubject.fhirBundle.entry.3.resource.vaccineCode.coding.0.code"
+								},
+								{
+									"var": "external.approvedVaccinesUS"
+								}
+							]
+						},
+						true
+					]
+				},
+				{
+					"if": [
+						{
+							"var": "payload.vc.credentialSubject.fhirBundle.entry.4.resource.vaccineCode.coding.0.code"
+						},
+						{
+							"in": [
+								{
+									"var": "payload.vc.credentialSubject.fhirBundle.entry.4.resource.vaccineCode.coding.0.code"
+								},
+								{
+									"var": "external.approvedVaccinesUS"
+								}
+							]
+						},
+						true
+					]
+				},
+				{
+					"if": [
+						{
+							"var": "payload.vc.credentialSubject.fhirBundle.entry.5.resource.vaccineCode.coding.0.code"
+						},
+						{
+							"in": [
+								{
+									"var": "payload.vc.credentialSubject.fhirBundle.entry.5.resource.vaccineCode.coding.0.code"
+								},
+								{
+									"var": "external.approvedVaccinesUS"
+								}
+							]
+						},
+						true
+					]
+				},
+				{
+					"if": [
+						{
+							"var": "payload.vc.credentialSubject.fhirBundle.entry.6.resource.vaccineCode.coding.0.code"
+						},
+						{
+							"in": [
+								{
+									"var": "payload.vc.credentialSubject.fhirBundle.entry.6.resource.vaccineCode.coding.0.code"
+								},
+								{
+									"var": "external.approvedVaccinesUS"
+								}
+							]
+						},
+						true
+					]
+				}
+			]
+		},
+		false
+	]
+}

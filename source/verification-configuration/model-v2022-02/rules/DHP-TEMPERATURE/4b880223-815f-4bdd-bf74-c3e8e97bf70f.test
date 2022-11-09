@@ -1,0 +1,66 @@
+[
+    {
+        "data": {
+            "payload": {
+                "credentialSubject": {
+                    "units": "C",
+                    "temperature": "36.7"
+                }
+            },
+            "external": {
+                "normalTemperatureTresholdCelsius": [
+                    "37"
+                ]
+            }
+        },
+        "expectedResult": true
+    },
+    {
+        "data": {
+            "payload": {
+                "credentialSubject": {
+                    "units": "C",
+                    "temperature": "37.7"
+                }
+            },
+            "external": {
+                "normalTemperatureTresholdCelsius": [
+                    "37"
+                ]
+            }
+        },
+        "expectedResult": false
+    },
+    {
+        "data": {
+            "payload": {
+                "credentialSubject": {
+                    "units": "F",
+                    "temperature": "98"
+                }
+            },
+            "external": {
+                "normalTemperatureTresholdFahrenheit": [
+                    "100.4"
+                ]
+            }
+        },
+        "expectedResult": true
+    },
+    {
+        "data": {
+            "payload": {
+                "credentialSubject": {
+                    "units": "F",
+                    "temperature": "101"
+                }
+            },
+            "external": {
+                "normalTemperatureTresholdFahrenheit": [
+                    "100.4"
+                ]
+            }
+        },
+        "expectedResult": false
+    }
+]

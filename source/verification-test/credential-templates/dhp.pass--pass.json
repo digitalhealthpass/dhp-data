@@ -1,0 +1,23 @@
+{
+    "schemaID": "{{DHP_PASS_SCHEMA_ID}}",
+    "type": ["VerifiableCredential", "DigitalHealthPass", "Pass"],
+    "data": {
+	"type": "Digital Health Pass",
+	"recipient": {
+		"identity": {
+			"DL": "12345",
+			"MR": "12345",
+			"PPN": "12345",
+			"OTH": "12345"
+		},
+		"givenName": "Jane", 
+		"middleName": "Sarah",
+		"familyName": "Smith",
+		"birthDate": "2000-10-10"
+	},
+	"date": "{{NOW_DATETIME}}",
+	"status": "pass",
+	"display": "#32CD32"
+},
+    "expirationDate": "{{TOMORROW_DATETIME}}"
+}

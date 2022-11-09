@@ -1,0 +1,6 @@
+{
+	"version": "1.0.0",
+	"id": "e737510e-5761-487b-a826-e6c6832d3b35",
+	"name": "Classifies a CONSENT_RECEIPT generic certificate based on the schema",
+	"predicate": "e737510e-5761-487b-a826-e6c6832d3b35.rule"
+}

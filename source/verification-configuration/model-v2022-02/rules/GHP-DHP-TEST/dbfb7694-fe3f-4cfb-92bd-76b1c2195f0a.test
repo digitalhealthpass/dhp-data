@@ -1,0 +1,450 @@
+[
+    {
+        "data": {
+            "payload": {
+                "credentialSubject": {
+                    "dateOfSample": "2022-01-30T08:00:00Z",
+                    "testType": "50548-7"
+                }
+            },
+            "external": {
+                "validationClock": "2022-02-01T10:00:00Z",
+                "approvedTests-PCR": [
+                    "50548-7", "68993-5", "82159-5", "94306-8", "94307-6", "94308-4", "94309-2", "94500-6", "94502-2", "94531-1", "94533-7", "94534-5", "94559-2", "94565-9", "94640-0", "94756-4", "94757-2", "94758-0", "94759-8", "94760-6", "94764-8", "94845-5", "95406-5", "95409-9", "95423-0", "95424-8", "95425-5", "95608-6", "95609-4"
+                ],
+                "testValidityDurationHoursPCR": [
+                    "72"
+                ],
+                "approvedTests-ANTIGEN": [
+                    "94503-0", "94504-8", "94507-1", "94508-9", "94547-7", "94558-4", "94562-6", "94563-4", "94564-2", "94661-6", "94761-4", "94762-2", "95209-3", "95416-4", "95542-7"
+                ],
+                "testValidityDurationHoursANTIGEN": [
+                    "48"
+                ],
+                "approvedTestMethods-ANTIGEN": [
+                    "LP217198-3"
+                ],
+                "approvedTestMethods-PCR": [
+                    "LP6464-4"
+                ],
+                "acceptTestMethodAsTestType": [
+                    "true"
+                ]
+            }
+        },
+        "expectedResult": true
+    },
+    {
+        "data": {
+            "payload": {
+                "credentialSubject": {
+                    "dateOfSample": "2022-01-30T12:00:00Z",
+                    "testType": "94503-0"
+                }
+            },
+            "external": {
+                "validationClock": "2022-02-01T10:00:00Z",
+                "approvedTests-PCR": [
+                    "50548-7", "68993-5", "82159-5", "94306-8", "94307-6", "94308-4", "94309-2", "94500-6", "94502-2", "94531-1", "94533-7", "94534-5", "94559-2", "94565-9", "94640-0", "94756-4", "94757-2", "94758-0", "94759-8", "94760-6", "94764-8", "94845-5", "95406-5", "95409-9", "95423-0", "95424-8", "95425-5", "95608-6", "95609-4"
+                ],
+                "testValidityDurationHoursPCR": [
+                    "72"
+                ],
+                "approvedTests-ANTIGEN": [
+                    "94503-0", "94504-8", "94507-1", "94508-9", "94547-7", "94558-4", "94562-6", "94563-4", "94564-2", "94661-6", "94761-4", "94762-2", "95209-3", "95416-4", "95542-7"
+                ],
+                "testValidityDurationHoursANTIGEN": [
+                    "48"
+                ],
+                "approvedTestMethods-ANTIGEN": [
+                    "LP217198-3"
+                ],
+                "approvedTestMethods-PCR": [
+                    "LP6464-4"
+                ],
+                "acceptTestMethodAsTestType": [
+                    "true"
+                ]
+            }
+        },
+        "expectedResult": true
+    },
+    {
+        "data": {
+            "payload": {
+                "credentialSubject": {
+                    "dateOfSample": "2022-01-29T08:00:00Z",
+                    "testType": "50548-7"
+                }
+            },
+            "external": {
+                "validationClock": "2022-02-01T10:00:00Z",
+                "approvedTests-PCR": [
+                    "50548-7", "68993-5", "82159-5", "94306-8", "94307-6", "94308-4", "94309-2", "94500-6", "94502-2", "94531-1", "94533-7", "94534-5", "94559-2", "94565-9", "94640-0", "94756-4", "94757-2", "94758-0", "94759-8", "94760-6", "94764-8", "94845-5", "95406-5", "95409-9", "95423-0", "95424-8", "95425-5", "95608-6", "95609-4"
+                ],
+                "testValidityDurationHoursPCR": [
+                    "72"
+                ],
+                "approvedTests-ANTIGEN": [
+                    "94503-0", "94504-8", "94507-1", "94508-9", "94547-7", "94558-4", "94562-6", "94563-4", "94564-2", "94661-6", "94761-4", "94762-2", "95209-3", "95416-4", "95542-7"
+                ],
+                "testValidityDurationHoursANTIGEN": [
+                    "48"
+                ],
+                "approvedTestMethods-ANTIGEN": [
+                    "LP217198-3"
+                ],
+                "approvedTestMethods-PCR": [
+                    "LP6464-4"
+                ],
+                "acceptTestMethodAsTestType": [
+                    "true"
+                ]
+            }
+        },
+        "expectedResult": false
+    },
+    {
+        "data": {
+            "payload": {
+                "credentialSubject": {
+                    "dateOfSample": "2022-01-30T08:00:00Z",
+                    "testType": "94503-0"
+                }
+            },
+            "external": {
+                "validationClock": "2022-02-01T10:00:00Z",
+                "approvedTests-PCR": [
+                    "50548-7", "68993-5", "82159-5", "94306-8", "94307-6", "94308-4", "94309-2", "94500-6", "94502-2", "94531-1", "94533-7", "94534-5", "94559-2", "94565-9", "94640-0", "94756-4", "94757-2", "94758-0", "94759-8", "94760-6", "94764-8", "94845-5", "95406-5", "95409-9", "95423-0", "95424-8", "95425-5", "95608-6", "95609-4"
+                ],
+                "testValidityDurationHoursPCR": [
+                    "72"
+                ],
+                "approvedTests-ANTIGEN": [
+                    "94503-0", "94504-8", "94507-1", "94508-9", "94547-7", "94558-4", "94562-6", "94563-4", "94564-2", "94661-6", "94761-4", "94762-2", "95209-3", "95416-4", "95542-7"
+                ],
+                "testValidityDurationHoursANTIGEN": [
+                    "48"
+                ],
+                "approvedTestMethods-ANTIGEN": [
+                    "LP217198-3"
+                ],
+                "approvedTestMethods-PCR": [
+                    "LP6464-4"
+                ],
+                "acceptTestMethodAsTestType": [
+                    "true"
+                ]
+            }
+        },
+        "expectedResult": false
+    },
+    {
+        "data": {
+            "payload": {
+                "credentialSubject": {
+                    "dateOfSample": "2022-01-30T08:00:00Z",
+                    "testType": "LP6464-4"
+                }
+            },
+            "external": {
+                "validationClock": "2022-02-01T10:00:00Z",
+                "approvedTests-PCR": [
+                    "50548-7", "68993-5", "82159-5", "94306-8", "94307-6", "94308-4", "94309-2", "94500-6", "94502-2", "94531-1", "94533-7", "94534-5", "94559-2", "94565-9", "94640-0", "94756-4", "94757-2", "94758-0", "94759-8", "94760-6", "94764-8", "94845-5", "95406-5", "95409-9", "95423-0", "95424-8", "95425-5", "95608-6", "95609-4"
+                ],
+                "testValidityDurationHoursPCR": [
+                    "72"
+                ],
+                "approvedTests-ANTIGEN": [
+                    "94503-0", "94504-8", "94507-1", "94508-9", "94547-7", "94558-4", "94562-6", "94563-4", "94564-2", "94661-6", "94761-4", "94762-2", "95209-3", "95416-4", "95542-7"
+                ],
+                "testValidityDurationHoursANTIGEN": [
+                    "48"
+                ],
+                "approvedTestMethods-ANTIGEN": [
+                    "LP217198-3"
+                ],
+                "approvedTestMethods-PCR": [
+                    "LP6464-4"
+                ],
+                "acceptTestMethodAsTestType": [
+                    "true"
+                ]
+            }
+        },
+        "expectedResult": true
+    },
+    {
+        "data": {
+            "payload": {
+                "credentialSubject": {
+                    "dateOfSample": "2022-01-30T12:00:00Z",
+                    "testType": "LP217198-3"
+                }
+            },
+            "external": {
+                "validationClock": "2022-02-01T10:00:00Z",
+                "approvedTests-PCR": [
+                    "50548-7", "68993-5", "82159-5", "94306-8", "94307-6", "94308-4", "94309-2", "94500-6", "94502-2", "94531-1", "94533-7", "94534-5", "94559-2", "94565-9", "94640-0", "94756-4", "94757-2", "94758-0", "94759-8", "94760-6", "94764-8", "94845-5", "95406-5", "95409-9", "95423-0", "95424-8", "95425-5", "95608-6", "95609-4"
+                ],
+                "testValidityDurationHoursPCR": [
+                    "72"
+                ],
+                "approvedTests-ANTIGEN": [
+                    "94503-0", "94504-8", "94507-1", "94508-9", "94547-7", "94558-4", "94562-6", "94563-4", "94564-2", "94661-6", "94761-4", "94762-2", "95209-3", "95416-4", "95542-7"
+                ],
+                "testValidityDurationHoursANTIGEN": [
+                    "48"
+                ],
+                "approvedTestMethods-ANTIGEN": [
+                    "LP217198-3"
+                ],
+                "approvedTestMethods-PCR": [
+                    "LP6464-4"
+                ],
+                "acceptTestMethodAsTestType": [
+                    "true"
+                ]
+            }
+        },
+        "expectedResult": true
+    },
+{
+        "data": {
+            "payload": {
+                "credentialSubject": {
+                    "dateOfSample": "2022-01-30T08:00:00Z",
+                    "testType": "LP6464-4"
+                }
+            },
+            "external": {
+                "validationClock": "2022-02-01T10:00:00Z",
+                "approvedTests-PCR": [
+                    "50548-7", "68993-5", "82159-5", "94306-8", "94307-6", "94308-4", "94309-2", "94500-6", "94502-2", "94531-1", "94533-7", "94534-5", "94559-2", "94565-9", "94640-0", "94756-4", "94757-2", "94758-0", "94759-8", "94760-6", "94764-8", "94845-5", "95406-5", "95409-9", "95423-0", "95424-8", "95425-5", "95608-6", "95609-4"
+                ],
+                "testValidityDurationHoursPCR": [
+                    "72"
+                ],
+                "approvedTests-ANTIGEN": [
+                    "94503-0", "94504-8", "94507-1", "94508-9", "94547-7", "94558-4", "94562-6", "94563-4", "94564-2", "94661-6", "94761-4", "94762-2", "95209-3", "95416-4", "95542-7"
+                ],
+                "testValidityDurationHoursANTIGEN": [
+                    "48"
+                ],
+                "approvedTestMethods-ANTIGEN": [
+                    "LP217198-3"
+                ],
+                "approvedTestMethods-PCR": [
+                    "LP6464-4"
+                ],
+                "acceptTestMethodAsTestType": [
+                    "false"
+                ]
+            }
+        },
+        "expectedResult": false
+    },
+    {
+        "data": {
+            "payload": {
+                "credentialSubject": {
+                    "dateOfSample": "2022-01-30T12:00:00Z",
+                    "testType": "LP217198-3"
+                }
+            },
+            "external": {
+                "validationClock": "2022-02-01T10:00:00Z",
+                "approvedTests-PCR": [
+                    "50548-7", "68993-5", "82159-5", "94306-8", "94307-6", "94308-4", "94309-2", "94500-6", "94502-2", "94531-1", "94533-7", "94534-5", "94559-2", "94565-9", "94640-0", "94756-4", "94757-2", "94758-0", "94759-8", "94760-6", "94764-8", "94845-5", "95406-5", "95409-9", "95423-0", "95424-8", "95425-5", "95608-6", "95609-4"
+                ],
+                "testValidityDurationHoursPCR": [
+                    "72"
+                ],
+                "approvedTests-ANTIGEN": [
+                    "94503-0", "94504-8", "94507-1", "94508-9", "94547-7", "94558-4", "94562-6", "94563-4", "94564-2", "94661-6", "94761-4", "94762-2", "95209-3", "95416-4", "95542-7"
+                ],
+                "testValidityDurationHoursANTIGEN": [
+                    "48"
+                ],
+                "approvedTestMethods-ANTIGEN": [
+                    "LP217198-3"
+                ],
+                "approvedTestMethods-PCR": [
+                    "LP6464-4"
+                ],
+                "acceptTestMethodAsTestType": [
+                    "false"
+                ]
+            }
+        },
+        "expectedResult": false
+    },
+    {
+        "data": {
+            "payload": {
+                "credentialSubject": {
+                    "dateOfSample": "2022-01-30T08:00:00Z",
+                    "testType": "PCR-Unknown"
+                }
+            },
+            "external": {
+                "validationClock": "2022-02-01T10:00:00Z",
+                "approvedTests-PCR": [
+                    "50548-7", "68993-5", "82159-5", "94306-8", "94307-6", "94308-4", "94309-2", "94500-6", "94502-2", "94531-1", "94533-7", "94534-5", "94559-2", "94565-9", "94640-0", "94756-4", "94757-2", "94758-0", "94759-8", "94760-6", "94764-8", "94845-5", "95406-5", "95409-9", "95423-0", "95424-8", "95425-5", "95608-6", "95609-4"
+                ],
+                "testValidityDurationHoursPCR": [
+                    "72"
+                ],
+                "approvedTests-ANTIGEN": [
+                    "94503-0", "94504-8", "94507-1", "94508-9", "94547-7", "94558-4", "94562-6", "94563-4", "94564-2", "94661-6", "94761-4", "94762-2", "95209-3", "95416-4", "95542-7"
+                ],
+                "testValidityDurationHoursANTIGEN": [
+                    "48"
+                ],
+                "approvedTestMethods-ANTIGEN": [
+                    "LP217198-3"
+                ],
+                "approvedTestMethods-PCR": [
+                    "LP6464-4"
+                ],
+                "acceptTestMethodAsTestType": [
+                    "true"
+                ]
+            }
+        },
+        "expectedResult": false
+    },
+    {
+        "data": {
+            "payload": {
+                "credentialSubject": {
+                    "dateOfSample": "2022-01-30T12:00:00Z",
+                    "testType": "ANTIGEN-Unknown"
+                }
+            },
+            "external": {
+                "validationClock": "2022-02-01T10:00:00Z",
+                "approvedTests-PCR": [
+                    "50548-7", "68993-5", "82159-5", "94306-8", "94307-6", "94308-4", "94309-2", "94500-6", "94502-2", "94531-1", "94533-7", "94534-5", "94559-2", "94565-9", "94640-0", "94756-4", "94757-2", "94758-0", "94759-8", "94760-6", "94764-8", "94845-5", "95406-5", "95409-9", "95423-0", "95424-8", "95425-5", "95608-6", "95609-4"
+                ],
+                "testValidityDurationHoursPCR": [
+                    "72"
+                ],
+                "approvedTests-ANTIGEN": [
+                    "94503-0", "94504-8", "94507-1", "94508-9", "94547-7", "94558-4", "94562-6", "94563-4", "94564-2", "94661-6", "94761-4", "94762-2", "95209-3", "95416-4", "95542-7"
+                ],
+                "testValidityDurationHoursANTIGEN": [
+                    "48"
+                ],
+                "approvedTestMethods-ANTIGEN": [
+                    "LP217198-3"
+                ],
+                "approvedTestMethods-PCR": [
+                    "LP6464-4"
+                ],
+                "acceptTestMethodAsTestType": [
+                    "true"
+                ]
+            }
+        },
+        "expectedResult": false
+    },
+    {
+        "data": {
+            "payload": {
+                "credentialSubject": {}
+            },
+            "external": {
+                "validationClock": "2022-02-01T10:00:00Z",
+                "approvedTests-PCR": [
+                    "50548-7", "68993-5", "82159-5", "94306-8", "94307-6", "94308-4", "94309-2", "94500-6", "94502-2", "94531-1", "94533-7", "94534-5", "94559-2", "94565-9", "94640-0", "94756-4", "94757-2", "94758-0", "94759-8", "94760-6", "94764-8", "94845-5", "95406-5", "95409-9", "95423-0", "95424-8", "95425-5", "95608-6", "95609-4"
+                ],
+                "testValidityDurationHoursPCR": [
+                    "72"
+                ],
+                "approvedTests-ANTIGEN": [
+                    "94503-0", "94504-8", "94507-1", "94508-9", "94547-7", "94558-4", "94562-6", "94563-4", "94564-2", "94661-6", "94761-4", "94762-2", "95209-3", "95416-4", "95542-7"
+                ],
+                "testValidityDurationHoursANTIGEN": [
+                    "48"
+                ],
+                "approvedTestMethods-ANTIGEN": [
+                    "LP217198-3"
+                ],
+                "approvedTestMethods-PCR": [
+                    "LP6464-4"
+                ],
+                "acceptTestMethodAsTestType": [
+                    "true"
+                ]
+            }
+        },
+        "expectedResult": false
+    },
+    {
+        "data": {
+            "payload": {
+                "credentialSubject": "NA"
+            },
+            "external": {
+                "validationClock": "2022-02-01T10:00:00Z",
+                "approvedTests-PCR": [
+                    "50548-7", "68993-5", "82159-5", "94306-8", "94307-6", "94308-4", "94309-2", "94500-6", "94502-2", "94531-1", "94533-7", "94534-5", "94559-2", "94565-9", "94640-0", "94756-4", "94757-2", "94758-0", "94759-8", "94760-6", "94764-8", "94845-5", "95406-5", "95409-9", "95423-0", "95424-8", "95425-5", "95608-6", "95609-4"
+                ],
+                "testValidityDurationHoursPCR": [
+                    "72"
+                ],
+                "approvedTests-ANTIGEN": [
+                    "94503-0", "94504-8", "94507-1", "94508-9", "94547-7", "94558-4", "94562-6", "94563-4", "94564-2", "94661-6", "94761-4", "94762-2", "95209-3", "95416-4", "95542-7"
+                ],
+                "testValidityDurationHoursANTIGEN": [
+                    "48"
+                ],
+                "approvedTestMethods-ANTIGEN": [
+                    "LP217198-3"
+                ],
+                "approvedTestMethods-PCR": [
+                    "LP6464-4"
+                ],
+                "acceptTestMethodAsTestType": [
+                    "true"
+                ]
+            }
+        },
+        "expectedResult": false
+    },
+    {
+        "data": {
+            "payload": {},
+            "external": {
+                "validationClock": "2022-02-01T10:00:00Z",
+                "approvedTests-PCR": [
+                    "50548-7", "68993-5", "82159-5", "94306-8", "94307-6", "94308-4", "94309-2", "94500-6", "94502-2", "94531-1", "94533-7", "94534-5", "94559-2", "94565-9", "94640-0", "94756-4", "94757-2", "94758-0", "94759-8", "94760-6", "94764-8", "94845-5", "95406-5", "95409-9", "95423-0", "95424-8", "95425-5", "95608-6", "95609-4"
+                ],
+                "testValidityDurationHoursPCR": [
+                    "72"
+                ],
+                "approvedTests-ANTIGEN": [
+                    "94503-0", "94504-8", "94507-1", "94508-9", "94547-7", "94558-4", "94562-6", "94563-4", "94564-2", "94661-6", "94761-4", "94762-2", "95209-3", "95416-4", "95542-7"
+                ],
+                "testValidityDurationHoursANTIGEN": [
+                    "48"
+                ],
+                "approvedTestMethods-ANTIGEN": [
+                    "LP217198-3"
+                ],
+                "approvedTestMethods-PCR": [
+                    "LP6464-4"
+                ],
+                "acceptTestMethodAsTestType": [
+                    "true"
+                ]
+            }
+        },
+        "expectedResult": false
+    },
+    {
+        "data": {},
+        "expectedResult": false
+    }
+]

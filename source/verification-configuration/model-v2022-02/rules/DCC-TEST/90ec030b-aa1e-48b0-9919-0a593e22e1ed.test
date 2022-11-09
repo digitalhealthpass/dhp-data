@@ -1,0 +1,38 @@
+[
+    {
+        "data": {
+            "payload": {
+                "t": [
+                    {
+                        "sc": "2022-01-30T08:00:00Z",
+                        "tt": "LP6464-4"
+                    }
+                ]
+            },
+            "external": {}
+        },
+        "expectedResult": true
+    },
+    {
+        "data": {
+            "payload": {
+                "t": [
+                    {
+                        "sc": "2022-01-30T08:00:00Z",
+                        "tt": "LP6464-4"
+                    },
+                    {
+                        "sc": "2022-01-30T08:00:00Z",
+                        "tt": "LP6464-4"
+                    }
+                ]
+            },
+            "external": {}
+        },
+        "expectedResult": false
+    },
+    {
+        "data": {},
+        "expectedResult": false
+    }
+]

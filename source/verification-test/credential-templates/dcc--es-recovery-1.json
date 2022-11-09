@@ -1,0 +1,23 @@
+{
+	"data": {
+		"ver": "1.0.0",
+		"nam": {
+			"fn": "GONZALEZGILMARTIN",
+			"fnt": "GONZALEZ<GILMARTIN",
+			"gn": "ALVARO",
+			"gnt": "ALVARO"
+		},
+		"dob": "1993-08-05",
+		"r": [
+			{
+				"tg": "840539006",
+				"fr": "{{TWO_MONTHS_AGO_DATE}}",
+				"co": "ES",
+				"is": "GerenciaRegionaldeSaluddeCastillayLeón",
+				"df": "{{SIX_WEEKS_AGO_DATE}}",
+				"du": "{{SIX_WEEKS_DATE}}",
+				"ci": "01ES07R6FA4C90B8805C5B10BC5C#5"
+			}
+		]
+	}
+}

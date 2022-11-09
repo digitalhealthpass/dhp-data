@@ -1,0 +1,394 @@
+[
+    {
+        "data": {
+            "payload": {
+                "credentialSubject": {
+                    "dateOfVaccination": "2022-01-31",
+                    "doseNumber": 2,
+                    "dosesPerCycle": 1
+                }
+            },
+            "external": {
+                "validationClock": "2022-02-01T10:00:00Z",
+                "vaccinationValidAfterDaysBOOSTER": [
+                    "0"
+                ],
+                "vaccinationValidityDurationDaysBOOSTER": [
+                    "999"
+                ],
+                "vaccinationValidAfterDays": [
+                    "14"
+                ],
+                "vaccinationValidityDurationDays": [
+                    "180"
+                ]
+            }
+        },
+        "expectedResult": true,
+        "comment": "expected TRUE as it is a booster based on DN and DPC values, hence and validity check passes using dates and booster validity durations"
+    },
+    {
+        "data": {
+            "payload": {
+                "credentialSubject": {
+                    "dateOfVaccination": "2022-01-31",
+                    "doseNumber": 2,
+                    "dosesPerCycle": 1
+                }
+            },
+            "external": {
+                "validationClock": "2022-02-01T10:00:00Z",
+                "vaccinationValidAfterDaysBOOSTER": [
+                    "14"
+                ],
+                "vaccinationValidityDurationDaysBOOSTER": [
+                    "999"
+                ],
+                "vaccinationValidAfterDays": [
+                    "14"
+                ],
+                "vaccinationValidityDurationDays": [
+                    "180"
+                ]
+            }
+        },
+        "expectedResult": false,
+        "comment": "expected FALSE as it is a booster based on DN and DPC values, and the validity check fails using dates and booster validity durations"
+    },
+    {
+        "data": {
+            "payload": {
+                "credentialSubject": {
+                    "dateOfVaccination": "2021-01-31",
+                    "doseNumber": 2,
+                    "dosesPerCycle": 1
+                }
+            },
+            "external": {
+                "validationClock": "2022-02-01T10:00:00Z",
+                "vaccinationValidAfterDaysBOOSTER": [
+                    "14"
+                ],
+                "vaccinationValidityDurationDaysBOOSTER": [
+                    "180"
+                ],
+                "vaccinationValidAfterDays": [
+                    "14"
+                ],
+                "vaccinationValidityDurationDays": [
+                    "180"
+                ]
+            }
+        },
+        "expectedResult": false,
+        "comment": "expected FALSE as it is a booster based on DN and DPC values, and the validity check fails using dates and booster validity durations"
+    },
+    {
+        "data": {
+            "payload": {
+                "credentialSubject": {
+                    "dateOfVaccination": "2022-01-31",
+                    "doseNumber": 3,
+                    "dosesPerCycle": 1
+                }
+            },
+            "external": {
+                "validationClock": "2022-02-01T10:00:00Z",
+                "vaccinationValidAfterDaysBOOSTER": [
+                    "0"
+                ],
+                "vaccinationValidityDurationDaysBOOSTER": [
+                    "999"
+                ],
+                "vaccinationValidAfterDays": [
+                    "14"
+                ],
+                "vaccinationValidityDurationDays": [
+                    "180"
+                ]
+            }
+        },
+        "expectedResult": true,
+        "comment": "expected TRUE as it is a booster based on DN and DPC values, and the validity check passes using dates and booster validity durations"
+    },
+    {
+        "data": {
+            "payload": {
+                "credentialSubject": {
+                    "dateOfVaccination": "2022-01-01",
+                    "doseNumber": 3,
+                    "dosesPerCycle": 3
+                }
+            },
+            "external": {
+                "validationClock": "2022-02-01T10:00:00Z",
+                "vaccinationValidAfterDaysBOOSTER": [
+                    "0"
+                ],
+                "vaccinationValidityDurationDaysBOOSTER": [
+                    "999"
+                ],
+                "vaccinationValidAfterDays": [
+                    "14"
+                ],
+                "vaccinationValidityDurationDays": [
+                    "180"
+                ]
+            }
+        },
+        "expectedResult": true,
+        "comment": "expected TRUE as it is a booster based on DN and DPC values, and the validity check passes using dates and booster validity durations"
+    },
+    {
+        "data": {
+            "payload": {
+                "credentialSubject": {
+                    "dateOfVaccination": "2022-01-01",
+                    "doseNumber": 4,
+                    "dosesPerCycle": 4
+                }
+            },
+            "external": {
+                "validationClock": "2022-02-01T10:00:00Z",
+                "vaccinationValidAfterDaysBOOSTER": [
+                    "0"
+                ],
+                "vaccinationValidityDurationDaysBOOSTER": [
+                    "999"
+                ],
+                "vaccinationValidAfterDays": [
+                    "14"
+                ],
+                "vaccinationValidityDurationDays": [
+                    "180"
+                ]
+            }
+        },
+        "expectedResult": true,
+        "comment": "expected TRUE as it is a booster based on DN and DPC values, and the validity check passes using dates and booster validity durations"
+    },
+    {
+        "data": {
+            "payload": {
+                "credentialSubject": {
+                    "dateOfVaccination": "2021-01-31",
+                    "doseNumber": 2,
+                    "dosesPerCycle": 2
+                }
+            },
+            "external": {
+                "validationClock": "2022-02-01T10:00:00Z",
+                "vaccinationValidAfterDaysBOOSTER": [
+                    "0"
+                ],
+                "vaccinationValidityDurationDaysBOOSTER": [
+                    "999"
+                ],
+                "vaccinationValidAfterDays": [
+                    "14"
+                ],
+                "vaccinationValidityDurationDays": [
+                    "180"
+                ]
+            }
+        },
+        "expectedResult": false,
+        "comment": "expected FALSE as it is NOT a booster based on DN and DPC values, hence validity check fails based on dates and non-booster validity durations"
+    },
+    {
+        "data": {
+            "payload": {
+                "credentialSubject": {
+                    "dateOfVaccination": "2021-01-31",
+                    "doseNumber": 1,
+                    "dosesPerCycle": 2
+                }
+            },
+            "external": {
+                "validationClock": "2022-02-01T10:00:00Z",
+                "vaccinationValidAfterDaysBOOSTER": [
+                    "0"
+                ],
+                "vaccinationValidityDurationDaysBOOSTER": [
+                    "999"
+                ],
+                "vaccinationValidAfterDays": [
+                    "14"
+                ],
+                "vaccinationValidityDurationDays": [
+                    "180"
+                ]
+            }
+        },
+        "expectedResult": false,
+        "comment": "expected FALSE as it is NOT a booster based on DN and DPC values, hence validity check fails based on dates and non-booster validity durations"
+    },
+    {
+        "data": {
+            "payload": {
+                "credentialSubject": {
+                    "dateOfVaccination": "2022-01-07",
+                    "doseNumber": 1,
+                    "dosesPerCycle": 2
+                }
+            },
+            "external": {
+                "validationClock": "2022-02-01T10:00:00Z",
+                "vaccinationValidAfterDaysBOOSTER": [
+                    "0"
+                ],
+                "vaccinationValidityDurationDaysBOOSTER": [
+                    "999"
+                ],
+                "vaccinationValidAfterDays": [
+                    "14"
+                ],
+                "vaccinationValidityDurationDays": [
+                    "180"
+                ]
+            }
+        },
+        "expectedResult": true,
+        "comment": "expected TRUE as it is NOT a booster based on DN and DPC values, hence validity check passes based on dates and non-booster validity durations"
+    },
+    {
+        "data": {
+            "payload": {
+                "credentialSubject": {
+                    "dateOfVaccination": "2021-06-01",
+                    "doseNumber": 1,
+                    "dosesPerCycle": 2
+                }
+            },
+            "external": {
+                "validationClock": "2022-02-01T10:00:00Z",
+                "vaccinationValidAfterDaysBOOSTER": [
+                    "0"
+                ],
+                "vaccinationValidityDurationDaysBOOSTER": [
+                    "999"
+                ],
+                "vaccinationValidAfterDays": [
+                    "14"
+                ],
+                "vaccinationValidityDurationDays": [
+                    "180"
+                ]
+            }
+        },
+        "expectedResult": false,
+        "comment": "expected FALSE as it is NOT a booster based on DN and DPC values, hence validity check fails based on dates and non-booster validity durations"
+    },
+    {
+        "data": {
+            "payload": {
+                "credentialSubject": {
+                    "dateOfVaccination": "2021-09-01",
+                    "doseNumber": 1,
+                    "dosesPerCycle": 1
+                }
+            },
+            "external": {
+                "validationClock": "2022-02-01T10:00:00Z",
+                "vaccinationValidAfterDaysBOOSTER": [
+                    "0"
+                ],
+                "vaccinationValidityDurationDaysBOOSTER": [
+                    "999"
+                ],
+                "vaccinationValidAfterDays": [
+                    "14"
+                ],
+                "vaccinationValidityDurationDays": [
+                    "180"
+                ]
+            }
+        },
+        "expectedResult": true,
+        "comment": "expected TRUE as it is NOT a booster based on DN and DPC values, hence validity check passes based on dates and non-booster validity durations"
+    },
+    {
+        "data": {
+            "payload": {
+                "credentialSubject": {
+                    "dateOfVaccination": "2022-01-31",
+                    "booster": true,
+                    "doseNumber": 2,
+                    "dosesPerCycle": 2
+                }
+            },
+            "external": {
+                "validationClock": "2022-02-01T10:00:00Z",
+                "vaccinationValidAfterDaysBOOSTER": [
+                    "0"
+                ],
+                "vaccinationValidityDurationDaysBOOSTER": [
+                    "999"
+                ],
+                "vaccinationValidAfterDays": [
+                    "14"
+                ],
+                "vaccinationValidityDurationDays": [
+                    "180"
+                ]
+            }
+        },
+        "expectedResult": true,
+        "comment": "expected TRUE as it is a booster based booster field, and the validity check passes using dates and booster validity durations"
+    },
+    {
+        "data": {
+            "payload": {
+                "credentialSubject": {
+                    "dateOfVaccination": "2021-01-01",
+                    "booster": true,
+                    "doseNumber": 2,
+                    "dosesPerCycle": 2
+                }
+            },
+            "external": {
+                "validationClock": "2022-02-01T10:00:00Z",
+                "vaccinationValidAfterDaysBOOSTER": [
+                    "0"
+                ],
+                "vaccinationValidityDurationDaysBOOSTER": [
+                    "365"
+                ],
+                "vaccinationValidAfterDays": [
+                    "14"
+                ],
+                "vaccinationValidityDurationDays": [
+                    "180"
+                ]
+            }
+        },
+        "expectedResult": false,
+        "comment": "expected FALSE as it is a booster based booster field, and the validity check fails using dates and booster validity durations"
+    },
+    {
+        "data": {
+            "payload": {
+                "credentialSubject": {
+                    "dateOfVaccination": "2022-01-01"
+                }
+            },
+            "external": {
+                "validationClock": "2022-02-01T10:00:00Z",
+                "vaccinationValidAfterDaysBOOSTER": [
+                    "0"
+                ],
+                "vaccinationValidityDurationDaysBOOSTER": [
+                    "999"
+                ],
+                "vaccinationValidAfterDays": [
+                    "14"
+                ],
+                "vaccinationValidityDurationDays": [
+                    "180"
+                ]
+            }
+        },
+        "expectedResult": true,
+        "comment": "expected TRUE as it is NOT a booster based on missing DN and DPC values, hence validity is checked using dates and non-booster validity durations"
+    }
+]

@@ -1,0 +1,27 @@
+{
+	"id": "covid19-vaccine-sinopharm",
+	"version": "1.0.0",
+	"name": "List of Covilo/BIBP (Sinopharm) vaccine codes",
+	"items": [
+		{
+			"id": "510",
+			"name": "510 (Covilo/BIBP CVX)",
+			"description": "CVX code for Sinopharm vaccine"
+		},
+		{
+			"id": "4544491000133104",
+			"name": "Sinopharm - OA",
+			"description": "Open Attestation code for Sinopharm vaccine"
+		},
+		{
+			"id": "714731000133108",
+			"name": "Sinopharm - OA",
+			"description": "Open Attestation code for Sinopharm vaccine"
+		},
+		{
+			"id": "724971000133100",
+			"name": "Sinopharm - OA",
+			"description": "Open Attestation code for Sinopharm vaccine"
+		}
+	]
+}

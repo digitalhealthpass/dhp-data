@@ -1,0 +1,37 @@
+{
+	"if": [
+		{
+			"var": "payload.expirationDate"
+		},
+		{
+			"not-after": [
+				{
+					"plusTime": [
+						{
+							"var": "external.validationClock"
+						},
+						0,
+						"day"
+					]
+				},
+				{
+					"plusTime": [
+						{
+							"var": "payload.expirationDate"
+						},
+						0,
+						"day"
+					]
+				}
+			]
+		},
+		{
+			"===": [
+				{
+					"var": "external.requireExpirationDateField.0"
+				},
+				"false"
+			]
+		}
+	]
+}

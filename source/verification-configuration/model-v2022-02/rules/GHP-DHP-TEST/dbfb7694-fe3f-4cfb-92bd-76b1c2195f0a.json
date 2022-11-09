@@ -1,0 +1,6 @@
+{
+	"version": "1.0.0",
+	"id": "dbfb7694-fe3f-4cfb-92bd-76b1c2195f0a",
+	"name": "Check that duration since test is less then predefined value",
+	"predicate": "dbfb7694-fe3f-4cfb-92bd-76b1c2195f0a.rule"
+}

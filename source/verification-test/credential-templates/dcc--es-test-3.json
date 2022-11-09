@@ -1,0 +1,26 @@
+{
+	"data": {
+		"ver": "1.0.0",
+		"nam": {
+			"fn": "RomeroMuñoz",
+			"fnt": "ROMERO<MUNOZ",
+			"gn": "JoséCarlos",
+			"gnt": "JOSE<CARLOS"
+		},
+		"dob": "2021-05-28",
+		"t": [
+			{
+				"tg": "840539006",
+				"tt": "LP217198-3",
+				"nm": "PanbioCOVID-19AgTest",
+				"sc": "{{TWO_DAYS_AGO_TZDATETIME}}",
+				"tr": "260415000",
+				"tc": "C.S.BARBASTRO",
+				"ma": "1232",
+				"co": "ES",
+				"is": "MinisteriodeSanidad",
+				"ci": "01ES21T1662955521D74217FDD29#D"
+			}
+		]
+	}
+}

@@ -1,0 +1,99 @@
+[
+    {
+        "data": {
+            "payload": {
+                "r": [
+                    {
+                        "tg": "840539006"
+                    }
+                ]
+            },
+            "external": {
+                "approvedDiseases": [
+                    "840539006"
+                ]
+            }
+        },
+        "expectedResult": true
+    },
+    {
+        "data": {
+            "payload": {
+                "r": [
+                    {
+                        "ttgg": "840539006"
+                    }
+                ]
+            },
+            "external": {
+                "approvedDiseases": [
+                    "840539006"
+                ]
+            }
+        },
+        "expectedResult": false
+    },
+    {
+        "data": {
+            "payload": {
+                "r": [
+                    {
+                        "tg": ""
+                    },
+                    {
+                        "tg": "840539006"
+                    }
+                ]
+            },
+            "external": {
+                "approvedDiseases": [
+                    "840539006"
+                ]
+            }
+        },
+        "expectedResult": false
+    },
+    {
+        "data": {
+            "payload": {
+                "r": [
+                    {}
+                ]
+            },
+            "external": {
+                "approvedDiseases": [
+                    "840539006"
+                ]
+            }
+        },
+        "expectedResult": false
+    },
+    {
+        "data": {
+            "payload": {
+                "r": []
+            },
+            "external": {
+                "approvedDiseases": [
+                    "840539006"
+                ]
+            }
+        },
+        "expectedResult": false
+    },
+    {
+        "data": {
+            "payload": {},
+            "external": {
+                "approvedDiseases": [
+                    "840539006"
+                ]
+            }
+        },
+        "expectedResult": false
+    },
+    {
+        "data": {},
+        "expectedResult": false
+    }
+]

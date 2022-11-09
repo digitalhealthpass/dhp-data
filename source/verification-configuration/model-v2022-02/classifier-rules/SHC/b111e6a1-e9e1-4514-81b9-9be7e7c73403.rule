@@ -1,0 +1,14 @@
+{
+	"if": [
+		{
+			"in": [
+				"https://smarthealth.cards#immunization",
+				{
+					"var": "payload.vc.type"
+				}
+			]
+		},
+		"SHC-VACCINATION",
+		false
+	]
+}

@@ -1,0 +1,93 @@
+{
+	"version": "1.0.0",
+	"id": "7c46a06f-334e-4fa4-86c6-1f17dc08edf2",
+	"name": "approvedVaccinesOA",
+	"description": "List of approved vaccines used for vaccination verification - Open Attestation",
+	"maxItems": 0,
+	"items": [
+		{
+			"value": "3339641000133109",
+			"description": "Pfizer"
+		},
+		{
+			"value": "878571000133104",
+			"description": "Pfizer - 5 to 12 years"
+		},
+		{
+			"value": "3407851000133103",
+			"description": "Moderna"
+		},
+		{
+			"value": "3418091000133101",
+			"description": "Moderna"
+		},
+		{
+			"value": "4544521000133102",
+			"description": "AstraZeneca"
+		},
+		{
+			"value": "4544551000133105",
+			"description": "Covishield"
+		},
+		{
+			"value": "3440141000133104",
+			"description": "Sinovac"
+		},
+		{
+			"value": "4544491000133104",
+			"description": "Sinopharm"
+		},
+		{
+			"value": "714731000133108",
+			"description": "Sinopharm"
+		},
+		{
+			"value": "724971000133100",
+			"description": "Sinopharm"
+		},
+		{
+			"value": "4544501000133106",
+			"description": "Janssen"
+		},
+		{
+			"value": "827371000133108",
+			"description": "Covaxin"
+		},
+		{
+			"value": "827381000133106",
+			"description": "Covaxin"
+		},
+		{
+			"value": "827441000133108",
+			"description": "Covaxin"
+		},
+		{
+			"value": "827451000133105",
+			"description": "Covaxin"
+		},
+		{
+			"value": "827461000133107",
+			"description": "Covaxin"
+		},
+		{
+			"value": "991221000133108",
+			"description": "Covovax"
+		},
+		{
+			"value": "991251000133100",
+			"description": "Covovax"
+		},
+		{
+			"value": "991241000133102",
+			"description": "Covovax"
+		},
+		{
+			"value": "1011691000133100",
+			"description": "Nuvaxovid"
+		},
+		{
+			"value": "1021941000133107",
+			"description": "Nuvaxovid"
+		}
+	]
+}

@@ -1,0 +1,17 @@
+{
+	"id": "covid19-test-type",
+	"version": "1.0.0",
+	"name": "List of COVID19 test types",
+	"items": [
+		{
+			"id": "covid19-test-pcr",
+			"name": "PCR - Polymerase chain reaction",
+			"description": "Nucleic acid amplification, such as polymerase chain reaction (PCR), followed by detection of the target nucleic acid."
+		},
+		{
+			"id": "covid19-test-antigen",
+			"name": "ANTIGEN - Rapid immunoassay",
+			"description": "Rapid immunoassay which detects the linking of antigens and antibodies"
+		}
+	]
+}

@@ -1,0 +1,56 @@
+{
+	"version": "1.0.0",
+	"id": "c405abf0-5ef7-4726-9b42-0fbadeb084a7",
+	"name": "GHP-TEST",
+	"description": "A credential issued according to the Good Health Pass specification that indicates whether a person has completed a COVID-19 test.",
+	"credentialSpec": "GHP",
+	"credentialCategory": "TEST",
+	"classifierRule": {
+		"id": "9ce08db0-6eda-49eb-9338-fe080a1639d7",
+		"version": "latest"
+	},
+	"metrics": [
+		{
+			"name": "Counts verifications by result, issuer, type",
+			"extract": {
+				"issuerDID": "issuer",
+				"credentialType": "type.2"
+			},
+			"countBy": {
+				"scan": true,
+				"scanResult": true,
+				"extract": true
+			}
+		}
+	],
+	"display": [
+		{
+			"id": "3ceb52ea-33c4-48f5-9f41-5f4ff007445d",
+			"version": "latest"
+		}
+	],
+	"rules": [
+		{
+			"id": "0464bfe4-97df-422c-9ef8-3b10ea4c69f6",
+			"version": "latest"
+		},
+		{
+			"id": "dbfb7694-fe3f-4cfb-92bd-76b1c2195f0a",
+			"version": "latest"
+		},
+		{
+			"id": "e6749362-0ae3-4f01-a0e3-e44799e37e4b",
+			"version": "latest"
+		},
+		{
+			"id": "622ac36a-5099-4255-be03-c818853c5ce3",
+			"version": "latest"
+		}
+	],
+	"trustLists": [
+		{
+			"id": "9ed94234-13ba-4d6b-b98b-2860001956b7",
+			"version": "latest"
+		}
+	]
+}

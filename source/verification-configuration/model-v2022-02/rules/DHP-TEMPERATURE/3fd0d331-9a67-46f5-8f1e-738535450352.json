@@ -1,0 +1,6 @@
+{
+	"version": "1.0.0",
+	"id": "3fd0d331-9a67-46f5-8f1e-738535450352",
+	"name": "Check that duration since taking the temperature is less then predefined value",
+	"predicate": "3fd0d331-9a67-46f5-8f1e-738535450352.rule"
+}

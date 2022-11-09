@@ -1,0 +1,15 @@
+{
+	"if": [
+		{
+			"var": "payload.t"
+		},
+		{
+			"!": [
+				{
+					"var": "payload.t.1"
+				}
+			]
+		},
+		false
+	]
+}

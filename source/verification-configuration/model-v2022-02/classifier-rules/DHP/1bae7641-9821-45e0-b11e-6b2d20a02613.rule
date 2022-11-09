@@ -1,0 +1,26 @@
+{
+	"if": [
+		{
+			"and": [
+				{
+					"in": [
+						"DigitalHealthPass",
+						{
+							"var": "payload.type"
+						}
+					]
+				},
+				{
+					"in": [
+						"Temperature",
+						{
+							"var": "payload.type"
+						}
+					]
+				}
+			]
+		},
+		"DHP-TEMPERATURE",
+		false
+	]
+}
