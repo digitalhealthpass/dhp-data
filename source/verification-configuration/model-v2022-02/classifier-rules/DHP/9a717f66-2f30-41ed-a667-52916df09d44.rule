@@ -7,7 +7,7 @@
 				},
 				{
 					"in": [
-						"DigitalHealthPass",
+						"IBMDigitalHealthPass",
 						{
 							"var": "payload.type"
 						}

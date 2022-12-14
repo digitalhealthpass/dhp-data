@@ -2,7 +2,7 @@
     "schemaID": "{{VERIFIERLOGIN_SCHEMA_ID}}",
     "type": [
         "VerifiableCredential",
-        "DigitalHealthPass",
+        "IBMDigitalHealthPass",
         "VerifierCredential"
     ],
     "data": {

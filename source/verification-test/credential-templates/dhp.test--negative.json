@@ -1,6 +1,6 @@
 {
     "schemaID": "{{DHP_TEST_SCHEMA_ID}}",
-    "type": ["VerifiableCredential", "DigitalHealthPass", "Test"],
+    "type": ["VerifiableCredential", "IBMDigitalHealthPass", "Test"],
     "data": {
 	"type": "Test Results",
 	"display": "#32CD32",

@@ -1,6 +1,6 @@
 {
     "schemaID": "{{DHP_TEMP_SCHEMA_ID}}",
-    "type": ["VerifiableCredential", "DigitalHealthPass", "Temperature"],
+    "type": ["VerifiableCredential", "IBMDigitalHealthPass", "Temperature"],
     "data": {
 	"type": "Temperature Scan",
 	"recipient": {

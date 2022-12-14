@@ -1,6 +1,6 @@
 {
     "schemaID": "{{DHP_VACCINE_SCHEMA_ID}}",
-    "type": ["VerifiableCredential", "DigitalHealthPass", "Vaccination"],
+    "type": ["VerifiableCredential", "IBMDigitalHealthPass", "Vaccination"],
     "data": {
         "type": "Vaccination Card",
         "display": "#32CD32",

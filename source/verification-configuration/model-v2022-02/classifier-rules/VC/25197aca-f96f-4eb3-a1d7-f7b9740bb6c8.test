@@ -73,7 +73,7 @@
 		"data": {
 			"payload": {
 				"type": [
-					"DigitalHealthPass",
+					"IBMDigitalHealthPass",
 					"Temperature"
 				]
 			}
@@ -94,7 +94,7 @@
 		"data": {
 			"payload": {
 				"type": [
-					"DigitalHealthPass"
+					"IBMDigitalHealthPass"
 				]
 			}
 		},
@@ -104,7 +104,7 @@
 		"data": {
 			"payload": {
 				"type": [
-					"DigitalHealthPass",
+					"IBMDigitalHealthPass",
 					"Test"
 				]
 			}
@@ -125,7 +125,7 @@
 		"data": {
 			"payload": {
 				"type": [
-					"DigitalHealthPass",
+					"IBMDigitalHealthPass",
 					"Pass"
 				]
 			}
@@ -146,7 +146,7 @@
 		"data": {
 			"payload": {
 				"type": [
-					"DigitalHealthPass",
+					"IBMDigitalHealthPass",
 					"Vaccination"
 				]
 			}
