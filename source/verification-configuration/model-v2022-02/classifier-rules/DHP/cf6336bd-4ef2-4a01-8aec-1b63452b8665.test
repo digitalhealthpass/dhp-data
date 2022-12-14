@@ -4,7 +4,7 @@
 			"payload": {
 				"type": [
 					"Pass",
-					"DigitalHealthPass"
+					"IBMDigitalHealthPass"
 				]
 			}
 		},
@@ -24,7 +24,7 @@
 		"data": {
 			"payload": {
 				"type": [
-					"DigitalHealthPass"
+					"IBMDigitalHealthPass"
 				]
 			}
 		},

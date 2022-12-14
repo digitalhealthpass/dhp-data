@@ -1,6 +1,6 @@
 {
     "schemaID": "{{RANDOM_SCHEMA_ID}}",
-    "type": ["VerifiableCredential", "DigitalHealthPass"],
+    "type": ["VerifiableCredential", "IBMDigitalHealthPass"],
     "data": {
 	"display": "#32CD32",
 	"name": "Jane Smith",

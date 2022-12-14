@@ -1,6 +1,6 @@
 {
     "schemaID": "{{DHP_PASS_SCHEMA_ID}}",
-    "type": ["VerifiableCredential", "DigitalHealthPass", "Pass"],
+    "type": ["VerifiableCredential", "IBMDigitalHealthPass", "Pass"],
     "data": {
 	"type": "Digital Health Pass",
 	"recipient": {

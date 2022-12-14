@@ -116,7 +116,7 @@ else:
                     #     testData["payload"] = sampleData["dcc"]
                     #     testData["payload"]["expirationDate"] = sampleData.get("expirationDate", "")
                     # elif "type" in sampleData:
-                    #     if "GoodHealthPass" in sampleData["type"]  or "DigitalHealthPass" in sampleData["type"]:
+                    #     if "GoodHealthPass" in sampleData["type"]  or "IBMDigitalHealthPass" in sampleData["type"]:
                     #         #print("GHP/DHP")
                     #         testData["payload"] = sampleData
                     #         testData["payload"]["credentialSubject"] = sampleData["data"]
